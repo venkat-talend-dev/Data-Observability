@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_m38SMNyqEey1UN03ofn6vg">
+    <contextParameter comment="" name="consumerTopicName" prompt="consumerTopicName?" promptNeeded="false" type="id_String" value="ConsumerTopic" xmi:id="_m38SMdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ConsumerGroupId" prompt="ConsumerGroupId?" promptNeeded="false" type="id_String" value="apacmdmcdp" xmi:id="_m38SMtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="kafkaBrokers" prompt="kafkaBrokers?" promptNeeded="false" type="id_String" value="10.253.212.76:9092" xmi:id="_m38SM9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="kafkaPort" prompt="kafkaPort?" promptNeeded="false" type="id_String" value="9092" xmi:id="_m38SNNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="maxMesgsToRead" prompt="maxMesgsToRead?" promptNeeded="false" type="id_Integer" value="100000" xmi:id="_m38SNdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="maxTime_ms_BetwnMsgs" prompt="maxTime_ms_BetwnMsgs?" promptNeeded="false" type="id_Integer" value="10000" xmi:id="_m38SNtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ObjectType" prompt="ObjectType?" promptNeeded="false" type="id_String" value="ConsumerList" xmi:id="_m38SN9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="UID" prompt="UID?" promptNeeded="false" type="id_String" value="&quot;MDM Job&quot;" xmi:id="_m38SONyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="CBRTopic" prompt="CBRTopic?" promptNeeded="false" type="id_String" value="ConsumerBestRecordTopic" xmi:id="_m38SOdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="touchpointTopic" prompt="touchpointTopic?" promptNeeded="false" type="id_String" value="TouchPointTopic" xmi:id="_m38SOtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="CBRPublicTopic" prompt="CBRPublicTopic?" promptNeeded="false" type="id_String" value="CBRPublicTopic" xmi:id="_m38SO9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="KafkaBatchSize" prompt="KafkaBatchSize?" promptNeeded="false" type="id_Integer" value="50000" xmi:id="_m38SPNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="KafkaLinger_ms" prompt="KafkaLinger_ms?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_m38SPdyqEey1UN03ofn6vg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_m38SPtyqEey1UN03ofn6vg">
+    <contextParameter comment="" name="consumerTopicName" prompt="consumerTopicName?" promptNeeded="false" type="id_String" value="ConsumerTopic" xmi:id="_m38SP9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ConsumerGroupId" prompt="ConsumerGroupId?" promptNeeded="false" type="id_String" value="apacmdmcdp" xmi:id="_m38SQNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="kafkaBrokers" prompt="kafkaBrokers?" promptNeeded="false" type="id_String" value="10.253.204.36:9092" xmi:id="_m38SQdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="kafkaPort" prompt="kafkaPort?" promptNeeded="false" type="id_String" value="9092" xmi:id="_m38SQtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="maxMesgsToRead" prompt="maxMesgsToRead?" promptNeeded="false" type="id_Integer" value="100000" xmi:id="_m38SQ9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="maxTime_ms_BetwnMsgs" prompt="maxTime_ms_BetwnMsgs?" promptNeeded="false" type="id_Integer" value="10000" xmi:id="_m38SRNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ObjectType" prompt="ObjectType?" promptNeeded="false" type="id_String" value="ConsumerList" xmi:id="_m38SRdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="UID" prompt="UID?" promptNeeded="false" type="id_String" value="&quot;MDM Job&quot;" xmi:id="_m38SRtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="CBRTopic" prompt="CBRTopic?" promptNeeded="false" type="id_String" value="ConsumerBestRecordTopic" xmi:id="_m38SR9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="touchpointTopic" prompt="touchpointTopic?" promptNeeded="false" type="id_String" value="TouchPointTopic" xmi:id="_m38SSNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="CBRPublicTopic" prompt="CBRPublicTopic?" promptNeeded="false" type="id_String" value="CBRPublicTopic" xmi:id="_m38SSdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="KafkaBatchSize" prompt="KafkaBatchSize?" promptNeeded="false" type="id_Integer" value="50000" xmi:id="_m38SStyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="KafkaLinger_ms" prompt="KafkaLinger_ms?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_m38SS9yqEey1UN03ofn6vg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="QA" xmi:id="_m38STNyqEey1UN03ofn6vg">
+    <contextParameter comment="" name="consumerTopicName" prompt="consumerTopicName?" promptNeeded="false" type="id_String" value="ConsumerTopic" xmi:id="_m38STdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ConsumerGroupId" prompt="ConsumerGroupId?" promptNeeded="false" type="id_String" value="ConsumerTopic" xmi:id="_m38STtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="kafkaBrokers" prompt="kafkaBrokers?" promptNeeded="false" type="id_String" value="10.253.213.69:9092" xmi:id="_m38ST9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="kafkaPort" prompt="kafkaPort?" promptNeeded="false" type="id_String" value="9092" xmi:id="_m38SUNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="maxMesgsToRead" prompt="maxMesgsToRead?" promptNeeded="false" type="id_Integer" value="100000" xmi:id="_m38SUdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="maxTime_ms_BetwnMsgs" prompt="maxTime_ms_BetwnMsgs?" promptNeeded="false" type="id_Integer" value="10000" xmi:id="_m38SUtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ObjectType" prompt="ObjectType?" promptNeeded="false" type="id_String" value="ConsumerList" xmi:id="_m38SU9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="UID" prompt="UID?" promptNeeded="false" type="id_String" value="&quot;MDM Job&quot;" xmi:id="_m38SVNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="CBRTopic" prompt="CBRTopic?" promptNeeded="false" type="id_String" value="ConsumerBestRecordTopic" xmi:id="_m38SVdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="touchpointTopic" prompt="touchpointTopic?" promptNeeded="false" type="id_String" value="TouchPointTopic" xmi:id="_m38SVtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="CBRPublicTopic" prompt="CBRPublicTopic?" promptNeeded="false" type="id_String" value="CBRPublicTopic" xmi:id="_m38SV9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="KafkaBatchSize" prompt="KafkaBatchSize?" promptNeeded="false" type="id_Integer" value="50000" xmi:id="_m38SWNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="KafkaLinger_ms" prompt="KafkaLinger_ms?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_m38SWdyqEey1UN03ofn6vg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="UAT" xmi:id="_m38SWtyqEey1UN03ofn6vg">
+    <contextParameter comment="" name="consumerTopicName" prompt="consumerTopicName?" promptNeeded="false" type="id_String" value="ConsumerTopic" xmi:id="_m38SW9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ConsumerGroupId" prompt="ConsumerGroupId?" promptNeeded="false" type="id_String" value="apacmdmcdp" xmi:id="_m38SXNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="kafkaBrokers" prompt="kafkaBrokers?" promptNeeded="false" type="id_String" value="10.253.213.69:9092" xmi:id="_m38SXdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="kafkaPort" prompt="kafkaPort?" promptNeeded="false" type="id_String" value="9092" xmi:id="_m38SXtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="maxMesgsToRead" prompt="maxMesgsToRead?" promptNeeded="false" type="id_Integer" value="100000" xmi:id="_m38SX9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="maxTime_ms_BetwnMsgs" prompt="maxTime_ms_BetwnMsgs?" promptNeeded="false" type="id_Integer" value="10000" xmi:id="_m38SYNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ObjectType" prompt="ObjectType?" promptNeeded="false" type="id_String" value="ConsumerList" xmi:id="_m38SYdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="UID" prompt="UID?" promptNeeded="false" type="id_String" value="&quot;MDM Job&quot;" xmi:id="_m38SYtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="CBRTopic" prompt="CBRTopic?" promptNeeded="false" type="id_String" value="ConsumerBestRecordTopic" xmi:id="_m38SY9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="touchpointTopic" prompt="touchpointTopic?" promptNeeded="false" type="id_String" value="TouchPointTopic" xmi:id="_m38SZNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="CBRPublicTopic" prompt="CBRPublicTopic?" promptNeeded="false" type="id_String" value="CBRPublicTopic" xmi:id="_m38SZdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="KafkaBatchSize" prompt="KafkaBatchSize?" promptNeeded="false" type="id_Integer" value="50000" xmi:id="_m38SZtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="KafkaLinger_ms" prompt="KafkaLinger_ms?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_m38SZ9yqEey1UN03ofn6vg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b0429307-6f3d-4ae4-b290-bcf20b387acb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/J2Ao+zqE6/3PzhV3yrf5bwqrxJ7grAlmgRL65p6yIT2OtDUgCDzxZCZxgq36/vEYh7ZUBaSRD6o&#13;
+b2ryZs+G3Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c415c9d4-ad4d-4316-9e68-cfef93004c5c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>j4k6hpOQLfbtu87lP7NmRU28YY+k3/B+2ZNh0Zg0j8LX5nfbTv8UFqMUY38hJBF0FK9f/JUwVUTo&#13;
+0Bq1G/GZuQ==</DigestValue></Reference></SignedInfo><SignatureValue>pEUvSYKSFXP5CB6DdslAem3qaFLI1S+VwcIMlfJi3ezf4BQxS/GKRyrqfKN2LzBSS1AaFDf2dE+K&#13;
+r7HxXLT5+L1LXKG0w/RqxJhujq4hBOWdGT2agIBX2zTSzsH8I6h03++uDXBCtgUnDmxw5/YZVR7s&#13;
+3/QXd0pMKFiTOHAhrCNB4meU6rXZxn/X4LKFUjzKMObeyu3uiEo5RqUKF9hUL7aM3IstROcclG/h&#13;
+w911mx6eWuwZ/7+0AnZCF3xc9x6SB2Q0K/fkKcm7BUV4VIdljAwUa8t1xuZHG0tlUGsE+z0vqOsN&#13;
+uYHOeLHw9F6PdxHyGU2oF2Y4uj8eKYIsobVmOQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c415c9d4-ad4d-4316-9e68-cfef93004c5c" Target="#_b0429307-6f3d-4ae4-b290-bcf20b387acb"><Timestamp>2024-09-25 09:59:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

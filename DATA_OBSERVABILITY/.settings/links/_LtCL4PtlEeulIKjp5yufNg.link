@@ -1,0 +1,156 @@
+{
+  "itemId" : "_LtCL4PtlEeulIKjp5yufNg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_fwQZEACIEeyylPZ4AavR_A",
+    "parameterList" : [ {
+      "id" : "_OpviUQDDEeyylPZ4AavR_A",
+      "name" : "resource"
+    }, {
+      "id" : "_OpviVADDEeyylPZ4AavR_A",
+      "name" : "tenant_id"
+    }, {
+      "id" : "_OpviQADDEeyylPZ4AavR_A",
+      "name" : "apiversion"
+    }, {
+      "id" : "_OpviQQDDEeyylPZ4AavR_A",
+      "name" : "client_Id"
+    }, {
+      "id" : "_OpviQgDDEeyylPZ4AavR_A",
+      "name" : "client_secret"
+    }, {
+      "id" : "_OpviRQDDEeyylPZ4AavR_A",
+      "name" : "endpoint"
+    }, {
+      "id" : "_OpviSgDDEeyylPZ4AavR_A",
+      "name" : "grant_type"
+    }, {
+      "id" : "_OpviTgDDEeyylPZ4AavR_A",
+      "name" : "pipeline_name"
+    }, {
+      "id" : "_OpviSwDDEeyylPZ4AavR_A",
+      "name" : "jb_pipeline_status"
+    }, {
+      "id" : "_OpviSADDEeyylPZ4AavR_A",
+      "name" : "fileDir"
+    }, {
+      "id" : "_OpviSQDDEeyylPZ4AavR_A",
+      "name" : "fileName"
+    }, {
+      "id" : "_OpviRwDDEeyylPZ4AavR_A",
+      "name" : "file_format"
+    }, {
+      "id" : "_OpviRgDDEeyylPZ4AavR_A",
+      "name" : "field_delimiter"
+    }, {
+      "id" : "_OpviUgDDEeyylPZ4AavR_A",
+      "name" : "rowTag"
+    }, {
+      "id" : "_OpviQwDDEeyylPZ4AavR_A",
+      "name" : "column_name"
+    }, {
+      "id" : "_OpviUwDDEeyylPZ4AavR_A",
+      "name" : "start_stop"
+    }, {
+      "id" : "_OpviTQDDEeyylPZ4AavR_A",
+      "name" : "outputPath"
+    }, {
+      "id" : "_OpviRADDEeyylPZ4AavR_A",
+      "name" : "cur_datetime"
+    }, {
+      "id" : "_M9kMwAzWEey7asglHzKDDw",
+      "name" : "header_present"
+    }, {
+      "id" : "_M9kMwQzWEey7asglHzKDDw",
+      "name" : "column_position"
+    }, {
+      "id" : "_6y2kkxexEey135K5TEpv-w",
+      "name" : "SRC_AZURE_ENC_KEY"
+    }, {
+      "id" : "_6y2knBexEey135K5TEpv-w",
+      "name" : "TGT_AZURE_ENC_KEY"
+    }, {
+      "id" : "_YIUA0CTmEeydI6GK6RmjBg",
+      "name" : "trailer_present"
+    }, {
+      "id" : "_1hkZwJraEeyz14ztTs9JRQ",
+      "name" : "excelSheetName"
+    }, {
+      "id" : "_7sL3QKjjEeyMFcfeP94cKw",
+      "name" : "header_rows"
+    }, {
+      "id" : "_7sL3QajjEeyMFcfeP94cKw",
+      "name" : "footer_rows"
+    }, {
+      "id" : "_qx_NwaqVEeyv3uwlO8lsmw",
+      "name" : "multiLine"
+    }, {
+      "id" : "_qx_NwKqVEeyv3uwlO8lsmw",
+      "name" : "json_object"
+    }, {
+      "id" : "_qx_NwqqVEeyv3uwlO8lsmw",
+      "name" : "delta_query"
+    }, {
+      "id" : "_8bQEELAzEeyH77t5UaVljQ",
+      "name" : "dirlist"
+    }, {
+      "id" : "_8laFULQHEeyOEei18rBEnw",
+      "name" : "sum_operation"
+    }, {
+      "id" : "_DO0j4P33EeyX7dbJ_h2FWQ",
+      "name" : "operation"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_yCqIoAPZEeyjt9z2r-aLqg",
+    "parameterList" : [ {
+      "id" : "_FvNw0gtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_APIVERSION"
+    }, {
+      "id" : "_FvNw0wtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_CLIENT_ID"
+    }, {
+      "id" : "_FvNw1AtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_CLIENT_SECRET"
+    }, {
+      "id" : "_FvNw1QtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_ENDPOINT"
+    }, {
+      "id" : "_FvNw1gtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_GRANT_TYPE"
+    }, {
+      "id" : "_FvNw1wtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_PIPELINE_NAME"
+    }, {
+      "id" : "_FvNw0AtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_RESOURCE"
+    }, {
+      "id" : "_FvNw0QtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_TENANT_ID"
+    }, {
+      "id" : "_FvNw2gtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_APIVERSION"
+    }, {
+      "id" : "_FvNw2wtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_CLIENT_ID"
+    }, {
+      "id" : "_FvNw3AtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_CLIENT_SECRET"
+    }, {
+      "id" : "_FvNw3QtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_ENDPOINT"
+    }, {
+      "id" : "_FvNw3gtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_GRANT_TYPE"
+    }, {
+      "id" : "_FvNw3wtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_PIPELINE_NAME"
+    }, {
+      "id" : "_FvNw2AtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_RESOURCE"
+    }, {
+      "id" : "_FvNw2QtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_TENANT_ID"
+    } ]
+  } ]
+}

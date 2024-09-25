@@ -1,0 +1,874 @@
+{
+  "itemId" : "_sA7uMO3JEeu40caCvYTo6g",
+  "contextList" : [ {
+    "contextName" : "KOREA",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "KOREA",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "KOREA",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54hNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia"
+    }, {
+      "id" : "_xf54jdXdEeyV95QwGCVc2w",
+      "name" : "query_hairconcerns"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54jNXdEeyV95QwGCVc2w",
+      "name" : "query_makeupconcerns"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54hdXdEeyV95QwGCVc2w",
+      "name" : "query_phone"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54jtXdEeyV95QwGCVc2w",
+      "name" : "query_skinconcerns"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    } ]
+  }, {
+    "contextName" : "AUS",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "AUS",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "AUS",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54hNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia"
+    }, {
+      "id" : "_xf54jdXdEeyV95QwGCVc2w",
+      "name" : "query_hairconcerns"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54jNXdEeyV95QwGCVc2w",
+      "name" : "query_makeupconcerns"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54hdXdEeyV95QwGCVc2w",
+      "name" : "query_phone"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54jtXdEeyV95QwGCVc2w",
+      "name" : "query_skinconcerns"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54hNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia"
+    }, {
+      "id" : "_xf54jdXdEeyV95QwGCVc2w",
+      "name" : "query_hairconcerns"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54jNXdEeyV95QwGCVc2w",
+      "name" : "query_makeupconcerns"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54hdXdEeyV95QwGCVc2w",
+      "name" : "query_phone"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54jtXdEeyV95QwGCVc2w",
+      "name" : "query_skinconcerns"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54hNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia"
+    }, {
+      "id" : "_xf54jdXdEeyV95QwGCVc2w",
+      "name" : "query_hairconcerns"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54jNXdEeyV95QwGCVc2w",
+      "name" : "query_makeupconcerns"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54hdXdEeyV95QwGCVc2w",
+      "name" : "query_phone"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54jtXdEeyV95QwGCVc2w",
+      "name" : "query_skinconcerns"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54hNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia"
+    }, {
+      "id" : "_xf54jdXdEeyV95QwGCVc2w",
+      "name" : "query_hairconcerns"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54jNXdEeyV95QwGCVc2w",
+      "name" : "query_makeupconcerns"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54hdXdEeyV95QwGCVc2w",
+      "name" : "query_phone"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54jtXdEeyV95QwGCVc2w",
+      "name" : "query_skinconcerns"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54hNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia"
+    }, {
+      "id" : "_xf54jdXdEeyV95QwGCVc2w",
+      "name" : "query_hairconcerns"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54jNXdEeyV95QwGCVc2w",
+      "name" : "query_makeupconcerns"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54hdXdEeyV95QwGCVc2w",
+      "name" : "query_phone"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54jtXdEeyV95QwGCVc2w",
+      "name" : "query_skinconcerns"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54hNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia"
+    }, {
+      "id" : "_xf54jdXdEeyV95QwGCVc2w",
+      "name" : "query_hairconcerns"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54jNXdEeyV95QwGCVc2w",
+      "name" : "query_makeupconcerns"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54hdXdEeyV95QwGCVc2w",
+      "name" : "query_phone"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54jtXdEeyV95QwGCVc2w",
+      "name" : "query_skinconcerns"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54hNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia"
+    }, {
+      "id" : "_xf54jdXdEeyV95QwGCVc2w",
+      "name" : "query_hairconcerns"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54jNXdEeyV95QwGCVc2w",
+      "name" : "query_makeupconcerns"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54hdXdEeyV95QwGCVc2w",
+      "name" : "query_phone"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54jtXdEeyV95QwGCVc2w",
+      "name" : "query_skinconcerns"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54hNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia"
+    }, {
+      "id" : "_xf54jdXdEeyV95QwGCVc2w",
+      "name" : "query_hairconcerns"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54jNXdEeyV95QwGCVc2w",
+      "name" : "query_makeupconcerns"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54hdXdEeyV95QwGCVc2w",
+      "name" : "query_phone"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54jtXdEeyV95QwGCVc2w",
+      "name" : "query_skinconcerns"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54hNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia"
+    }, {
+      "id" : "_xf54jdXdEeyV95QwGCVc2w",
+      "name" : "query_hairconcerns"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54jNXdEeyV95QwGCVc2w",
+      "name" : "query_makeupconcerns"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54hdXdEeyV95QwGCVc2w",
+      "name" : "query_phone"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54jtXdEeyV95QwGCVc2w",
+      "name" : "query_skinconcerns"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    } ]
+  } ]
+}

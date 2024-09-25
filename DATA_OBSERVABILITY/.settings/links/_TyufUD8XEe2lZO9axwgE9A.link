@@ -1,0 +1,149 @@
+{
+  "itemId" : "_TyufUD8XEe2lZO9axwgE9A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_yE6XYOh6EeupKtBFNjJT4Q",
+    "parameterList" : [ {
+      "id" : "_4lNsENiqEeu14bNbyU0oCA",
+      "name" : "STS"
+    }, {
+      "id" : "_T935mDVhEeykwd_IpuljgA",
+      "name" : "validation"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_cI7BINqYEeujjfBicVi1Wg",
+    "parameterList" : [ {
+      "id" : "_cJeawtqYEeujjfBicVi1Wg",
+      "name" : "AdditionalParams"
+    }, {
+      "id" : "_cJeawdqYEeujjfBicVi1Wg",
+      "name" : "Database"
+    }, {
+      "id" : "_4zqHYAAgEeycvIkTqE-2vA",
+      "name" : "Host"
+    }, {
+      "id" : "_cJeaw9qYEeujjfBicVi1Wg",
+      "name" : "Password"
+    }, {
+      "id" : "_cJeaxtqYEeujjfBicVi1Wg",
+      "name" : "Port"
+    }, {
+      "id" : "_cJeaxdqYEeujjfBicVi1Wg",
+      "name" : "Schema"
+    }, {
+      "id" : "_cJeaxNqYEeujjfBicVi1Wg",
+      "name" : "Username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_cbbY4DVaEeyEf9ItI23Z1A",
+    "parameterList" : [ {
+      "id" : "_cbx-MTVaEeyEf9ItI23Z1A",
+      "name" : "BA_OUT_CODE"
+    }, {
+      "id" : "_cbx-NjVaEeyEf9ItI23Z1A",
+      "name" : "DF_OUT_CODE"
+    }, {
+      "id" : "_cbx-NzVaEeyEf9ItI23Z1A",
+      "name" : "DFC_OUT_CODE"
+    }, {
+      "id" : "_cbx-MzVaEeyEf9ItI23Z1A",
+      "name" : "FA_OUT_CODE"
+    }, {
+      "id" : "_cbx-NDVaEeyEf9ItI23Z1A",
+      "name" : "FN_OUT_CODE"
+    }, {
+      "id" : "_cbx-NTVaEeyEf9ItI23Z1A",
+      "name" : "FS_OUT_CODE"
+    }, {
+      "id" : "_cbx-MjVaEeyEf9ItI23Z1A",
+      "name" : "MF_OUT_CODE"
+    }, {
+      "id" : "_cbx-ODVaEeyEf9ItI23Z1A",
+      "name" : "RC_OUT_CODE"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Nk9a4D8qEe2lZO9axwgE9A",
+    "parameterList" : [ {
+      "id" : "_0zuGID86Ee2lZO9axwgE9A",
+      "name" : "FI_CHKSM_TENANT_ID"
+    }, {
+      "id" : "_0zuGIT86Ee2lZO9axwgE9A",
+      "name" : "FI_CHKSM_GRANT_TYPE"
+    }, {
+      "id" : "_0zuGIj86Ee2lZO9axwgE9A",
+      "name" : "FI_CHKSM_CLIENT_ID"
+    }, {
+      "id" : "_0zuGIz86Ee2lZO9axwgE9A",
+      "name" : "FI_CHKSM_CLIENT_SECRET"
+    }, {
+      "id" : "_0zuGJD86Ee2lZO9axwgE9A",
+      "name" : "FI_CHKSM_RESOURCE"
+    }, {
+      "id" : "_0zuGJT86Ee2lZO9axwgE9A",
+      "name" : "FI_CHKSM_ADLS_PATH"
+    }, {
+      "id" : "_0zuGJj86Ee2lZO9axwgE9A",
+      "name" : "FI_CHKSM_ADLS_FILENM"
+    }, {
+      "id" : "_fEx7MD8_Ee2lZO9axwgE9A",
+      "name" : "FI_CHKSM_STORAGE_ACNT"
+    }, {
+      "id" : "_fEx7MT8_Ee2lZO9axwgE9A",
+      "name" : "FI_CHKSM_CONTAINER"
+    }, {
+      "id" : "_kuEacEMaEe2lZO9axwgE9A",
+      "name" : "md5IsNull"
+    }, {
+      "id" : "_5mT7ID8pEe2lZO9axwgE9A",
+      "name" : "VAL_TXT"
+    }, {
+      "id" : "_XM3rUAvDEeyldYu4rmIj-A",
+      "name" : "FI_CHKSM_ABSOLUTE_FILENAME"
+    }, {
+      "id" : "_XM3rUQvDEeyldYu4rmIj-A",
+      "name" : "FI_CHKSM_ABSOLUTE_MNFST_FILENAME"
+    }, {
+      "id" : "_pfSw4EPiEe2lZO9axwgE9A",
+      "name" : "IS_NB_LINES_ZERO"
+    }, {
+      "id" : "_x5zLID8YEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_CLM_END"
+    }, {
+      "id" : "_x5zLIT8YEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_CLM_STRT"
+    }, {
+      "id" : "_x5zLIj8YEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_CTRL_CLM_NO"
+    }, {
+      "id" : "_x5zLIz8YEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_CTRL_DELIM"
+    }, {
+      "id" : "_x5zLJD8YEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_CTRL_DIR"
+    }, {
+      "id" : "_x5zLJT8YEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_CTRL_PTTRN"
+    }, {
+      "id" : "_x5zLJj8YEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_FL_FRMT"
+    }, {
+      "id" : "_x5zLJz8YEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_FL_TYP"
+    }, {
+      "id" : "_x5zLKD8YEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_JSON_QRY"
+    }, {
+      "id" : "_x5zLKT8YEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_LP_JSON_QRY"
+    }, {
+      "id" : "_x5zLKj8YEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_LP_XPTH_QRY"
+    }, {
+      "id" : "_LTWQMEViEe2lZO9axwgE9A",
+      "name" : "FI_CHKSM_TGT_DIR"
+    } ]
+  } ]
+}

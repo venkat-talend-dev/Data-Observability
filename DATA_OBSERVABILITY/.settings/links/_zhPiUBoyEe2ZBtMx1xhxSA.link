@@ -1,0 +1,122 @@
+{
+  "itemId" : "_zhPiUBoyEe2ZBtMx1xhxSA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_53PHkOYyEeuFpORMEEegkQ",
+    "parameterList" : [ {
+      "id" : "_bGHnEN1bEeu6tJNM7jbvyA",
+      "name" : "param_filepath"
+    }, {
+      "id" : "_bGHnEd1bEeu6tJNM7jbvyA",
+      "name" : "param_filename"
+    }, {
+      "id" : "_z2_T0OYbEeuao5vXhf7Rfw",
+      "name" : "cv_keytab_file"
+    }, {
+      "id" : "_z2_T0eYbEeuao5vXhf7Rfw",
+      "name" : "cv_kerberos_principal"
+    }, {
+      "id" : "_wRGeoMCKEey8Jr5WS1F1ow",
+      "name" : "CONJUR_ACCOUNT"
+    }, {
+      "id" : "_wRGeocCKEey8Jr5WS1F1ow",
+      "name" : "CONJUR_AUTHN_LOGIN"
+    }, {
+      "id" : "_wRGeosCKEey8Jr5WS1F1ow",
+      "name" : "CONJUR_AUTHN_API_KEY"
+    }, {
+      "id" : "_wRGeo8CKEey8Jr5WS1F1ow",
+      "name" : "CONJUR_APPLIANCE_URL"
+    }, {
+      "id" : "_wRGepMCKEey8Jr5WS1F1ow",
+      "name" : "CONJUR_DER_CERTIFICATE_PATH"
+    }, {
+      "id" : "_wRGepcCKEey8Jr5WS1F1ow",
+      "name" : "CONJUR_USER_VARIABLE"
+    }, {
+      "id" : "_wRGepsCKEey8Jr5WS1F1ow",
+      "name" : "CONJUR_PASSWORD_VARIABLE"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_cI7BINqYEeujjfBicVi1Wg",
+    "parameterList" : [ {
+      "id" : "_cJeawtqYEeujjfBicVi1Wg",
+      "name" : "AdditionalParams"
+    }, {
+      "id" : "_cJeawdqYEeujjfBicVi1Wg",
+      "name" : "Database"
+    }, {
+      "id" : "_cJeaw9qYEeujjfBicVi1Wg",
+      "name" : "Password"
+    }, {
+      "id" : "_cJeaxtqYEeujjfBicVi1Wg",
+      "name" : "Port"
+    }, {
+      "id" : "_cJeaxdqYEeujjfBicVi1Wg",
+      "name" : "Schema"
+    }, {
+      "id" : "_4zqHYAAgEeycvIkTqE-2vA",
+      "name" : "Host"
+    }, {
+      "id" : "_cJeaxNqYEeujjfBicVi1Wg",
+      "name" : "Username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_0yoFINgDEeuL9I2qIcNgZQ",
+    "parameterList" : [ {
+      "id" : "_HDIi4NgWEeuL9I2qIcNgZQ",
+      "name" : "DATA_PIPLN_NM"
+    }, {
+      "id" : "_HDIi4dgWEeuL9I2qIcNgZQ",
+      "name" : "PIPLN_EXEC_ID"
+    }, {
+      "id" : "_HDIi4tgWEeuL9I2qIcNgZQ",
+      "name" : "PIPLN_STS"
+    }, {
+      "id" : "_wJ-9N94xEeuzAt6DtsponA",
+      "name" : "out_code"
+    }, {
+      "id" : "_LYtaQOikEeuHwYDGl8eH6g",
+      "name" : "DOM_NM"
+    }, {
+      "id" : "_LYtaQeikEeuHwYDGl8eH6g",
+      "name" : "SUB_DOM_NM"
+    }, {
+      "id" : "_LYtaQuikEeuHwYDGl8eH6g",
+      "name" : "DATA_PLTFRM_NM"
+    }, {
+      "id" : "_LYtaQ-ikEeuHwYDGl8eH6g",
+      "name" : "MDUL_NM"
+    }, {
+      "id" : "_LYtaROikEeuHwYDGl8eH6g",
+      "name" : "PRDCT_NM"
+    }, {
+      "id" : "_xwS9wOk0EeuIAY7c6JfFAw",
+      "name" : "PIPLN_ID"
+    }, {
+      "id" : "_3Ec-AOk_EeuIAY7c6JfFAw",
+      "name" : "CRTE_BY"
+    }, {
+      "id" : "_3Ec-Aek_EeuIAY7c6JfFAw",
+      "name" : "UPDTD_BY"
+    }, {
+      "id" : "_VEsowDs1EeyFcZavnMV-2w",
+      "name" : "BATCH_STRT_OUT_CODE"
+    }, {
+      "id" : "_P-0-8FNOEeylfot_GL48Kg",
+      "name" : "DATA_PIPLN_EXEC_ID"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_-_byYNg6EeuL9I2qIcNgZQ",
+    "parameterList" : [ {
+      "id" : "_yCJ2kDs1EeyFcZavnMV-2w",
+      "name" : "BATCH_END_OUT_CODE"
+    }, {
+      "id" : "_lkDXIOiMEeywy8G9l1yrLQ",
+      "name" : "STS"
+    } ]
+  } ]
+}

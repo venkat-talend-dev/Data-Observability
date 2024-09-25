@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_y-kAwPBpEeyJ2JINAlzYkw">
+    <contextParameter comment="" name="limit" prompt="limit?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kAwfBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="offset" prompt="offset?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kAwvBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="recordcount" prompt="recordcount?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kAw_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="flimit" prompt="flimit?" promptNeeded="false" type="id_Double" value="" xmi:id="_y-kAxPBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="ServerNumber" prompt="ServerNumber?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kAxfBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="ServerCount" prompt="ServerCount?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kAxvBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="isIndependent" prompt="isIndependent?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_y-kAx_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" type="id_Integer" value="1" xmi:id="_y-kAyPBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="limit3" prompt="limit3?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kAyfBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="recordcount3" prompt="recordcount3?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kAyvBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="flimit3" prompt="flimit3?" promptNeeded="false" type="id_Double" value="" xmi:id="_y-kAy_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="offset3" prompt="offset3?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kAzPBpEeyJ2JINAlzYkw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="UAT" xmi:id="_y-kAzfBpEeyJ2JINAlzYkw">
+    <contextParameter comment="" name="limit" prompt="limit?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_y-kAzvBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="offset" prompt="offset?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_y-kAz_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="recordcount" prompt="recordcount?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA0PBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="flimit" prompt="flimit?" promptNeeded="false" type="id_Double" value="" xmi:id="_y-kA0fBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="ServerNumber" prompt="ServerNumber?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA0vBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="ServerCount" prompt="ServerCount?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA0_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="isIndependent" prompt="isIndependent?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_y-kA1PBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" type="id_Integer" value="1" xmi:id="_y-kA1fBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="limit3" prompt="limit3?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA1vBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="recordcount3" prompt="recordcount3?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA1_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="flimit3" prompt="flimit3?" promptNeeded="false" type="id_Double" value="" xmi:id="_y-kA2PBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="offset3" prompt="offset3?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA2fBpEeyJ2JINAlzYkw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_y-kA2vBpEeyJ2JINAlzYkw">
+    <contextParameter comment="" name="limit" prompt="limit?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA2_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="offset" prompt="offset?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA3PBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="recordcount" prompt="recordcount?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA3fBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="flimit" prompt="flimit?" promptNeeded="false" type="id_Double" value="" xmi:id="_y-kA3vBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="ServerNumber" prompt="ServerNumber?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA3_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="ServerCount" prompt="ServerCount?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA4PBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="isIndependent" prompt="isIndependent?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_y-kA4fBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_y-kA4vBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="limit3" prompt="limit3?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA4_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="recordcount3" prompt="recordcount3?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA5PBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="flimit3" prompt="flimit3?" promptNeeded="false" type="id_Double" value="" xmi:id="_y-kA5fBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="offset3" prompt="offset3?" promptNeeded="false" type="id_Integer" value="" xmi:id="_y-kA5vBpEeyJ2JINAlzYkw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_580ffa05-9fa1-4478-8491-4844c27e5573"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Y+54Uvak6Y+dZvyBga74yiTA82i2cKF9GxJuazuDC2ys+ON/99/qFJS3f5YQubUF40V+huAw7JV8&#13;
+djKXeZdtKA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4ba027e8-6c9b-4e51-90e1-e8ccf915e275"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fsKc8bi03a3HUaxG/kN56mDZytHYVUv8LAt378QUSxZ60LfWv4Q/1QbxhamiYks5L0qLzrIKReFD&#13;
+s3XxVzO4LA==</DigestValue></Reference></SignedInfo><SignatureValue>X12/I957TCogkHaSsx+fKiHx9sGW48kd7ZXEP/QNNjfDFy5jPcN0M4cUg4iIeu7+hkNFzQKRP6QN&#13;
+6v6DWywLYddvatun5sjWZKzNyPoYAkMpa8o7C//8V66/l7B3G+7nSkUZXg63vbn8L06ArAHsKXRU&#13;
+b8TFqeM9I1p+VArce0ZfeulnqWxnapLj/oHRzYIVxVzNNwDSpYQ6JPcj1IT+exz6+l1q879KZKKi&#13;
+r3O1batc8jXl1iTG2D/pgkbTUCS97y5vNyyfkFIVVNcv6qLEbCDPWBOd0rFjg4U85b3PFsncVSZm&#13;
+ZM2wWT0nAv8NCdtAqwbMftGt35XKKSBr2JHMKw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4ba027e8-6c9b-4e51-90e1-e8ccf915e275" Target="#_580ffa05-9fa1-4478-8491-4844c27e5573"><Timestamp>2024-09-25 09:59:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

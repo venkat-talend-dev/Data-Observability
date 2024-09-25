@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_y_-WAPBpEeyJ2JINAlzYkw">
+    <contextParameter comment="" name="TO" prompt="TO?" promptNeeded="false" type="id_String" value="schundur@estee.com" xmi:id="_y_-WAfBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="From" prompt="From?" promptNeeded="false" type="id_String" value="dev-job-executions@estee.com" xmi:id="_y_-WAvBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" type="id_String" value="mailrelay.eu.elcompanies.net" xmi:id="_y_-WA_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" type="id_String" value="25" xmi:id="_y_-WBPBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="emailSubject" prompt="emailSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_y_-WBfBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="emailMessage" prompt="emailMessage?" promptNeeded="false" type="id_String" value="" xmi:id="_y_-WBvBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Cc" prompt="Cc?" promptNeeded="false" type="id_String" value="kashyap.shah@thinkartha.com" xmi:id="_y_-WB_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Bcc" prompt="Bcc?" promptNeeded="false" type="id_String" value="" xmi:id="_y_-WCPBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="CC" prompt="CC?" promptNeeded="false" type="id_String" value="raliang@estee.com;kshah@estee.com;" xmi:id="_y_-WCfBpEeyJ2JINAlzYkw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_y_-WCvBpEeyJ2JINAlzYkw">
+    <contextParameter comment="" name="TO" prompt="TO?" promptNeeded="false" type="id_String" value="schundur@estee.com" xmi:id="_y_-WC_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="From" prompt="From?" promptNeeded="false" type="id_String" value="prod-job-executions@estee.com" xmi:id="_y_-WDPBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" type="id_String" value="mailrelay.eu.elcompanies.net" xmi:id="_y_-WDfBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" type="id_String" value="25" xmi:id="_y_-WDvBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="emailSubject" prompt="emailSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_y_-WD_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="emailMessage" prompt="emailMessage?" promptNeeded="false" type="id_String" value="" xmi:id="_y_-WEPBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Cc" prompt="Cc?" promptNeeded="false" type="id_String" value="kashyap.shah@thinkartha.com" xmi:id="_y_-WEfBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Bcc" prompt="Bcc?" promptNeeded="false" type="id_String" value="" xmi:id="_y_-WEvBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="CC" prompt="CC?" promptNeeded="false" type="id_String" value="raliang@estee.com;APTalendSupport@elcompanies.net;" xmi:id="_y_-WE_BpEeyJ2JINAlzYkw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="UAT" xmi:id="_y_-WFPBpEeyJ2JINAlzYkw">
+    <contextParameter comment="" name="TO" prompt="TO?" promptNeeded="false" type="id_String" value="schundur@estee.com" xmi:id="_y_-WFfBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="From" prompt="From?" promptNeeded="false" type="id_String" value="uat-job-executions@estee.com" xmi:id="_y_-WFvBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" type="id_String" value="mailrelay.eu.elcompanies.net" xmi:id="_y_-WF_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" type="id_String" value="25" xmi:id="_y_-WGPBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="emailSubject" prompt="emailSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_y_-WGfBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="emailMessage" prompt="emailMessage?" promptNeeded="false" type="id_String" value="" xmi:id="_y_-WGvBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Cc" prompt="Cc?" promptNeeded="false" type="id_String" value="kashyap.shah@thinkartha.com" xmi:id="_y_-WG_BpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="Bcc" prompt="Bcc?" promptNeeded="false" type="id_String" value="" xmi:id="_y_-WHPBpEeyJ2JINAlzYkw"/>
+    <contextParameter comment="" name="CC" prompt="CC?" promptNeeded="false" type="id_String" value="raliang@estee.com;kshah@estee.com;" xmi:id="_y_-WHfBpEeyJ2JINAlzYkw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_815c4bf2-522c-4f67-a7dc-2ee63044fdaa"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZMUn5ZEWYq3Ddlqo78prJCXpZHnVCQ3yUH9+R/vi8wHXl/wYPmRB9lVogOvEVMZ/Kk+t20wrsx03&#13;
+VR5xn/rRwA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_107c52b0-d4ef-4453-8828-b4514a601325"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>woGQ+sS4UZsSCCyi9MEw3BnJU3ulZFr4dM0PucNyJPZdtsh1DIC9Bzt3T9vYN1SDBmTrNMOeLeiD&#13;
+qUn4vbFrEw==</DigestValue></Reference></SignedInfo><SignatureValue>Ca/9bzdLM3XlyTQs4nOYvWIB0MnKypTWnXr53daa553dcS0j2l/IF6L4ACikmyd9P7JGYb2c7w/+&#13;
+tpw4mb5PZDMahX6bF3vkuJDN6a41PG+cTus6CLYof1GE8cjFk+2OiWQhUqhHxR3LDL0DQRe3HbA2&#13;
+nPH4QtuSN54xG3OH8fI/1ngIvGu02vqAJ0s5sUKbT+o1GOB7mxxHZiVoVdXdql9wakCFvAgDXTzG&#13;
+ZVjbZ32LXXu96ltcRmLvsQsMy5YKuqOKYKDfb6sMg7Ny67jdRXsTpDTTWLApyrzyZ6Plp2G+h4tt&#13;
+bUZGln2acu3QAxHvlaNRHyNlwgtNXeCuXfxBUw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_107c52b0-d4ef-4453-8828-b4514a601325" Target="#_815c4bf2-522c-4f67-a7dc-2ee63044fdaa"><Timestamp>2024-09-25 09:59:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

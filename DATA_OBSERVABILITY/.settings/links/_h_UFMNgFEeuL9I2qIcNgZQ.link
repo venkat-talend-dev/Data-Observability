@@ -1,0 +1,54 @@
+{
+  "itemId" : "_h_UFMNgFEeuL9I2qIcNgZQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_cI7BINqYEeujjfBicVi1Wg",
+    "parameterList" : [ {
+      "id" : "_cJeawtqYEeujjfBicVi1Wg",
+      "name" : "AdditionalParams"
+    }, {
+      "id" : "_cJeaxNqYEeujjfBicVi1Wg",
+      "name" : "Username"
+    }, {
+      "id" : "_cJeaxtqYEeujjfBicVi1Wg",
+      "name" : "Port"
+    }, {
+      "id" : "_cJeaxdqYEeujjfBicVi1Wg",
+      "name" : "Schema"
+    }, {
+      "id" : "_cJeawdqYEeujjfBicVi1Wg",
+      "name" : "Database"
+    }, {
+      "id" : "_4zqHYAAgEeycvIkTqE-2vA",
+      "name" : "Host"
+    }, {
+      "id" : "_cJeaw9qYEeujjfBicVi1Wg",
+      "name" : "Password"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_cI7BINqYEeujjfBicVi1Wg",
+    "parameterList" : [ {
+      "id" : "_cJeawtqYEeujjfBicVi1Wg",
+      "name" : "AdditionalParams"
+    }, {
+      "id" : "_cJeaxNqYEeujjfBicVi1Wg",
+      "name" : "Username"
+    }, {
+      "id" : "_cJeaxtqYEeujjfBicVi1Wg",
+      "name" : "Port"
+    }, {
+      "id" : "_cJeaxdqYEeujjfBicVi1Wg",
+      "name" : "Schema"
+    }, {
+      "id" : "_cJeawdqYEeujjfBicVi1Wg",
+      "name" : "Database"
+    }, {
+      "id" : "_4zqHYAAgEeycvIkTqE-2vA",
+      "name" : "Host"
+    }, {
+      "id" : "_cJeaw9qYEeujjfBicVi1Wg",
+      "name" : "Password"
+    } ]
+  } ]
+}

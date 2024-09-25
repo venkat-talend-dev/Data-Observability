@@ -1,0 +1,178 @@
+{
+  "itemId" : "_s06dgFBGEe2SSKX6SAIRoQ",
+  "contextList" : [ {
+    "contextName" : "KOR_PROD",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd80XjEeyybMb3qzeRQw",
+      "name" : "extendInsertSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "KOR_PROD",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    } ]
+  }, {
+    "contextName" : "KOR_PROD",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WAvBpEeyJ2JINAlzYkw",
+      "name" : "From"
+    }, {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "KOR_PROD",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    } ]
+  }, {
+    "contextName" : "KOR_UAT",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd80XjEeyybMb3qzeRQw",
+      "name" : "extendInsertSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "KOR_UAT",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    } ]
+  }, {
+    "contextName" : "KOR_UAT",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WAvBpEeyJ2JINAlzYkw",
+      "name" : "From"
+    }, {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "KOR_UAT",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd6kXjEeyybMb3qzeRQw",
+      "name" : "batchCommitSize"
+    }, {
+      "id" : "_E2Gd80XjEeyybMb3qzeRQw",
+      "name" : "extendInsertSize"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WAvBpEeyJ2JINAlzYkw",
+      "name" : "From"
+    }, {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54gdXdEeyV95QwGCVc2w",
+      "name" : "query_personal"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54gtXdEeyV95QwGCVc2w",
+      "name" : "query_sourcesystem"
+    } ]
+  } ]
+}

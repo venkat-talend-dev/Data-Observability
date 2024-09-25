@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <model:JobletProcess defaultContext="Default" framework="" jobType="Standard">
+    <context confirmationNeeded="false" name="Default">
+      <contextParameter comment="" internalId="_jETCQNc_Eeu14bNbyU0oCA" name="RC_ITRTN_NBR" prompt="RC_ITRTN_NBR?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+      <contextParameter comment="" internalId="_jETCQtc_Eeu14bNbyU0oCA" name="RC_TGT_REC_CNT" prompt="RC_TGT_REC_CNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+      <contextParameter comment="" internalId="_jETCQ9c_Eeu14bNbyU0oCA" name="RC_SRC_REC_CNT" prompt="RC_SRC_REC_CNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+      <contextParameter comment="" internalId="_jETCRNc_Eeu14bNbyU0oCA" name="RC_SRC_MANIFEST_XPATH_QUERY" prompt="RC_SRC_MANIFEST_XPATH_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCRdc_Eeu14bNbyU0oCA" name="RC_SRC_MANIFEST_LOOP_XPATH_QUERY" prompt="RC_SRC_MANIFEST_LOOP_XPATH_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCRtc_Eeu14bNbyU0oCA" name="RC_SRC_MANIFEST_JSON_QUERY" prompt="RC_SRC_MANIFEST_JSON_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCR9c_Eeu14bNbyU0oCA" name="RC_SRC_MANIFEST_LOOP_JSON_QUERY" prompt="RC_SRC_MANIFEST_LOOP_JSON_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCSNc_Eeu14bNbyU0oCA" name="RC_TGT_FILE_PATH" prompt="RC_TGT_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCSdc_Eeu14bNbyU0oCA" name="RC_TGT_FILE_PATTERN" prompt="RC_TGT_FILE_PATTERN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCStc_Eeu14bNbyU0oCA" name="RC_SRC_HDR_REC_CNT_CLM_POS" prompt="RC_SRC_HDR_REC_CNT_CLM_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_jETCS9c_Eeu14bNbyU0oCA" name="RC_SRC_HDR_COL_DELIMITER" prompt="RC_SRC_HDR_COL_DELIMITER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCTNc_Eeu14bNbyU0oCA" name="RC_SRC_HDR_FORMAT" prompt="RC_SRC_HDR_FORMAT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCTdc_Eeu14bNbyU0oCA" name="RC_SRC_HDR_ROWS" prompt="RC_SRC_HDR_ROWS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_jETCTtc_Eeu14bNbyU0oCA" name="RC_SRC_MANIFEST_COL_DELIMITER" prompt="RC_SRC_MANIFEST_COL_DELIMITER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCT9c_Eeu14bNbyU0oCA" name="RC_SRC_MANIFEST_PATTERN" prompt="RC_SRC_MANIFEST_PATTERN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCUNc_Eeu14bNbyU0oCA" name="RC_SRC_MANIFEST_FILEPATH" prompt="RC_SRC_MANIFEST_FILEPATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCUdc_Eeu14bNbyU0oCA" name="RC_SRC_MANIFEST_FORMAT" prompt="RC_SRC_MANIFEST_FORMAT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCUtc_Eeu14bNbyU0oCA" name="RC_SRC_TLR_REC_CNT_CLM_POS" prompt="RC_SRC_TLR_REC_CNT_CLM_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_jETCU9c_Eeu14bNbyU0oCA" name="RC_SRC_TRAILER_COL_DELIMITER" prompt="RC_SRC_TRAILER_COL_DELIMITER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCVNc_Eeu14bNbyU0oCA" name="RC_SRC_TRAILER_FORMAT" prompt="RC_SRC_TRAILER_FORMAT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCVdc_Eeu14bNbyU0oCA" name="RC_SRC_TRAILER_ROWS" prompt="RC_SRC_TRAILER_ROWS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_jETCVtc_Eeu14bNbyU0oCA" name="RC_TGT_DATA_FILE_TYPE" prompt="RC_TGT_DATA_FILE_TYPE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_jETCV9c_Eeu14bNbyU0oCA" name="RC_SRC_MANIFEST_REC_CNT_COL_POS" prompt="RC_SRC_MANIFEST_REC_CNT_COL_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_jETCWNc_Eeu14bNbyU0oCA" name="RC_MAX_ITRTN_NBR" prompt="RC_MAX_ITRTN_NBR?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_jETCWdc_Eeu14bNbyU0oCA" name="RC_ITRTN_NUMBER" prompt="RC_ITRTN_NUMBER?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0"/>
+      <contextParameter comment="" internalId="_jETCWtc_Eeu14bNbyU0oCA" name="RC_SRC_ASSET_TYP" prompt="RC_SRC_ASSET_TYP?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_yn70MNfMEeu14bNbyU0oCA" name="RC_SRC_LOOP_XPATH_QUERY" prompt="RC_SRC_LOOP_XPATH_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_yn70MdfMEeu14bNbyU0oCA" name="RC_SRC_XPATH_QUERY" prompt="RC_SRC_XPATH_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_yn70MtfMEeu14bNbyU0oCA" name="RC_SRC_LOOP_JSON_QUERY" prompt="RC_SRC_LOOP_JSON_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_yn70M9fMEeu14bNbyU0oCA" name="RC_SRC_JSON_QUERY" prompt="RC_SRC_JSON_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_c9RCENfNEeu14bNbyU0oCA" name="RC_TGT_LOOP_XPATH_QUERY" prompt="RC_TGT_LOOP_XPATH_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_c9RCEdfNEeu14bNbyU0oCA" name="RC_TGT_XPATH_QUERY" prompt="RC_TGT_XPATH_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_c9RCEtfNEeu14bNbyU0oCA" name="RC_TGT_LOOP_JSON_QUERY" prompt="RC_TGT_LOOP_JSON_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_c9RCE9fNEeu14bNbyU0oCA" name="RC_TGT_JSON_QUERY" prompt="RC_TGT_JSON_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_CTaIYNfqEeu14bNbyU0oCA" name="RC_SRC_MANIFEST_MIN_CNT_COL_POS" prompt="RC_SRC_MANIFEST_MIN_CNT_COL_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_CTaIYdfqEeu14bNbyU0oCA" name="RC_SRC_MANIFEST_MAX_CNT_COL_POS" prompt="RC_SRC_MANIFEST_MAX_CNT_COL_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_CTaIYtfqEeu14bNbyU0oCA" name="RC_MIN_COUNT" prompt="RC_MIN_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+      <contextParameter comment="" internalId="_CTaIY9fqEeu14bNbyU0oCA" name="RC_MAX_COUNT" prompt="RC_MAX_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+      <contextParameter comment="" internalId="_TQk6gNfyEeu14bNbyU0oCA" name="RC_SRC_MIN_CNT_JSON_QUERY" prompt="RC_SRC_MIN_CNT_JSON_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_TQk6gdfyEeu14bNbyU0oCA" name="RC_SRC_MAX_CNT_JSON_QUERY" prompt="RC_SRC_MAX_CNT_JSON_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="__eEqQNf6Eeu14bNbyU0oCA" name="RC_SRC_MIN_CNT_XPATH_QUERY" prompt="RC_SRC_MIN_CNT_XPATH_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="__eEqQdf6Eeu14bNbyU0oCA" name="RC_SRC_MAX_CNT_XPATH_QUERY" prompt="RC_SRC_MAX_CNT_XPATH_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_-cuZoNgIEeu14bNbyU0oCA" name="STS" prompt="STS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_G2gzAdihEeu14bNbyU0oCA" name="RC_SRC_HDR_REC_MIN_CNT_CLM_POS" prompt="RC_SRC_HDR_REC_MIN_CNT_CLM_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_G2gzAtihEeu14bNbyU0oCA" name="RC_SRC_HDR_REC_MAX_CNT_CLM_POS" prompt="RC_SRC_HDR_REC_MAX_CNT_CLM_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_G2gzA9ihEeu14bNbyU0oCA" name="RC_SRC_TLR_REC_MIN_CNT_CLM_POS" prompt="RC_SRC_TLR_REC_MIN_CNT_CLM_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_G2gzBNihEeu14bNbyU0oCA" name="RC_SRC_TLR_REC_MAX_CNT_CLM_POS" prompt="RC_SRC_TLR_REC_MAX_CNT_CLM_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T_c4oN1WEeu6tJNM7jbvyA" name="gen2_Account_name" prompt="gen2_Account_name?" promptNeeded="false" repositoryContextId="_odHg8NPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4od1WEeu6tJNM7jbvyA" name="gen2_client_ID" prompt="gen2_client_ID?" promptNeeded="false" repositoryContextId="_odHg8NPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4ot1WEeu6tJNM7jbvyA" name="gen2_client_Secret" prompt="gen2_client_Secret?" promptNeeded="false" repositoryContextId="_odHg8NPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4o91WEeu6tJNM7jbvyA" name="gen2_Tenant_ID" prompt="gen2_Tenant_ID?" promptNeeded="false" repositoryContextId="_odHg8NPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4pN1WEeu6tJNM7jbvyA" name="syp_addparm" prompt="syp_addparm?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4pd1WEeu6tJNM7jbvyA" name="syp_database" prompt="syp_database?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4pt1WEeu6tJNM7jbvyA" name="syp_host" prompt="syp_host?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4p91WEeu6tJNM7jbvyA" name="syp_password" prompt="syp_password?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4qN1WEeu6tJNM7jbvyA" name="syp_port" prompt="syp_port?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4qd1WEeu6tJNM7jbvyA" name="syp_schema" prompt="syp_schema?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4qt1WEeu6tJNM7jbvyA" name="syp_username" prompt="syp_username?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4q91WEeu6tJNM7jbvyA" name="db2_database" prompt="db2_database?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4rN1WEeu6tJNM7jbvyA" name="db2_host" prompt="db2_host?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4rd1WEeu6tJNM7jbvyA" name="db2_password" prompt="db2_password?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4rt1WEeu6tJNM7jbvyA" name="db2_port" prompt="db2_port?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4r91WEeu6tJNM7jbvyA" name="db2_schema" prompt="db2_schema?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4sN1WEeu6tJNM7jbvyA" name="db2_username" prompt="db2_username?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4sd1WEeu6tJNM7jbvyA" name="mssql_addparm" prompt="mssql_addparm?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4st1WEeu6tJNM7jbvyA" name="mssql_database" prompt="mssql_database?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4s91WEeu6tJNM7jbvyA" name="mssql_host" prompt="mssql_host?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4tN1WEeu6tJNM7jbvyA" name="mssql_password" prompt="mssql_password?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4td1WEeu6tJNM7jbvyA" name="mssql_port" prompt="mssql_port?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4tt1WEeu6tJNM7jbvyA" name="mssql_schema" prompt="mssql_schema?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4t91WEeu6tJNM7jbvyA" name="mssql_username" prompt="mssql_username?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_bGHnEN1bEeu6tJNM7jbvyA" name="param_filepath" prompt="param_filepath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_bGHnEd1bEeu6tJNM7jbvyA" name="param_filename" prompt="param_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_ezlt0N2cEeuk2_CkupNg5A" name="DATA_PIPLN_JOB_RUL_PARM_ID" prompt="DATA_PIPLN_JOB_RUL_PARM_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+      <contextParameter comment="" internalId="_mMUkAN2eEeuk2_CkupNg5A" name="RUL_ID" prompt="RUL_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+      <contextParameter comment="" internalId="_JaxgQOfbEeuNGpz_wB_GXw" name="JOB_RUL_EXEC_LOG_ID" prompt="JOB_RUL_EXEC_LOG_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_xx278OffEeuNGpz_wB_GXw" name="RC_TGT_FL_NM" prompt="RC_TGT_FL_NM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_xx278uffEeuNGpz_wB_GXw" name="DPJRP_QRY" prompt="DPJRP_QRY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_xx278-ffEeuNGpz_wB_GXw" name="RUL_QRY" prompt="RUL_QRY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_xx279OffEeuNGpz_wB_GXw" name="RUL_NM" prompt="RUL_NM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;RECORD_CNT_CHK&quot;"/>
+      <contextParameter comment="" internalId="_fsO-cOhPEeu9jKsR4AHy1A" name="RC_SRC_FL_NM" prompt="RC_SRC_FL_NM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_vGf6wOhUEeu9jKsR4AHy1A" name="RC_RSNBLTY_CHK" prompt="RC_RSNBLTY_CHK?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_vGf6wehUEeu9jKsR4AHy1A" name="RC_SRC_CNT_STRT_POS" prompt="RC_SRC_CNT_STRT_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_vGf6wuhUEeu9jKsR4AHy1A" name="RC_SRC_CNT_END_POS" prompt="RC_SRC_CNT_END_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_vGf6w-hUEeu9jKsR4AHy1A" name="RC_SRC_MIN_CNT_STRT_POS" prompt="RC_SRC_MIN_CNT_STRT_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_vGf6xOhUEeu9jKsR4AHy1A" name="RC_SRC_MIN_CNT_END_POS" prompt="RC_SRC_MIN_CNT_END_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_vGf6xehUEeu9jKsR4AHy1A" name="RC_SRC_MAX_CNT_STRT_POS" prompt="RC_SRC_MAX_CNT_STRT_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_vGf6xuhUEeu9jKsR4AHy1A" name="RC_SRC_MAX_CNT_END_POS" prompt="RC_SRC_MAX_CNT_END_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_B6b2YPODEeu4APiGXd4scg" name="RC_THRSHLD_PERCENT" prompt="RC_THRSHLD_PERCENT?" promptNeeded="false" repositoryContextId="built-in" type="id_Double" value=""/>
+      <contextParameter comment="" internalId="_qBeicAsWEeyxtLFPBKy9cQ" name="RC_RSLT_DESC" prompt="RC_RSLT_DESC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_N-DoEAsjEeyxtLFPBKy9cQ" name="RC_ABSOLUTE_FILE_NAME" prompt="RC_ABSOLUTE_FILE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_N-DoEQsjEeyxtLFPBKy9cQ" name="RC_ABSOLUTE_MNFST_FILE_NAME" prompt="RC_ABSOLUTE_MNFST_FILE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_GW6mIAAjEeycvIkTqE-2vA" name="AdditionalParams" prompt="AdditionalParams?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_GW6mIQAjEeycvIkTqE-2vA" name="Username" prompt="Username?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value="sqladmin"/>
+      <contextParameter comment="" internalId="_GW6mIgAjEeycvIkTqE-2vA" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value="1433"/>
+      <contextParameter comment="" internalId="_GW6mIwAjEeycvIkTqE-2vA" name="Schema" prompt="Schema?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value="dbo"/>
+      <contextParameter comment="" internalId="_GW6mJAAjEeycvIkTqE-2vA" name="Database" prompt="Database?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value="TalendMetadata"/>
+      <contextParameter comment="" internalId="_GW6mJQAjEeycvIkTqE-2vA" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value="arthasqldatabasedemo.database.windows.net"/>
+      <contextParameter comment="" internalId="_GW6mJgAjEeycvIkTqE-2vA" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_Password" value="enc:system.encryption.key.v1:NyugQd9sPOJxNGKTv57avZj2cHILuI8urTfeq2r38Q0f11gf3K8="/>
+      <contextParameter comment="" internalId="_T935kDVhEeykwd_IpuljgA" name="BA_OUT_CODE" prompt="BA_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935kTVhEeykwd_IpuljgA" name="DF_OUT_CODE" prompt="DF_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935kjVhEeykwd_IpuljgA" name="DFC_OUT_CODE" prompt="DFC_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935kzVhEeykwd_IpuljgA" name="FA_OUT_CODE" prompt="FA_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935lDVhEeykwd_IpuljgA" name="FN_OUT_CODE" prompt="FN_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935lTVhEeykwd_IpuljgA" name="FS_OUT_CODE" prompt="FS_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935ljVhEeykwd_IpuljgA" name="MF_OUT_CODE" prompt="MF_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935lzVhEeykwd_IpuljgA" name="RC_OUT_CODE" prompt="RC_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935mDVhEeykwd_IpuljgA" name="validation" prompt="validation?" promptNeeded="false" repositoryContextId="_yE6XYOh6EeupKtBFNjJT4Q" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_l06wgD5dEeyFcZavnMV-2w" name="RC_ROW_SEPARATOR" prompt="RC_ROW_SEPARATOR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_77xBwFaZEeylfot_GL48Kg" name="RC_SCRIPT_OUTPUT_PATH" prompt="RC_SCRIPT_OUTPUT_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_77xBwVaZEeylfot_GL48Kg" name="RC_SCRIPT_OUTPUT_FILE" prompt="RC_SCRIPT_OUTPUT_FILE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_77xBwlaZEeylfot_GL48Kg" name="RC_SCRIPT_FILE_PATH" prompt="RC_SCRIPT_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_b-Gp4JR0EeyLf7K51W_QgA" name="RC_TGT_FILE_TAB_NAME" prompt="RC_TGT_FILE_TAB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_BV9YsJSXEeyLf7K51W_QgA" name="RC_SRC_COL_POS" prompt="RC_SRC_COL_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_BV9YsZSXEeyLf7K51W_QgA" name="RC_TGT_COL_POS" prompt="RC_TGT_COL_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_BV9YspSXEeyLf7K51W_QgA" name="temp" prompt="temp?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+      <contextParameter comment="" internalId="_vEtWEJlQEeyz14ztTs9JRQ" name="RC_SRC_FILE_TAB_NAME" prompt="RC_SRC_FILE_TAB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_OkGMcPxqEeyG99FnszxaKg" name="seq" prompt="seq?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+      <contextParameter comment="" internalId="_6dPFgCrEEe297vf50VDnLQ" name="data" prompt="data?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_6dPFgSrEEe297vf50VDnLQ" name="max_iteration" prompt="max_iteration?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_6dPFgirEEe297vf50VDnLQ" name="RC_SRC_MANIFEST_FL_NM_COL_POS" prompt="RC_SRC_MANIFEST_FL_NM_COL_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_2Oq4QC3CEe2G0fH5mu0Pwg" name="count" prompt="count?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_EQoikDQjEe2-_tHbLJex9A" name="RC_SRC_MANIFEST_HDR_ROWS" prompt="RC_SRC_MANIFEST_HDR_ROWS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_EQoikTQjEe2-_tHbLJex9A" name="start" prompt="start?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_dy0XgDgBEe2DMYFyhRI-Jw" name="RC_SRC_MANIFEST_ABS_FL_NM_COL_PRESENT" prompt="RC_SRC_MANIFEST_ABS_FL_NM_COL_PRESENT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_dy0XgTgBEe2DMYFyhRI-Jw" name="RC_SRC_MANIFEST_FL_NM_COL_SPLITTER" prompt="RC_SRC_MANIFEST_FL_NM_COL_SPLITTER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_xUZGwEo2Ee2hZt6qDYf3jA" name="t" prompt="t?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0"/>
+    </context>
+    <context confirmationNeeded="false" name="DEV">
+      <contextParameter comment="" internalId="_T_c4uN1WEeu6tJNM7jbvyA" name="gen2_Account_name" prompt="gen2_Account_name?" promptNeeded="false" repositoryContextId="_odHg8NPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4ud1WEeu6tJNM7jbvyA" name="gen2_client_ID" prompt="gen2_client_ID?" promptNeeded="false" repositoryContextId="_odHg8NPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4ut1WEeu6tJNM7jbvyA" name="gen2_client_Secret" prompt="gen2_client_Secret?" promptNeeded="false" repositoryContextId="_odHg8NPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4u91WEeu6tJNM7jbvyA" name="gen2_Tenant_ID" prompt="gen2_Tenant_ID?" promptNeeded="false" repositoryContextId="_odHg8NPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4vN1WEeu6tJNM7jbvyA" name="syp_addparm" prompt="syp_addparm?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4vd1WEeu6tJNM7jbvyA" name="syp_database" prompt="syp_database?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4vt1WEeu6tJNM7jbvyA" name="syp_host" prompt="syp_host?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4v91WEeu6tJNM7jbvyA" name="syp_password" prompt="syp_password?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4wN1WEeu6tJNM7jbvyA" name="syp_port" prompt="syp_port?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4wd1WEeu6tJNM7jbvyA" name="syp_schema" prompt="syp_schema?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4wt1WEeu6tJNM7jbvyA" name="syp_username" prompt="syp_username?" promptNeeded="false" repositoryContextId="_9itaoNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4w91WEeu6tJNM7jbvyA" name="db2_database" prompt="db2_database?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4xN1WEeu6tJNM7jbvyA" name="db2_host" prompt="db2_host?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4xd1WEeu6tJNM7jbvyA" name="db2_password" prompt="db2_password?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4xt1WEeu6tJNM7jbvyA" name="db2_port" prompt="db2_port?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4x91WEeu6tJNM7jbvyA" name="db2_schema" prompt="db2_schema?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4yN1WEeu6tJNM7jbvyA" name="db2_username" prompt="db2_username?" promptNeeded="false" repositoryContextId="_PtV_ENPmEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4yd1WEeu6tJNM7jbvyA" name="mssql_addparm" prompt="mssql_addparm?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4yt1WEeu6tJNM7jbvyA" name="mssql_database" prompt="mssql_database?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4y91WEeu6tJNM7jbvyA" name="mssql_host" prompt="mssql_host?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4zN1WEeu6tJNM7jbvyA" name="mssql_password" prompt="mssql_password?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4zd1WEeu6tJNM7jbvyA" name="mssql_port" prompt="mssql_port?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4zt1WEeu6tJNM7jbvyA" name="mssql_schema" prompt="mssql_schema?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_T_c4z91WEeu6tJNM7jbvyA" name="mssql_username" prompt="mssql_username?" promptNeeded="false" repositoryContextId="_Qp48UNPlEeuduMrZ_BX0Bg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_bGHnEN1bEeu6tJNM7jbvyA" name="param_filepath" prompt="param_filepath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_bGHnEd1bEeu6tJNM7jbvyA" name="param_filename" prompt="param_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_4lNsENiqEeu14bNbyU0oCA" name="sts" prompt="sts?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_4lNsENiqEeu14bNbyU0oCA" name="STS" prompt="STS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_ezlt0d2cEeuk2_CkupNg5A" name="DATA_PIPLN_JOB_RUL_PARM_ID" prompt="DATA_PIPLN_JOB_RUL_PARM_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+      <contextParameter comment="" internalId="_mMUkAd2eEeuk2_CkupNg5A" name="RUL_ID" prompt="RUL_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+      <contextParameter comment="" internalId="_JaxgQefbEeuNGpz_wB_GXw" name="JOB_RUL_EXEC_LOG_ID" prompt="JOB_RUL_EXEC_LOG_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_xx279effEeuNGpz_wB_GXw" name="RC_TGT_FL_NM" prompt="RC_TGT_FL_NM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_xx279-ffEeuNGpz_wB_GXw" name="DPJRP_QRY" prompt="DPJRP_QRY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_xx27-OffEeuNGpz_wB_GXw" name="RUL_QRY" prompt="RUL_QRY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_xx27-effEeuNGpz_wB_GXw" name="RUL_NM" prompt="RUL_NM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_fsO-cehPEeu9jKsR4AHy1A" name="RC_SRC_FL_NM" prompt="RC_SRC_FL_NM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_vGf6x-hUEeu9jKsR4AHy1A" name="RC_RSNBLTY_CHK" prompt="RC_RSNBLTY_CHK?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_vGf6yOhUEeu9jKsR4AHy1A" name="RC_SRC_CNT_STRT_POS" prompt="RC_SRC_CNT_STRT_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_vGf6yehUEeu9jKsR4AHy1A" name="RC_SRC_CNT_END_POS" prompt="RC_SRC_CNT_END_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_vGf6yuhUEeu9jKsR4AHy1A" name="RC_SRC_MIN_CNT_STRT_POS" prompt="RC_SRC_MIN_CNT_STRT_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_vGf6y-hUEeu9jKsR4AHy1A" name="RC_SRC_MIN_CNT_END_POS" prompt="RC_SRC_MIN_CNT_END_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_vGf6zOhUEeu9jKsR4AHy1A" name="RC_SRC_MAX_CNT_STRT_POS" prompt="RC_SRC_MAX_CNT_STRT_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_vGf6zehUEeu9jKsR4AHy1A" name="RC_SRC_MAX_CNT_END_POS" prompt="RC_SRC_MAX_CNT_END_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_B6lnYPODEeu4APiGXd4scg" name="RC_THRSHLD_PERCENT" prompt="RC_THRSHLD_PERCENT?" promptNeeded="false" repositoryContextId="built-in" type="id_Double" value=""/>
+      <contextParameter comment="" internalId="_qBfJgAsWEeyxtLFPBKy9cQ" name="RC_RSLT_DESC" prompt="RC_RSLT_DESC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_N-DoEgsjEeyxtLFPBKy9cQ" name="RC_ABSOLUTE_FILE_NAME" prompt="RC_ABSOLUTE_FILE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_N-DoEwsjEeyxtLFPBKy9cQ" name="RC_ABSOLUTE_MNFST_FILE_NAME" prompt="RC_ABSOLUTE_MNFST_FILE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_GW6mIAAjEeycvIkTqE-2vA" name="AdditionalParams" prompt="AdditionalParams?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_GW6mIQAjEeycvIkTqE-2vA" name="Username" prompt="Username?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value="sqladmin"/>
+      <contextParameter comment="" internalId="_GW6mIgAjEeycvIkTqE-2vA" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value="1433"/>
+      <contextParameter comment="" internalId="_GW6mIwAjEeycvIkTqE-2vA" name="Schema" prompt="Schema?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value="dbo"/>
+      <contextParameter comment="" internalId="_GW6mJAAjEeycvIkTqE-2vA" name="Database" prompt="Database?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value="TalendMetadata"/>
+      <contextParameter comment="" internalId="_GW6mJQAjEeycvIkTqE-2vA" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value="arthasqldatabasedemo.database.windows.net"/>
+      <contextParameter comment="" internalId="_GW6mJgAjEeycvIkTqE-2vA" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_Password" value="enc:system.encryption.key.v1:n22R+llVJ8F0ZqKRaEs/NcSZSGNT71RBWtJVGTH+8RuZyTgXlsI="/>
+      <contextParameter comment="" internalId="_T935kDVhEeykwd_IpuljgA" name="BA_OUT_CODE" prompt="BA_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935kTVhEeykwd_IpuljgA" name="DF_OUT_CODE" prompt="DF_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935kjVhEeykwd_IpuljgA" name="DFC_OUT_CODE" prompt="DFC_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935kzVhEeykwd_IpuljgA" name="FA_OUT_CODE" prompt="FA_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935lDVhEeykwd_IpuljgA" name="FN_OUT_CODE" prompt="FN_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935lTVhEeykwd_IpuljgA" name="FS_OUT_CODE" prompt="FS_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935ljVhEeykwd_IpuljgA" name="MF_OUT_CODE" prompt="MF_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935lzVhEeykwd_IpuljgA" name="RC_OUT_CODE" prompt="RC_OUT_CODE?" promptNeeded="false" repositoryContextId="_cbbY4DVaEeyEf9ItI23Z1A" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_T935mDVhEeykwd_IpuljgA" name="validation" prompt="validation?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_l06wgT5dEeyFcZavnMV-2w" name="RC_ROW_SEPARATOR" prompt="RC_ROW_SEPARATOR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_77xBw1aZEeylfot_GL48Kg" name="RC_SCRIPT_OUTPUT_PATH" prompt="RC_SCRIPT_OUTPUT_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_77xBxFaZEeylfot_GL48Kg" name="RC_SCRIPT_OUTPUT_FILE" prompt="RC_SCRIPT_OUTPUT_FILE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_77xBxVaZEeylfot_GL48Kg" name="RC_SCRIPT_FILE_PATH" prompt="RC_SCRIPT_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_b-HQ8JR0EeyLf7K51W_QgA" name="RC_TGT_FILE_TAB_NAME" prompt="RC_TGT_FILE_TAB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_BV9_wJSXEeyLf7K51W_QgA" name="RC_SRC_COL_POS" prompt="RC_SRC_COL_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_BV9_wZSXEeyLf7K51W_QgA" name="RC_TGT_COL_POS" prompt="RC_TGT_COL_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_BV9_wpSXEeyLf7K51W_QgA" name="temp" prompt="temp?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value=""/>
+      <contextParameter comment="" internalId="_vEtWEZlQEeyz14ztTs9JRQ" name="RC_SRC_FILE_TAB_NAME" prompt="RC_SRC_FILE_TAB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_OkGMcfxqEeyG99FnszxaKg" name="seq" prompt="seq?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_6dPFgyrEEe297vf50VDnLQ" name="data" prompt="data?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_6dPFhCrEEe297vf50VDnLQ" name="max_iteration" prompt="max_iteration?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_6dPFhSrEEe297vf50VDnLQ" name="RC_SRC_MANIFEST_FL_NM_COL_POS" prompt="RC_SRC_MANIFEST_FL_NM_COL_POS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_2Oq4QS3CEe2G0fH5mu0Pwg" name="count" prompt="count?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_EQyTkDQjEe2-_tHbLJex9A" name="RC_SRC_MANIFEST_HDR_ROWS" prompt="RC_SRC_MANIFEST_HDR_ROWS?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_EQyTkTQjEe2-_tHbLJex9A" name="start" prompt="start?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+      <contextParameter comment="" internalId="_dy0XgjgBEe2DMYFyhRI-Jw" name="RC_SRC_MANIFEST_ABS_FL_NM_COL_PRESENT" prompt="RC_SRC_MANIFEST_ABS_FL_NM_COL_PRESENT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_dy0XgzgBEe2DMYFyhRI-Jw" name="RC_SRC_MANIFEST_FL_NM_COL_SPLITTER" prompt="RC_SRC_MANIFEST_FL_NM_COL_SPLITTER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+      <contextParameter comment="" internalId="_xUZGwUo2Ee2hZt6qDYf3jA" name="t" prompt="t?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    </context>
+    <parameters>
+      <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" show="false" value="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" show="false" value="25000"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/Users/U425219/workspace/in.csv&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+      <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:diSWAbXlFRvL2FHQZ8AalRUOsPXzctTKDifY/CRw"/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    </parameters>
+    <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+      <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RC_SRC_MANIFEST_FILEPATH"/>
+      <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+      <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+      <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="NO"/>
+      <elementParameter field="CHECK" name="ERROR" value="false"/>
+      <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+      <elementParameter field="TABLE" name="FILES">
+        <elementValue elementRef="FILEMASK" value="context.RC_SRC_MANIFEST_PATTERN"/>
+      </elementParameter>
+      <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+      <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+      <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+      <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+      <elementParameter field="TEXT" name="EXCLUDEFILEMASK" show="false" value="&quot;*.txt&quot;"/>
+      <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="LIST MANIFEST FILES"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    </node>
+    <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_1"/>
+      <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#10;      "/>
+      <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#10;// a piece of code executed in the row&#10;// loop\&#10;context.RC_SRC_FL_NM=((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;));&#10;context.JOB_RUL_EXEC_LOG_ID=(UUID.randomUUID()).toString();&#10;if(context.RC_ROW_SEPARATOR.length()==0)&#10;{&#10;context.RC_ROW_SEPARATOR=&quot;\n&quot;;&#10;}"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#10;      "/>
+      <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V4.0" show="false" value="true"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="LABEL" value="MANIFEST_FL_NM"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaFlex_1"/>
+    </node>
+    <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="288">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+      <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+      <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+      <elementParameter field="TABLE" name="VALUES">
+        <elementValue elementRef="SCHEMA_COLUMN" value="ITRTN_NBR"/>
+        <elementValue elementRef="VALUE" value="(context.RC_ITRTN_NBR++).toString()"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="RSLT_DESC"/>
+        <elementValue elementRef="VALUE" value="&quot;FAIL&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SRC_VAL_TXT"/>
+        <elementValue elementRef="VALUE" value="&quot;Manifest File is not found for pattern &quot;+context.RC_SRC_MANIFEST_PATTERN"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TGT_VAL_TXT"/>
+        <elementValue elementRef="VALUE" value="&quot;NA&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SRC_ASSET_TXT"/>
+        <elementValue elementRef="VALUE" value="&quot;Manifest File is not found for pattern &quot;+context.RC_SRC_MANIFEST_PATTERN"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TGT_ASSET_TXT"/>
+        <elementValue elementRef="VALUE" value="&quot;NA&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SRC_ASSET_TYP"/>
+        <elementValue elementRef="VALUE" value="&quot;Manifest File is not found for pattern &quot;+context.RC_SRC_MANIFEST_PATTERN"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TGT_ASSET_TYP"/>
+        <elementValue elementRef="VALUE" value="&quot;FILE&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="LST_UPDT_TS"/>
+        <elementValue elementRef="VALUE" value="TalendDate.getCurrentDate()"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="LST_UPDTD_BY"/>
+        <elementValue elementRef="VALUE" value="&quot;User&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DATA_PIPLN_JOB_RUL_PARM_ID"/>
+        <elementValue elementRef="VALUE" value="context.DATA_PIPLN_JOB_RUL_PARM_ID"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="JOB_EXEC_LOG_ID"/>
+        <elementValue elementRef="VALUE" value="context.JOB_EXEC_ID"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DATA_PIPLN_EXEC_LOG_ID"/>
+        <elementValue elementRef="VALUE" value="context.PIPLN_EXEC_ID"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="JOB_RUL_EXEC_LOG_ID"/>
+        <elementValue elementRef="VALUE" value="context.JOB_RUL_EXEC_LOG_ID"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="RUL_ID"/>
+        <elementValue elementRef="VALUE" value="context.RUL_ID"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SEQ_NBR"/>
+        <elementValue elementRef="VALUE" value="context.seq"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="CRTE_TS"/>
+        <elementValue elementRef="VALUE" value="TalendDate.getCurrentDate()"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="CRTE_BY"/>
+        <elementValue elementRef="VALUE" value="&quot;User&quot;"/>
+      </elementParameter>
+      <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+      <elementParameter field="TABLE" name="INTABLE" show="false"/>
+      <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFixedFlowInput_1">
+        <column comment="" key="false" length="256" name="ITRTN_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="RSLT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="LST_UPDT_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="LST_UPDTD_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="DATA_PIPLN_JOB_RUL_PARM_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="JOB_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="DATA_PIPLN_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="true" length="256" name="JOB_RUL_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="RUL_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="10" name="SEQ_NBR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="CRTE_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="CRTE_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+      </metadata>
+    </node>
+    <node componentName="tHashOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="288">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashOutput_1"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" value="tHashOutput_4"/>
+      <elementParameter field="CLOSED_LIST" name="DATA_WRITE_MODEL" show="false" value="MEMORY"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" show="false" value="&quot;C:/Users/U425219/workspace/in.hash&quot;"/>
+      <elementParameter field="TEXT" name="MEMORY_HEAP_MAX_SIZE" show="false" value="2"/>
+      <elementParameter field="CLOSED_LIST" name="KEYS_MANAGEMENT" show="false" value="KEEP_ALL"/>
+      <elementParameter field="CHECK" name="APPEND" show="false" value="true"/>
+      <elementParameter field="CHECK" name="HASH_KEY_FROM_INPUT_CONNECTOR" show="false" value="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tHashOutput_1">
+        <column comment="" key="false" length="256" name="ITRTN_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="RSLT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="LST_UPDT_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="LST_UPDTD_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="DATA_PIPLN_JOB_RUL_PARM_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="JOB_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="DATA_PIPLN_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="true" length="256" name="JOB_RUL_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="RUL_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="10" name="SEQ_NBR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="CRTE_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="CRTE_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+      </metadata>
+    </node>
+    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="288">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="context.JOB_RUL_EXEC_LOG_ID=(UUID.randomUUID()).toString();&#10;context.RC_RSLT_DESC=&quot;FAIL&quot;;&#10;context.TDIE_ERR_MSG=&quot;Failed -Manifest File Not Found&quot;;&#10;context.TDIE_CODE=3;&#10;"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJava_1"/>
+    </node>
+    <node componentName="tFileInputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputRaw_1"/>
+      <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+      <elementParameter field="RADIO" name="AS_STRING" value="true"/>
+      <elementParameter field="RADIO" name="AS_BYTEARRAY" value="false"/>
+      <elementParameter field="RADIO" name="AS_INPUTSTREAM" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFileInputRaw_1">
+        <column defaultValue="" key="false" length="0" name="content" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Object" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="992" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_2"/>
+      <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#10;      "/>
+      <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="String lines[] = row2.content.toString().split(&quot;\n|\r\n|\r&quot;);&#10;context.max_iteration=lines.length;&#10;context.data=row2.content.toString();&#10;if(Relational.ISNULL(context.data) || context.data.isEmpty()){&#10;System.out.println(&quot;Manifest file is empty.Please check&quot;);&#10;}&#10;if(Relational.ISNULL(context.RC_SRC_MANIFEST_HDR_ROWS)){&#10;context.start=0;&#10;}&#10;else{&#10;context.start=context.RC_SRC_MANIFEST_HDR_ROWS;&#10;}&#10;"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_END" value="&#9;// end of the component, outside/closing the loop&#10;      "/>
+      <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V4.0" show="false" value="true"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaFlex_2"/>
+    </node>
+    <node componentName="tLoop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLoop_1"/>
+      <elementParameter field="RADIO" name="FORLOOP" value="true"/>
+      <elementParameter field="RADIO" name="WHILELOOP" value="false"/>
+      <elementParameter field="TEXT" name="FROM" value="context.start"/>
+      <elementParameter field="TEXT" name="TO" value="context.max_iteration-1"/>
+      <elementParameter field="TEXT" name="STEP" value="1"/>
+      <elementParameter field="CHECK" name="INCREASE" value="true"/>
+      <elementParameter field="TEXT" name="DECLARATION" show="false" value="int i=0"/>
+      <elementParameter field="TEXT" name="CONDITION" show="false" value="i&lt;10"/>
+      <elementParameter field="TEXT" name="ITERATION" show="false" value="i++"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    </node>
+    <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_3"/>
+      <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#10;      "/>
+      <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="String lines[]=context.data.trim().split(&quot;\n|\r\n|\r&quot;);&#10;String manifest[] = lines[((Integer)globalMap.get(&quot;tLoop_1_CURRENT_VALUE&quot;))].split(&quot;[&quot;+context.RC_SRC_MANIFEST_COL_DELIMITER+&quot;]&quot;,0);&#10;if(context.RC_SRC_MANIFEST_FL_NM_COL_POS-1 &lt;=manifest.length &amp;&amp; context.RC_SRC_MANIFEST_REC_CNT_COL_POS-1 &lt;=manifest.length){&#10;&#9;if(manifest[context.RC_SRC_MANIFEST_REC_CNT_COL_POS-1].matches(&quot;[0-9]+&quot;)){&#10;&#9;&#9;context.RC_SRC_REC_CNT= Long.parseLong(manifest[context.RC_SRC_MANIFEST_REC_CNT_COL_POS-1]);&#10;&#9;}else{&#10;&#9;&#9;System.out.println(&quot;Unable to retrive Count value&quot;);&#10;&#9;&#9;context.RC_SRC_REC_CNT=0L;&#10;&#9;}&#10;&#9;if((!manifest[context.RC_SRC_MANIFEST_FL_NM_COL_POS-1].isEmpty() &amp;&amp; !Relational.ISNULL(manifest[context.RC_SRC_MANIFEST_FL_NM_COL_POS-1]))){&#10;&#9;&#9;if(!Relational.ISNULL(context.RC_SRC_MANIFEST_ABS_FL_NM_COL_PRESENT)&amp;&amp;!context.RC_SRC_MANIFEST_ABS_FL_NM_COL_PRESENT.isEmpty() &amp;&amp; context.RC_SRC_MANIFEST_ABS_FL_NM_COL_PRESENT.equalsIgnoreCase(&quot;YES&quot;)){&#10;&#9;&#9;&#9;context.RC_TGT_FL_NM=manifest[context.RC_SRC_MANIFEST_FL_NM_COL_POS-1];&#10;&#9;&#9;}&#10;&#9;&#9;else{&#10;&#9;&#9;&#9;if(!Relational.ISNULL(context.RC_SRC_MANIFEST_FL_NM_COL_SPLITTER)&amp;&amp;!context.RC_SRC_MANIFEST_FL_NM_COL_SPLITTER.isEmpty()){&#10;&#9;&#9;&#9;&#9;context.RC_TGT_FL_NM=&quot;*&quot;+context.RC_SRC_MANIFEST_FL_NM_COL_SPLITTER+manifest[context.RC_SRC_MANIFEST_FL_NM_COL_POS-1]+context.RC_SRC_MANIFEST_FL_NM_COL_SPLITTER+&quot;*&quot;;&#10;&#9;&#9;&#9;}else{&#10;&#9;&#9;&#9;&#9;context.RC_TGT_FL_NM=&quot;*&quot;+manifest[context.RC_SRC_MANIFEST_FL_NM_COL_POS-1]+&quot;*&quot;;&#10;&#9;&#9;&#9;}&#10;&#9;&#9;}&#10;&#9;}else{&#10;&#9;&#9;context.RC_TGT_FL_NM=&quot;&quot;;&#10;&#9;}&#10;}"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#10;      "/>
+      <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V4.0" show="false" value="true"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaFlex_3">
+        <column comment="" key="false" length="-1" name="filename" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="count" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFileRowCount" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1728" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileRowCount_1"/>
+      <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_2_CURRENT_FILEPATH&quot;))"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.RC_ROW_SEPARATOR"/>
+      <elementParameter field="CHECK" name="IGNORE_EMPTY_ROW" value="true"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFileRowCount_1"/>
+    </node>
+    <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1952" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_4"/>
+      <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#10;      "/>
+      <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="context.count=(Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;);&#10;if(Relational.ISNULL((Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;))){&#10;context.count=0;&#10;System.out.println(&quot;Unable to process the file.Considering the value as 0&quot;);&#10;}&#10;else{&#10;context.count=(Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;);&#10;}&#10;&#10;System.out.println(context.RC_TGT_REC_CNT);&#10;&#10;&#10;if(!Relational.ISNULL(context.RC_SRC_HDR_ROWS)&amp;&amp;!Relational.ISNULL(context.RC_SRC_TRAILER_ROWS)&amp;&amp;context.count&gt;=(context.RC_SRC_HDR_ROWS+context.RC_SRC_TRAILER_ROWS)){&#10;context.count=context.count-context.RC_SRC_HDR_ROWS-context.RC_SRC_TRAILER_ROWS;&#10;}&#10;else if(!Relational.ISNULL(context.RC_SRC_TRAILER_ROWS)&amp;&amp; context.count&gt;=context.RC_SRC_TRAILER_ROWS){&#10;context.count=context.count-context.RC_SRC_TRAILER_ROWS;&#10;}&#10;else if(!Relational.ISNULL(context.RC_SRC_HDR_ROWS)&amp;&amp;context.count&gt;=context.RC_SRC_HDR_ROWS){&#10;context.count=context.count-context.RC_SRC_HDR_ROWS;&#10;}&#10;else{&#10;context.count=context.count;&#10;}&#10;context.RC_TGT_REC_CNT=Long.parseLong((context.count).toString());&#10;System.out.println(&quot;Target count :&quot;+context.RC_TGT_REC_CNT);"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#10;      "/>
+      <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V4.0" show="false" value="true"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaFlex_4"/>
+    </node>
+    <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="2144" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_5"/>
+      <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#10;      "/>
+      <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="System.out.println(&quot;SRC COUNT: &quot;+context.RC_SRC_REC_CNT);&#10;System.out.println(&quot;TGT COUNT: &quot;+context.RC_TGT_REC_CNT);&#10;context.JOB_RUL_EXEC_LOG_ID=(UUID.randomUUID()).toString();&#10;if(context.RC_RSNBLTY_CHK.equalsIgnoreCase(&quot;YES&quot;))&#10;{&#10;&#9;&#10;&#9;if(!Relational.ISNULL(context.RC_THRSHLD_PERCENT))&#10;&#9;{&#10;&#9;&#9;System.out.println(&quot;Given Threshold Percentage Value: &quot;+context.RC_THRSHLD_PERCENT);&#10;&#9;&#9;double TGT_VAR = Mathematical.ABS(context.RC_TGT_REC_CNT-context.RC_SRC_REC_CNT)*100/context.RC_SRC_REC_CNT;&#10;&#9;&#9;System.out.println(&quot;TGT VARIANCE PERCENTAGE: &quot;+TGT_VAR);&#10;&#9;&#9;if(TGT_VAR&lt;=context.RC_THRSHLD_PERCENT)&#10;&#9;&#9;{&#10;&#9;&#9;&#9;context.RC_RSLT_DESC=&quot;PASS&quot;;&#10;&#9;&#9;}&#10;&#9;&#9;else&#10;&#9;&#9;{&#10;        &#9;context.RC_RSLT_DESC=&quot;FAIL&quot;;&#10;    &#9;}&#10;    }&#10;    else &#10;    {&#10;    &#9;System.out.println(&quot;Min Count: &quot;+context.RC_MIN_COUNT);&#10;    &#9;System.out.println(&quot;Max Count: &quot;+context.RC_MAX_COUNT);&#10;    &#9;if((!Relational.ISNULL(context.RC_MIN_COUNT) &amp;&amp; !Relational.ISNULL(context.RC_MAX_COUNT))&#10;        &amp;&amp; Mathematical.ABS(context.RC_SRC_REC_CNT-context.RC_TGT_REC_CNT) &gt;= context.RC_MIN_COUNT &amp;&amp;&#10;        Mathematical.ABS(context.RC_SRC_REC_CNT-context.RC_TGT_REC_CNT) &lt;= context.RC_MAX_COUNT)&#10;&#9;&#9;{&#10;        &#9;context.RC_RSLT_DESC=&quot;PASS&quot;;   &#10;    &#9;}&#10;&#9;&#9;else&#10;&#9;&#9;{&#10;        &#9;context.RC_RSLT_DESC=&quot;FAIL&quot;;&#10;    &#9;}&#10;    }&#10;}&#10;else&#10;{   &#10;    if(context.RC_SRC_REC_CNT.equals(context.RC_TGT_REC_CNT))&#10;&#9;{&#10;        context.RC_RSLT_DESC=&quot;PASS&quot;;&#10;    }&#10;&#9;else&#10;&#9;{&#10;        context.RC_RSLT_DESC=&quot;FAIL&quot;;&#10;    }&#10;}"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#10;      "/>
+      <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V4.0" show="false" value="true"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaFlex_5"/>
+    </node>
+    <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="2336" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+      <elementParameter field="EXTERNAL" name="MAP" value=""/>
+      <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+      <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+      <elementParameter field="IMAGE" name="PREVIEW" value="_mlnOECq0Ee297vf50VDnLQ-tMap_1-PREVIEW.bmp"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+      <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+      <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+      <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+      <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+      <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+      <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="MP"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="JOB_RUL_EXEC_LOG" name="Header">
+        <column comment="" key="false" length="256" name="ITRTN_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="RSLT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="LST_UPDT_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="LST_UPDTD_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="DATA_PIPLN_JOB_RUL_PARM_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="JOB_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="DATA_PIPLN_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="true" length="256" name="JOB_RUL_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="RUL_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="10" name="SEQ_NBR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="CRTE_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="CRTE_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+      </metadata>
+      <nodeData xsi:type="TalendMapper:MapperData">
+        <uiProperties/>
+        <varTables name="Var" sizeState="INTERMEDIATE">
+          <mapperTableEntries expression="context.RC_SRC_ASSET_TYP.equalsIgnoreCase(&quot;Manifest&quot;) ? context.RC_SRC_FL_NM : context.RC_TGT_FL_NM " name="SRC_ASSET_TXT" type="id_String"/>
+        </varTables>
+        <outputTables name="Header" sizeState="INTERMEDIATE">
+          <mapperTableEntries expression="(context.RC_ITRTN_NBR++).toString()" name="ITRTN_NBR" type="id_String"/>
+          <mapperTableEntries expression="context.RC_RSLT_DESC" name="RSLT_DESC" type="id_String"/>
+          <mapperTableEntries expression="context.RC_SRC_REC_CNT.toString()" name="SRC_VAL_TXT" type="id_String"/>
+          <mapperTableEntries expression="context.RC_TGT_REC_CNT.toString()" name="TGT_VAL_TXT" type="id_String"/>
+          <mapperTableEntries expression=" Var.SRC_ASSET_TXT " name="SRC_ASSET_TXT" type="id_String"/>
+          <mapperTableEntries expression="context.RC_TGT_FL_NM" name="TGT_ASSET_TXT" type="id_String"/>
+          <mapperTableEntries expression="context.RC_SRC_ASSET_TYP" name="SRC_ASSET_TYP" type="id_String"/>
+          <mapperTableEntries expression="context.RC_TGT_DATA_FILE_TYPE" name="TGT_ASSET_TYP" type="id_String"/>
+          <mapperTableEntries expression="TalendDate.getCurrentDate() " name="LST_UPDT_TS" type="id_Date"/>
+          <mapperTableEntries expression="context.UPDTD_BY" name="LST_UPDTD_BY" type="id_String"/>
+          <mapperTableEntries expression="context.DATA_PIPLN_JOB_RUL_PARM_ID" name="DATA_PIPLN_JOB_RUL_PARM_ID" type="id_Long"/>
+          <mapperTableEntries expression="context.JOB_EXEC_ID" name="JOB_EXEC_LOG_ID" type="id_String"/>
+          <mapperTableEntries expression="context.PIPLN_EXEC_ID" name="DATA_PIPLN_EXEC_LOG_ID" type="id_String"/>
+          <mapperTableEntries expression="context.JOB_RUL_EXEC_LOG_ID" name="JOB_RUL_EXEC_LOG_ID" type="id_String"/>
+          <mapperTableEntries expression="context.RUL_ID" name="RUL_ID" type="id_Long"/>
+          <mapperTableEntries expression="context.seq" name="SEQ_NBR" type="id_Integer"/>
+          <mapperTableEntries expression="TalendDate.getCurrentDate() " name="CRTE_TS" type="id_Date"/>
+          <mapperTableEntries expression="context.CRTE_BY" name="CRTE_BY" type="id_String"/>
+        </outputTables>
+        <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row9" sizeState="INTERMEDIATE"/>
+      </nodeData>
+    </node>
+    <node componentName="tHashOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="2464" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashOutput_2"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" value="tHashOutput_4"/>
+      <elementParameter field="CLOSED_LIST" name="DATA_WRITE_MODEL" show="false" value="MEMORY"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" show="false" value="&quot;C:/Users/U425219/workspace/in.hash&quot;"/>
+      <elementParameter field="TEXT" name="MEMORY_HEAP_MAX_SIZE" show="false" value="2"/>
+      <elementParameter field="CLOSED_LIST" name="KEYS_MANAGEMENT" show="false" value="KEEP_ALL"/>
+      <elementParameter field="CHECK" name="APPEND" show="false" value="true"/>
+      <elementParameter field="CHECK" name="HASH_KEY_FROM_INPUT_CONNECTOR" show="false" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="JOB_RUL_EXEC_LOG"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tHashOutput_2">
+        <column comment="" key="false" length="256" name="ITRTN_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="RSLT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="LST_UPDT_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="LST_UPDTD_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="DATA_PIPLN_JOB_RUL_PARM_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="JOB_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="DATA_PIPLN_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="true" length="256" name="JOB_RUL_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="RUL_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="10" name="SEQ_NBR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="CRTE_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="CRTE_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+      </metadata>
+    </node>
+    <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_2"/>
+      <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RC_TGT_FILE_PATH"/>
+      <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+      <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+      <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+      <elementParameter field="CHECK" name="ERROR" value="false"/>
+      <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+      <elementParameter field="TABLE" name="FILES">
+        <elementValue elementRef="FILEMASK" value="&quot;*&quot;+context.RC_TGT_FL_NM+&quot;*&quot;"/>
+      </elementParameter>
+      <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+      <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+      <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+      <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+      <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+      <elementParameter field="TEXT" name="EXCLUDEFILEMASK" show="false" value="&quot;*.txt&quot;"/>
+      <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="LIST FILES"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    </node>
+    <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1568" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_6"/>
+      <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#10;      "/>
+      <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#10;// a piece of code executed in the row&#10;// loop&#10;context.RC_TGT_FL_NM=((String)globalMap.get(&quot;tFileList_2_CURRENT_FILE&quot;));&#10;if(context.RC_ROW_SEPARATOR.length()==0)&#10;{&#10;context.RC_ROW_SEPARATOR=&quot;\n&quot;;&#10;}&#10;&#10;"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#10;      "/>
+      <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V4.0" show="false" value="true"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="LABEL" value="TGT_FL_NM"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaFlex_6"/>
+    </node>
+    <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="352">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_7"/>
+      <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#10;      "/>
+      <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#10;// a piece of code executed in the row&#10;// loop&#10;context.JOB_RUL_EXEC_LOG_ID=(UUID.randomUUID()).toString();&#10;context.RC_RSLT_DESC=&quot;FAIL&quot;;&#10;context.t++;&#10;context.TDIE_ERR_MSG=&quot;FAIL&quot;;&#10;context.TDIE_CODE=1;"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#10;      "/>
+      <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V4.0" show="false" value="true"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="LABEL" value="CREATE EXEC ID"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaFlex_7"/>
+    </node>
+    <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1632" posY="352">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_2"/>
+      <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+      <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+      <elementParameter field="TABLE" name="VALUES">
+        <elementValue elementRef="SCHEMA_COLUMN" value="ITRTN_NBR"/>
+        <elementValue elementRef="VALUE" value="(context.RC_ITRTN_NBR++).toString()"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="RSLT_DESC"/>
+        <elementValue elementRef="VALUE" value="&quot;FAIL&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SRC_VAL_TXT"/>
+        <elementValue elementRef="VALUE" value="&quot;NA&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TGT_VAL_TXT"/>
+        <elementValue elementRef="VALUE" value="&quot;Data File is not found for pattern &quot;+context.RC_TGT_FL_NM"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SRC_ASSET_TXT"/>
+        <elementValue elementRef="VALUE" value="&quot;NA&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TGT_ASSET_TXT"/>
+        <elementValue elementRef="VALUE" value="&quot;Data File is not found for pattern &quot;+context.RC_TGT_FL_NM"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SRC_ASSET_TYP"/>
+        <elementValue elementRef="VALUE" value="context.RC_SRC_ASSET_TYP"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TGT_ASSET_TYP"/>
+        <elementValue elementRef="VALUE" value="&quot;Data File is not found for pattern &quot;+context.RC_TGT_FL_NM"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="LST_UPDT_TS"/>
+        <elementValue elementRef="VALUE" value="TalendDate.getCurrentDate()"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="LST_UPDTD_BY"/>
+        <elementValue elementRef="VALUE" value="&quot;User&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DATA_PIPLN_JOB_RUL_PARM_ID"/>
+        <elementValue elementRef="VALUE" value="context.DATA_PIPLN_JOB_RUL_PARM_ID"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="JOB_EXEC_LOG_ID"/>
+        <elementValue elementRef="VALUE" value="context.JOB_EXEC_ID"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DATA_PIPLN_EXEC_LOG_ID"/>
+        <elementValue elementRef="VALUE" value="context.PIPLN_EXEC_ID"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="JOB_RUL_EXEC_LOG_ID"/>
+        <elementValue elementRef="VALUE" value="context.JOB_RUL_EXEC_LOG_ID"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="RUL_ID"/>
+        <elementValue elementRef="VALUE" value="context.RUL_ID"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SEQ_NBR"/>
+        <elementValue elementRef="VALUE" value="context.seq"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="CRTE_TS"/>
+        <elementValue elementRef="VALUE" value="TalendDate.getCurrentDate()"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="CRTE_BY"/>
+        <elementValue elementRef="VALUE" value="&quot;User&quot;"/>
+      </elementParameter>
+      <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+      <elementParameter field="TABLE" name="INTABLE" show="false"/>
+      <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFixedFlowInput_2">
+        <column comment="" key="false" length="256" name="ITRTN_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="RSLT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="LST_UPDT_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="LST_UPDTD_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="DATA_PIPLN_JOB_RUL_PARM_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="JOB_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="DATA_PIPLN_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="true" length="256" name="JOB_RUL_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="RUL_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="10" name="SEQ_NBR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="CRTE_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="CRTE_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+      </metadata>
+    </node>
+    <node componentName="tHashOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1792" posY="352">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashOutput_3"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" value="tHashOutput_4"/>
+      <elementParameter field="CLOSED_LIST" name="DATA_WRITE_MODEL" show="false" value="MEMORY"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" show="false" value="&quot;C:/Users/U425219/workspace/in.hash&quot;"/>
+      <elementParameter field="TEXT" name="MEMORY_HEAP_MAX_SIZE" show="false" value="2"/>
+      <elementParameter field="CLOSED_LIST" name="KEYS_MANAGEMENT" show="false" value="KEEP_ALL"/>
+      <elementParameter field="CHECK" name="APPEND" show="false" value="true"/>
+      <elementParameter field="CHECK" name="HASH_KEY_FROM_INPUT_CONNECTOR" show="false" value="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tHashOutput_3">
+        <column comment="" key="false" length="256" name="ITRTN_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="RSLT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="LST_UPDT_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="LST_UPDTD_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="DATA_PIPLN_JOB_RUL_PARM_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="JOB_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="DATA_PIPLN_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="true" length="256" name="JOB_RUL_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="RUL_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="10" name="SEQ_NBR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="CRTE_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="CRTE_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+      </metadata>
+    </node>
+    <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_3"/>
+      <elementParameter field="TEXT" name="NB_ROWS" value="0"/>
+      <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+      <elementParameter field="TABLE" name="VALUES">
+        <elementValue elementRef="SCHEMA_COLUMN" value="ITRTN_NBR"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="RSLT_DESC"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SRC_VAL_TXT"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TGT_VAL_TXT"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SRC_ASSET_TXT"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TGT_ASSET_TXT"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SRC_ASSET_TYP"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="TGT_ASSET_TYP"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="LST_UPDT_TS"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="LST_UPDTD_BY"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DATA_PIPLN_JOB_RUL_PARM_ID"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="JOB_EXEC_LOG_ID"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DATA_PIPLN_EXEC_LOG_ID"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="JOB_RUL_EXEC_LOG_ID"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="RUL_ID"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SEQ_NBR"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="CRTE_TS"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="CRTE_BY"/>
+        <elementValue elementRef="VALUE" value=""/>
+      </elementParameter>
+      <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+      <elementParameter field="TABLE" name="INTABLE" show="false"/>
+      <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFixedFlowInput_3">
+        <column comment="" key="false" length="256" name="ITRTN_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="RSLT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="LST_UPDT_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="LST_UPDTD_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="DATA_PIPLN_JOB_RUL_PARM_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="JOB_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="DATA_PIPLN_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="true" length="256" name="JOB_RUL_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="RUL_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="10" name="SEQ_NBR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="CRTE_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="CRTE_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+      </metadata>
+    </node>
+    <node componentName="tHashOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHashOutput_4"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="false"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" show="false" value=""/>
+      <elementParameter field="CLOSED_LIST" name="DATA_WRITE_MODEL" value="MEMORY"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" show="false" value="&quot;C:/Users/U425219/workspace/in.hash&quot;"/>
+      <elementParameter field="TEXT" name="MEMORY_HEAP_MAX_SIZE" show="false" value="2"/>
+      <elementParameter field="CLOSED_LIST" name="KEYS_MANAGEMENT" value="KEEP_ALL"/>
+      <elementParameter field="CHECK" name="APPEND" value="true"/>
+      <elementParameter field="CHECK" name="HASH_KEY_FROM_INPUT_CONNECTOR" show="false" value="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tHashOutput_4">
+        <column comment="" key="false" length="256" name="ITRTN_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="RSLT_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_VAL_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TXT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="SRC_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="TGT_ASSET_TYP" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="LST_UPDT_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="LST_UPDTD_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="DATA_PIPLN_JOB_RUL_PARM_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="JOB_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="256" name="DATA_PIPLN_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="true" length="256" name="JOB_RUL_EXEC_LOG_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="19" name="RUL_ID" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="10" name="SEQ_NBR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="CRTE_TS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="CRTE_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+      </metadata>
+    </node>
+    <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="2624" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_8"/>
+      <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#10;      "/>
+      <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#10;// a piece of code executed in the row&#10;// loop&#10;if(context.RC_RSLT_DESC.equals(&quot;FAIL&quot;))&#10;{&#10;context.t++;&#10;}&#10;&#10;if(context.t==0&amp;&amp;context.RC_RSLT_DESC.equals(&quot;PASS&quot;))&#10;{&#10;context.TDIE_ERR_MSG=&quot;PASS&quot;;&#10;context.TDIE_CODE=0;&#10;}&#10;else&#10;{&#10;context.TDIE_ERR_MSG=&quot;FAIL&quot;;&#10;context.TDIE_CODE=1;&#10;}"/>
+      <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#10;      "/>
+      <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
+      <elementParameter field="CHECK" name="Version_V4.0" show="false" value="true"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaFlex_8"/>
+    </node>
+    <connection connectorName="RUN_IF" label="MANIFEST_NOT_FOUND" lineStyle="6" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tJava_1">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Integer)globalMap.get(&quot;tFileList_1_NB_FILE&quot;))==0"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="MANIFEST_NOT_FOUND"/>
+    </connection>
+    <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tJavaFlex_1">
+      <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+      <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate2"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="CTRL_DELIMITED" lineStyle="6" metaname="tJavaFlex_1" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_1" target="tFileInputRaw_1">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.RC_SRC_MANIFEST_FORMAT.equalsIgnoreCase(&quot;delimited&quot;)"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="CTRL_DELIMITED"/>
+    </connection>
+    <connection connectorName="FLOW" label="row20" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tHashOutput_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row20"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tFixedFlowInput_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="TRIGGER_INPUT_1" offsetLabelX="0" offsetLabelY="0" source="TRIGGER_INPUT_1" target="tFixedFlowInput_3">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+    </connection>
+    <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tFileInputRaw_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputRaw_1" target="tJavaFlex_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJavaFlex_2" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_2" target="tLoop_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk4"/>
+    </connection>
+    <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tLoop_1" offsetLabelX="0" offsetLabelY="0" source="tLoop_1" target="tJavaFlex_3">
+      <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+      <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate3"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJavaFlex_3" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_3" target="tFileList_2">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk8"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileRowCount_1" offsetLabelX="0" offsetLabelY="0" source="tFileRowCount_1" target="tJavaFlex_4">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk7"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJavaFlex_4" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_4" target="tJavaFlex_5">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk11"/>
+    </connection>
+    <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tJavaFlex_5" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_5" target="tMap_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row9"/>
+    </connection>
+    <connection connectorName="FLOW" label="Header" lineStyle="0" metaname="Header" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tHashOutput_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Header"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tHashOutput_2" offsetLabelX="0" offsetLabelY="0" source="tHashOutput_2" target="tJavaFlex_8">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk17"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="FILE_NOT_FOUND" lineStyle="6" metaname="tFileList_2" offsetLabelX="0" offsetLabelY="0" source="tFileList_2" target="tJavaFlex_7">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Integer)globalMap.get(&quot;tFileList_2_NB_FILE&quot;))==0"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="FILE_NOT_FOUND"/>
+    </connection>
+    <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_2" offsetLabelX="0" offsetLabelY="0" source="tFileList_2" target="tJavaFlex_6">
+      <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+      <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate4"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJavaFlex_6" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_6" target="tFileRowCount_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk15"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJavaFlex_7" offsetLabelX="11" offsetLabelY="0" source="tJavaFlex_7" target="tFixedFlowInput_2">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk12"/>
+    </connection>
+    <connection connectorName="FLOW" label="row21" lineStyle="0" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tHashOutput_3">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row21"/>
+    </connection>
+    <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_3" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_3" target="tHashOutput_4">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tHashOutput_4" offsetLabelX="0" offsetLabelY="0" source="tHashOutput_4" target="tFileList_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk16"/>
+    </connection>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="LIST MANIFEST/CTRL FILES"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="MANIFEST/CTRL FILES NOT FOUND"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TRIGGER_INPUT_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputRaw_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="MANIFEST : DELIMITED"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLoop_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileRowCount_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_4"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_5"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_2"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_7"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_2"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_3"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="HASH Initialization"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_8"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <jobletNodes componentName="TRIGGER_INPUT" componentVersion="0.1" input="true" offsetLabelX="0" offsetLabelY="0" posX="64" posY="96" trigger="true">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_INPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </jobletNodes>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d20a8bcc-d534-43f5-996b-59b4e2b31756"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Oj3gRC2OrH537LMLTcZTou6rm46wT+VMBQ2NgEIBi3FNgb4Zly6UVKgpXTiPEIpD++Tetjpbd4fS&#13;
+5XxhTna8wQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8303ef1c-2864-4869-a21f-7a290d80e97e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CqEenCd40t9VqBWK6QGp4e0TrXM/adxJB3PclSqq2qHxOm8qIj4YriCBEkOUnL+Jx9/jtXjlKOTj&#13;
+SyMtR5qEZg==</DigestValue></Reference></SignedInfo><SignatureValue>HWa8AhYJAjEQSWPdugbzYf03NIZrM/7H1FWrTa7VyFj6sxR/xJcS8527nAymt9LGCAUxeOgD/E0c&#13;
+MUbJ6Pp8LoMpSgckPNXMJ8K0MN1+4LLaGZ3ZheeVWiJk2cwBmha07wxeKq4/kvwgB1krLvjktNcE&#13;
+Pfcsvk5u25GdoeXnVazBMwzx9fHMjRhd6OD8u9rQlxzhnGuyLi9Cq0jgaonXOCz7Y98BkiQyLI6x&#13;
+XWlDG0TB56icovJ+YIh4sF1jxn4EmMmz4V2K8DIWRBt97G0FwXi03lXdpz2VcOdu8yaEzf8ZtQRN&#13;
+8wTeZU1TCb8mUD6SxmosJjAVK2gAajRQcrbMVw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8303ef1c-2864-4869-a21f-7a290d80e97e" Target="#_d20a8bcc-d534-43f5-996b-59b4e2b31756"><Timestamp>2024-09-25 09:59:18</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

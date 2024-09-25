@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_a7WP8dPjEeu_qseiYRB85A" xmi:version="2.0">
+  <contextParameter comment="" name="FS_SRC_DIR" prompt="FS_SRC_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9SJoNPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_FILE_PTRN" prompt="FS_FILE_PTRN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9SJodPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_HDR_FRMT" prompt="FS_HDR_FRMT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9SJo9PjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_HDR_DELIMITER" prompt="FS_HDR_DELIMITER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9SJpNPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_HDR_COL" prompt="FS_HDR_COL?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_a9SJpdPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_HDR_ROW" prompt="FS_HDR_ROW?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_a9SJptPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_FTR_FRMT" prompt="FS_FTR_FRMT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9SJqNPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_FTR_DELIMITER" prompt="FS_FTR_DELIMITER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9SJqdPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_FTR_COL" prompt="FS_FTR_COL?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_a9SJqtPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_FTR_ROW" prompt="FS_FTR_ROW?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_a9SJq9PjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_CTRL_DIR" prompt="FS_CTRL_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9SJrdPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_CTRL_PTRN" prompt="FS_CTRL_PTRN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9SJrtPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_CTRL_FRMT" prompt="FS_CTRL_FRMT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9SJr9PjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_CTRL_DELIMITER" prompt="FS_CTRL_DELIMITER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9SJsNPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_CTRL_COL" prompt="FS_CTRL_COL?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_a9SJsdPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_CTRL_TGT_FN" prompt="FS_CTRL_TGT_FN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_a9SJstPjEeu_qseiYRB85A"/>
+  <contextParameter comment="" name="FS_ACTUAL_FS" prompt="FS_ACTUAL_FS?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_y0ee4NP8EeuduMrZ_BX0Bg"/>
+  <contextParameter comment="" name="FS_TARGET_FS" prompt="FS_TARGET_FS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_COh8oNP-EeuduMrZ_BX0Bg"/>
+  <contextParameter comment="" name="FS_CTRL_XPath_Query" prompt="FS_CTRL_XPath_Query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_CLBVsNWrEeunqfRW_Hf-DA"/>
+  <contextParameter comment="" name="FS_CTRL_Loop_XPath_Query" prompt="FS_CTRL_Loop_XPath_Query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_CLBVsdWrEeunqfRW_Hf-DA"/>
+  <contextParameter comment="" name="FS_CTRL_Json_query" prompt="FS_CTRL_Json_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_CLBVstWrEeunqfRW_Hf-DA"/>
+  <contextParameter comment="" name="FS_CTRL_Loop_Json_query" prompt="FS_CTRL_Loop_Json_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_CLBVs9WrEeunqfRW_Hf-DA"/>
+  <contextParameter comment="" name="FS_ITRN_NBR" prompt="FS_ITRN_NBR?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0" xmi:id="_Lq9a4NWrEeunqfRW_Hf-DA"/>
+  <contextParameter comment="" name="FS_MIN_COUNT_COL" prompt="FS_MIN_COUNT_COL?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_Z_FDkNfWEeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_MAX_COUNT_COL" prompt="FS_MAX_COUNT_COL?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_Z_FDkdfWEeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_MIN_COUNT" prompt="FS_MIN_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_41kPkNfWEeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_MAX_COUNT" prompt="FS_MAX_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_41kPkdfWEeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_MIN_XPath_Query" prompt="FS_MIN_XPath_Query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_UDRdYNffEeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_MAX_XPath_Query" prompt="FS_MAX_XPath_Query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_UDRdYdffEeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_MIN_Json_query" prompt="FS_MIN_Json_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_UDRdYtffEeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_MAX_Json_query" prompt="FS_MAX_Json_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_UDRdY9ffEeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_SRC_XPath_Query" prompt="FS_SRC_XPath_Query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_TH9lgNf8Eeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_SRC_Loop_XPath_Query" prompt="FS_SRC_Loop_XPath_Query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_TH9lgdf8Eeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_SRC_Json_query" prompt="FS_SRC_Json_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_TH9lgtf8Eeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_SRC_Loop_Json_query" prompt="FS_SRC_Loop_Json_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_TH9lg9f8Eeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_TYP_CHK" prompt="FS_TYP_CHK?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_OFfqANgkEeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_CTRL_XPath_Query_FN" prompt="FS_CTRL_XPath_Query_FN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_p9BbANinEeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_CTRL_Json_query_FN" prompt="FS_CTRL_Json_query_FN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_j8fmgNioEeumq7rc_KDnDA"/>
+  <contextParameter comment="" name="FS_SRC_FILENAME" prompt="FS_SRC_FILENAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_UkwBAPtFEeuvvedJmgHAjg"/>
+  <contextParameter comment="" name="FS_SRC_SZ" prompt="FS_SRC_SZ?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_UkwBAftFEeuvvedJmgHAjg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1f992e2a-4360-4c6e-b9ca-d692939231e8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3hNNy1iBsY5oCW/OPBmKCugVQEvWz3XKJngcxtGvaWN3oE+aL1PT+ozw3weTdLlBETTA37uvYcCi&#13;
+BYXYhdgpHA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4d7c57f2-1f5a-4a4d-ad31-07252e872816"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>btlpZP4Memy9V1sj6ZyeLkWoGHaWf29y/sRb09sWqqcPRS/ysPZ6dkjYgzlUjq3JWI3UueHML3X7&#13;
+ylfuDcM6kA==</DigestValue></Reference></SignedInfo><SignatureValue>pXNwulma8tE7eU+gHOZ3UUWmOv59rLvHPM8TC3xwiYc/D/vdpZA42EcgBcNmHV0bzcFl9d+11m59&#13;
+8UAM4W0JCjuAIyQJLOeEU6ccxPl9XUrH0AzDtl9jI3s1N1Lrl0NKCwacNZxC3qwqnmyvLUVU8qgH&#13;
+At/QybjPDEq+S0LEGpEok8x0rIvCSAygq9wVILU/ja+Y0k4NexZfnf4UFvUDnbFCXJMqRMsNe0XY&#13;
+PjwkfFXfFCedEpti0iHKXQC9hMCNqr9NjEwdr1x+uHuHUmd+s2I9oqukjCzNLdsyy8J4k9xDVS1i&#13;
+2a44KtEvY5j8QXA6I7DeQhj0Egv7XAm1XA+EBA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4d7c57f2-1f5a-4a4d-ad31-07252e872816" Target="#_1f992e2a-4360-4c6e-b9ca-d692939231e8"><Timestamp>2024-09-25 09:59:14</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>

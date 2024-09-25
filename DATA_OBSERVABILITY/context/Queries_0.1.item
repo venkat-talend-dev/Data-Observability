@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_xf54gNXdEeyV95QwGCVc2w">
+    <contextParameter comment="" name="query_personal" prompt="query_personal?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54gdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_sourcesystem" prompt="query_sourcesystem?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54gtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hobby" prompt="query_hobby?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54g9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_emedia" prompt="query_emedia?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54hNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_phone" prompt="query_phone?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54hdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_address" prompt="query_address?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54htXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_optin" prompt="query_optin?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54h9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_crossbrandoptin" prompt="query_crossbrandoptin?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54iNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_customattribute" prompt="query_customattribute?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54idXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_auxiliaryattribute" prompt="query_auxiliaryattribute?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54itXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairtype" prompt="query_hairtype?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54i9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_makeupconcerns" prompt="query_makeupconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54jNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairconcerns" prompt="query_hairconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54jdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_skinconcerns" prompt="query_skinconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54jtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_terms" prompt="query_terms?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54j9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_consumergroup" prompt="query_consumergroup?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54kNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_remark" prompt="query_remark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54kdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notes" prompt="query_notes?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54ktXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_program" prompt="query_program?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54k9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_header" prompt="query_header?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54lNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_union_l2_l3" prompt="query_union_l2_l3?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54ldXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_cbr" prompt="query_cbr?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54ltXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_beautyconcerns" prompt="query_beautyconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54l9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derived_city_prov" prompt="query_derived_city_prov?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54mNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derived_location" prompt="query_derived_location?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54mdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_china_cust_attr" prompt="query_china_cust_attr?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54mtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_get_exist_phno" prompt="query_get_exist_phno?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54m9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_rcountry" prompt="query_rcountry?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54nNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_aux" prompt="query_scflag_aux?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54ndXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_china" prompt="query_scflag_china?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54ntXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_mobile_count_check" prompt="query_scflag_mobile_count_check?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54n9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_nonchina" prompt="query_scflag_nonchina?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54oNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derivedlocation_raymark" prompt="query_derivedlocation_raymark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54odXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derivedlocation_nonraymark" prompt="query_derivedlocation_nonraymark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54otXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_rejects" prompt="query_rejects?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54o9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_emedia_delete" prompt="query_emedia_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54pNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_phone_delete" prompt="query_phone_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54pdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_address_delete" prompt="query_address_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54ptXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_optin_delete" prompt="query_optin_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54p9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_crossbrandoptin_delete" prompt="query_crossbrandoptin_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54qNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_auxiliaryattribute_delete" prompt="query_auxiliaryattribute_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54qdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_program_delete" prompt="query_program_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54qtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_beautyconcerns_delete" prompt="query_beautyconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54q9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_customattribute_delete" prompt="query_customattribute_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54rNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_consumergroup_delete" prompt="query_consumergroup_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54rdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairtype_delete" prompt="query_hairtype_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54rtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hobby_delete" prompt="query_hobby_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54r9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notes_delete" prompt="query_notes_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54sNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_remark_delete" prompt="query_remark_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54sdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_terms_delete" prompt="query_terms_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54stXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairconcerns_delete" prompt="query_hairconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54s9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_makeupconcerns_delete" prompt="query_makeupconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54tNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_skinconcerns_delete" prompt="query_skinconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54tdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notification" prompt="query_notification?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54ttXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_resumenode" prompt="query_resumenode?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54t9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_planID" prompt="query_planID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54uNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_planPartID" prompt="query_planPartID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54udXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_planID" prompt="query_ATO_planID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54utXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_resumenode" prompt="query_ATO_resumenode?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54u9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_planPartID" prompt="query_ATO_planPartID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54vNXdEeyV95QwGCVc2w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_xf54vdXdEeyV95QwGCVc2w">
+    <contextParameter comment="" name="query_personal" prompt="query_personal?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54vtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_sourcesystem" prompt="query_sourcesystem?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54v9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hobby" prompt="query_hobby?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54wNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_emedia" prompt="query_emedia?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54wdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_phone" prompt="query_phone?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54wtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_address" prompt="query_address?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54w9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_optin" prompt="query_optin?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54xNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_crossbrandoptin" prompt="query_crossbrandoptin?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54xdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_customattribute" prompt="query_customattribute?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54xtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_auxiliaryattribute" prompt="query_auxiliaryattribute?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54x9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairtype" prompt="query_hairtype?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54yNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_makeupconcerns" prompt="query_makeupconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54ydXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairconcerns" prompt="query_hairconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54ytXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_skinconcerns" prompt="query_skinconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54y9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_terms" prompt="query_terms?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54zNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_consumergroup" prompt="query_consumergroup?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54zdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_remark" prompt="query_remark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54ztXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notes" prompt="query_notes?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54z9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_program" prompt="query_program?" promptNeeded="false" type="id_String" value="" xmi:id="_xf540NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_header" prompt="query_header?" promptNeeded="false" type="id_String" value="" xmi:id="_xf540dXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_union_l2_l3" prompt="query_union_l2_l3?" promptNeeded="false" type="id_String" value="" xmi:id="_xf540tXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_cbr" prompt="query_cbr?" promptNeeded="false" type="id_String" value="" xmi:id="_xf5409XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_beautyconcerns" prompt="query_beautyconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf541NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derived_city_prov" prompt="query_derived_city_prov?" promptNeeded="false" type="id_String" value="" xmi:id="_xf541dXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derived_location" prompt="query_derived_location?" promptNeeded="false" type="id_String" value="" xmi:id="_xf541tXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_china_cust_attr" prompt="query_china_cust_attr?" promptNeeded="false" type="id_String" value="" xmi:id="_xf5419XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_get_exist_phno" prompt="query_get_exist_phno?" promptNeeded="false" type="id_String" value="" xmi:id="_xf542NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_rcountry" prompt="query_rcountry?" promptNeeded="false" type="id_String" value="" xmi:id="_xf542dXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_aux" prompt="query_scflag_aux?" promptNeeded="false" type="id_String" value="" xmi:id="_xf542tXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_china" prompt="query_scflag_china?" promptNeeded="false" type="id_String" value="" xmi:id="_xf5429XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_mobile_count_check" prompt="query_scflag_mobile_count_check?" promptNeeded="false" type="id_String" value="" xmi:id="_xf543NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_nonchina" prompt="query_scflag_nonchina?" promptNeeded="false" type="id_String" value="" xmi:id="_xf543dXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derivedlocation_raymark" prompt="query_derivedlocation_raymark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf543tXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derivedlocation_nonraymark" prompt="query_derivedlocation_nonraymark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf5439XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_rejects" prompt="query_rejects?" promptNeeded="false" type="id_String" value="" xmi:id="_xf544NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_emedia_delete" prompt="query_emedia_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf544dXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_phone_delete" prompt="query_phone_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf544tXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_address_delete" prompt="query_address_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf5449XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_optin_delete" prompt="query_optin_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf545NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_crossbrandoptin_delete" prompt="query_crossbrandoptin_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf545dXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_auxiliaryattribute_delete" prompt="query_auxiliaryattribute_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf545tXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_program_delete" prompt="query_program_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf5459XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_beautyconcerns_delete" prompt="query_beautyconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf546NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_customattribute_delete" prompt="query_customattribute_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf546dXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_consumergroup_delete" prompt="query_consumergroup_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf546tXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairtype_delete" prompt="query_hairtype_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf5469XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hobby_delete" prompt="query_hobby_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf547NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notes_delete" prompt="query_notes_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf547dXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_remark_delete" prompt="query_remark_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf547tXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_terms_delete" prompt="query_terms_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf5479XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairconcerns_delete" prompt="query_hairconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf548NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_makeupconcerns_delete" prompt="query_makeupconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf548dXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_skinconcerns_delete" prompt="query_skinconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf548tXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notification" prompt="query_notification?" promptNeeded="false" type="id_String" value="" xmi:id="_xf5489XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_resumenode" prompt="query_resumenode?" promptNeeded="false" type="id_String" value="" xmi:id="_xf549NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_planID" prompt="query_planID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf549dXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_planPartID" prompt="query_planPartID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf549tXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_planID" prompt="query_ATO_planID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf5499XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_resumenode" prompt="query_ATO_resumenode?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54-NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_planPartID" prompt="query_ATO_planPartID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54-dXdEeyV95QwGCVc2w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_xf54-tXdEeyV95QwGCVc2w">
+    <contextParameter comment="" name="query_personal" prompt="query_personal?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54-9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_sourcesystem" prompt="query_sourcesystem?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54_NXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hobby" prompt="query_hobby?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54_dXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_emedia" prompt="query_emedia?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54_tXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_phone" prompt="query_phone?" promptNeeded="false" type="id_String" value="" xmi:id="_xf54_9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_address" prompt="query_address?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ANXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_optin" prompt="query_optin?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55AdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_crossbrandoptin" prompt="query_crossbrandoptin?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55AtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_customattribute" prompt="query_customattribute?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55A9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_auxiliaryattribute" prompt="query_auxiliaryattribute?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55BNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairtype" prompt="query_hairtype?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55BdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_makeupconcerns" prompt="query_makeupconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55BtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairconcerns" prompt="query_hairconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55B9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_skinconcerns" prompt="query_skinconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55CNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_terms" prompt="query_terms?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55CdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_consumergroup" prompt="query_consumergroup?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55CtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_remark" prompt="query_remark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55C9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notes" prompt="query_notes?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55DNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_program" prompt="query_program?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55DdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_header" prompt="query_header?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55DtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_union_l2_l3" prompt="query_union_l2_l3?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55D9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_cbr" prompt="query_cbr?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ENXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_beautyconcerns" prompt="query_beautyconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55EdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derived_city_prov" prompt="query_derived_city_prov?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55EtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derived_location" prompt="query_derived_location?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55E9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_china_cust_attr" prompt="query_china_cust_attr?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55FNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_get_exist_phno" prompt="query_get_exist_phno?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55FdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_rcountry" prompt="query_rcountry?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55FtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_aux" prompt="query_scflag_aux?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55F9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_china" prompt="query_scflag_china?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55GNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_mobile_count_check" prompt="query_scflag_mobile_count_check?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55GdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_nonchina" prompt="query_scflag_nonchina?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55GtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derivedlocation_raymark" prompt="query_derivedlocation_raymark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55G9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derivedlocation_nonraymark" prompt="query_derivedlocation_nonraymark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55HNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_rejects" prompt="query_rejects?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55HdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_emedia_delete" prompt="query_emedia_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55HtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_phone_delete" prompt="query_phone_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55H9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_address_delete" prompt="query_address_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55INXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_optin_delete" prompt="query_optin_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55IdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_crossbrandoptin_delete" prompt="query_crossbrandoptin_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ItXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_auxiliaryattribute_delete" prompt="query_auxiliaryattribute_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55I9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_program_delete" prompt="query_program_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55JNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_beautyconcerns_delete" prompt="query_beautyconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55JdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_customattribute_delete" prompt="query_customattribute_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55JtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_consumergroup_delete" prompt="query_consumergroup_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55J9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairtype_delete" prompt="query_hairtype_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55KNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hobby_delete" prompt="query_hobby_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55KdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notes_delete" prompt="query_notes_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55KtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_remark_delete" prompt="query_remark_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55K9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_terms_delete" prompt="query_terms_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55LNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairconcerns_delete" prompt="query_hairconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55LdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_makeupconcerns_delete" prompt="query_makeupconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55LtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_skinconcerns_delete" prompt="query_skinconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55L9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notification" prompt="query_notification?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55MNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_resumenode" prompt="query_resumenode?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55MdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_planID" prompt="query_planID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55MtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_planPartID" prompt="query_planPartID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55M9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_planID" prompt="query_ATO_planID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55NNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_resumenode" prompt="query_ATO_resumenode?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55NdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_planPartID" prompt="query_ATO_planPartID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55NtXdEeyV95QwGCVc2w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="UAT" xmi:id="_xf55N9XdEeyV95QwGCVc2w">
+    <contextParameter comment="" name="query_personal" prompt="query_personal?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ONXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_sourcesystem" prompt="query_sourcesystem?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55OdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hobby" prompt="query_hobby?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55OtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_emedia" prompt="query_emedia?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55O9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_phone" prompt="query_phone?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55PNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_address" prompt="query_address?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55PdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_optin" prompt="query_optin?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55PtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_crossbrandoptin" prompt="query_crossbrandoptin?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55P9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_customattribute" prompt="query_customattribute?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55QNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_auxiliaryattribute" prompt="query_auxiliaryattribute?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55QdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairtype" prompt="query_hairtype?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55QtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_makeupconcerns" prompt="query_makeupconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55Q9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairconcerns" prompt="query_hairconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55RNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_skinconcerns" prompt="query_skinconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55RdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_terms" prompt="query_terms?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55RtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_consumergroup" prompt="query_consumergroup?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55R9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_remark" prompt="query_remark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55SNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notes" prompt="query_notes?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55SdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_program" prompt="query_program?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55StXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_header" prompt="query_header?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55S9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_union_l2_l3" prompt="query_union_l2_l3?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55TNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_cbr" prompt="query_cbr?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55TdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_beautyconcerns" prompt="query_beautyconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55TtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derived_city_prov" prompt="query_derived_city_prov?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55T9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derived_location" prompt="query_derived_location?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55UNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_china_cust_attr" prompt="query_china_cust_attr?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55UdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_get_exist_phno" prompt="query_get_exist_phno?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55UtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_rcountry" prompt="query_rcountry?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55U9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_aux" prompt="query_scflag_aux?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55VNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_china" prompt="query_scflag_china?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55VdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_mobile_count_check" prompt="query_scflag_mobile_count_check?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55VtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_nonchina" prompt="query_scflag_nonchina?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55V9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derivedlocation_raymark" prompt="query_derivedlocation_raymark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55WNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derivedlocation_nonraymark" prompt="query_derivedlocation_nonraymark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55WdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_rejects" prompt="query_rejects?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55WtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_emedia_delete" prompt="query_emedia_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55W9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_phone_delete" prompt="query_phone_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55XNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_address_delete" prompt="query_address_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55XdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_optin_delete" prompt="query_optin_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55XtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_crossbrandoptin_delete" prompt="query_crossbrandoptin_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55X9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_auxiliaryattribute_delete" prompt="query_auxiliaryattribute_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55YNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_program_delete" prompt="query_program_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55YdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_beautyconcerns_delete" prompt="query_beautyconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55YtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_customattribute_delete" prompt="query_customattribute_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55Y9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_consumergroup_delete" prompt="query_consumergroup_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ZNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairtype_delete" prompt="query_hairtype_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ZdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hobby_delete" prompt="query_hobby_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ZtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notes_delete" prompt="query_notes_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55Z9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_remark_delete" prompt="query_remark_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55aNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_terms_delete" prompt="query_terms_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55adXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairconcerns_delete" prompt="query_hairconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55atXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_makeupconcerns_delete" prompt="query_makeupconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55a9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_skinconcerns_delete" prompt="query_skinconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55bNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notification" prompt="query_notification?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55bdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_resumenode" prompt="query_resumenode?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55btXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_planID" prompt="query_planID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55b9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_planPartID" prompt="query_planPartID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55cNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_planID" prompt="query_ATO_planID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55cdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_resumenode" prompt="query_ATO_resumenode?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ctXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_planPartID" prompt="query_ATO_planPartID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55c9XdEeyV95QwGCVc2w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="QA" xmi:id="_xf55dNXdEeyV95QwGCVc2w">
+    <contextParameter comment="" name="query_personal" prompt="query_personal?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ddXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_sourcesystem" prompt="query_sourcesystem?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55dtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hobby" prompt="query_hobby?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55d9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_emedia" prompt="query_emedia?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55eNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_phone" prompt="query_phone?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55edXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_address" prompt="query_address?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55etXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_optin" prompt="query_optin?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55e9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_crossbrandoptin" prompt="query_crossbrandoptin?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55fNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_customattribute" prompt="query_customattribute?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55fdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_auxiliaryattribute" prompt="query_auxiliaryattribute?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ftXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairtype" prompt="query_hairtype?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55f9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_makeupconcerns" prompt="query_makeupconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55gNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairconcerns" prompt="query_hairconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55gdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_skinconcerns" prompt="query_skinconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55gtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_terms" prompt="query_terms?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55g9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_consumergroup" prompt="query_consumergroup?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55hNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_remark" prompt="query_remark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55hdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notes" prompt="query_notes?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55htXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_program" prompt="query_program?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55h9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_header" prompt="query_header?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55iNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_union_l2_l3" prompt="query_union_l2_l3?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55idXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_cbr" prompt="query_cbr?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55itXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_beautyconcerns" prompt="query_beautyconcerns?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55i9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derived_city_prov" prompt="query_derived_city_prov?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55jNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derived_location" prompt="query_derived_location?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55jdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_china_cust_attr" prompt="query_china_cust_attr?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55jtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_get_exist_phno" prompt="query_get_exist_phno?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55j9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_rcountry" prompt="query_rcountry?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55kNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_aux" prompt="query_scflag_aux?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55kdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_china" prompt="query_scflag_china?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ktXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_mobile_count_check" prompt="query_scflag_mobile_count_check?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55k9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_scflag_nonchina" prompt="query_scflag_nonchina?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55lNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derivedlocation_raymark" prompt="query_derivedlocation_raymark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ldXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_derivedlocation_nonraymark" prompt="query_derivedlocation_nonraymark?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ltXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_rejects" prompt="query_rejects?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55l9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_emedia_delete" prompt="query_emedia_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55mNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_phone_delete" prompt="query_phone_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55mdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_address_delete" prompt="query_address_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55mtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_optin_delete" prompt="query_optin_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55m9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_crossbrandoptin_delete" prompt="query_crossbrandoptin_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55nNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_auxiliaryattribute_delete" prompt="query_auxiliaryattribute_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ndXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_program_delete" prompt="query_program_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ntXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_beautyconcerns_delete" prompt="query_beautyconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55n9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_customattribute_delete" prompt="query_customattribute_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55oNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_consumergroup_delete" prompt="query_consumergroup_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55odXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairtype_delete" prompt="query_hairtype_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55otXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hobby_delete" prompt="query_hobby_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55o9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notes_delete" prompt="query_notes_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55pNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_remark_delete" prompt="query_remark_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55pdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_terms_delete" prompt="query_terms_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55ptXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_hairconcerns_delete" prompt="query_hairconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55p9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_makeupconcerns_delete" prompt="query_makeupconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55qNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_skinconcerns_delete" prompt="query_skinconcerns_delete?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55qdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_notification" prompt="query_notification?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55qtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_resumenode" prompt="query_resumenode?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55q9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_planID" prompt="query_planID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55rNXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_planPartID" prompt="query_planPartID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55rdXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_planID" prompt="query_ATO_planID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55rtXdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_resumenode" prompt="query_ATO_resumenode?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55r9XdEeyV95QwGCVc2w"/>
+    <contextParameter comment="" name="query_ATO_planPartID" prompt="query_ATO_planPartID?" promptNeeded="false" type="id_String" value="" xmi:id="_xf55sNXdEeyV95QwGCVc2w"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_85294864-e8c3-4765-bb24-0b160509e3d1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>25Qx6U+bzB9uObeJ1e9TXemZfnjX3PG31TGC5zhjinmRAxZEF4PSJqvR/tEFP/felDnJe7WCaajz&#13;
+QkcVTXmejA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_223bacbf-369c-4937-8c18-26936e486a3e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PJ8quMS5A+YG7UtMLhjvLmK9HxPVQbDMgTwP0P2zhLuzvS94LixCI6QDrSkI2tSE97io9pNtwmtP&#13;
+bszV26MYhw==</DigestValue></Reference></SignedInfo><SignatureValue>JAUFUFM+kSM2KlDL9G6VfB0qpZghZEM2pcRzLe/Np03kOq5+cvEyEYhXHCWn6n8yyGOcPRyvCJCw&#13;
+1yZJ8xp0plx6bEYdXCRE+yc2K/h14Dso1AkxFyvvUupo9KHoBxXZxWjmT9znEkpxogi3gKSC/r6M&#13;
+EsCvYBmyYXGq/hEEzreNn+Zgjg/g+/gKK2RszSieTydH+7wHb0gajJxKcNRwoTR0q2IeT+o8KZ4A&#13;
+Vqo+dWC4ohd+SETh5GZK68WP9OEV53O5+Wt7DY6l90yLCuXBSqpUi8S5fJu8NndLQP8vIrHB8OWA&#13;
+z4Nnn6tmf5GV78BZqPOUUpkq9SqVtfImLx5xvg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_223bacbf-369c-4937-8c18-26936e486a3e" Target="#_85294864-e8c3-4765-bb24-0b160509e3d1"><Timestamp>2024-09-25 09:59:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,349 @@
+{
+  "itemId" : "_0Hyy8GHLEeqYQpVYtGGL9A",
+  "contextList" : [ {
+    "contextName" : "PROD",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iemNyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ieldyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iel9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iekNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iekdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iek9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iektyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1ielNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iej9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iemdyqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieltyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WDPBpEeyJ2JINAlzYkw",
+      "name" : "From"
+    }, {
+      "id" : "_y_-WDfBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WDvBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WC_BpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54xdXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54xNXdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf545NXdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf545dXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WAvBpEeyJ2JINAlzYkw",
+      "name" : "From"
+    }, {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf55AtXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf55AdXdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf55IdXdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf55ItXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    } ]
+  }, {
+    "contextName" : "UAT",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieidyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1iehtyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieiNyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iegdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iegtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iehNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1ieg9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iehdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iegNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1ieityqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieh9yqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "UAT",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WFvBpEeyJ2JINAlzYkw",
+      "name" : "From"
+    }, {
+      "id" : "_y_-WF_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WGPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WFfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "UAT",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf55P9XdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf55PtXdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf55XtXdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf55X9XdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    } ]
+  }, {
+    "contextName" : "QA",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "QA",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WAvBpEeyJ2JINAlzYkw",
+      "name" : "From"
+    }, {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "QA",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf55fNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf55e9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf55m9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf55nNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WAvBpEeyJ2JINAlzYkw",
+      "name" : "From"
+    }, {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    } ]
+  } ]
+}

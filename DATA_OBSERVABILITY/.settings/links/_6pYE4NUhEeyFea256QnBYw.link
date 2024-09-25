@@ -1,0 +1,81 @@
+{
+  "itemId" : "_6pYE4NUhEeyFea256QnBYw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_zTDzsNTWEeyFea256QnBYw",
+    "parameterList" : [ {
+      "id" : "_wRGeoMCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_ACCOUNT"
+    }, {
+      "id" : "_wRGeocCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_AUTHN_LOGIN"
+    }, {
+      "id" : "_wRGeosCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_AUTHN_API_KEY"
+    }, {
+      "id" : "_wRGeo8CKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_APPLIANCE_URL"
+    }, {
+      "id" : "_wRGepMCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_DER_CERTIFICATE_PATH"
+    }, {
+      "id" : "_wRGepcCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_USER_VARIABLE"
+    }, {
+      "id" : "_wRGepsCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_PASSWORD_VARIABLE"
+    }, {
+      "id" : "_w9PCgNacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_AdditionalParams"
+    }, {
+      "id" : "_w9PCgdacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Database"
+    }, {
+      "id" : "_w9PCgtacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Password"
+    }, {
+      "id" : "_w9PCg9acEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Port"
+    }, {
+      "id" : "_w9PChNacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Schema"
+    }, {
+      "id" : "_w9PChdacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Host"
+    }, {
+      "id" : "_w9PChtacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_5n7CENaZEeyyqcMaMglgNA",
+    "parameterList" : [ {
+      "id" : "_UQXH4NgcEeyxNNE4fMyzCg",
+      "name" : "ONPREM_Host"
+    }, {
+      "id" : "_UQXH4dgcEeyxNNE4fMyzCg",
+      "name" : "ONPREM_Port"
+    }, {
+      "id" : "_UQXH4tgcEeyxNNE4fMyzCg",
+      "name" : "ONPREM_Schema"
+    }, {
+      "id" : "_UQXH49gcEeyxNNE4fMyzCg",
+      "name" : "ONPREM_Database"
+    }, {
+      "id" : "_UQXH5NgcEeyxNNE4fMyzCg",
+      "name" : "ONPREM_Password"
+    }, {
+      "id" : "_UQXH5dgcEeyxNNE4fMyzCg",
+      "name" : "ONPREM_Username"
+    }, {
+      "id" : "_UQXH5tgcEeyxNNE4fMyzCg",
+      "name" : "ONPREM_cv_keytab_file"
+    }, {
+      "id" : "_UQXH59gcEeyxNNE4fMyzCg",
+      "name" : "ONPREM_cv_kerberos_principal"
+    }, {
+      "id" : "_UQXH6NgcEeyxNNE4fMyzCg",
+      "name" : "ONPREM_AdditionalParams"
+    } ]
+  } ]
+}

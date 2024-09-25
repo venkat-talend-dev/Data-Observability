@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_bGHnEN1bEeu6tJNM7jbvyA" name="param_filepath" prompt="param_filepath?" promptNeeded="false" repositoryContextId="_53PHkOYyEeuFpORMEEegkQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_bGHnEd1bEeu6tJNM7jbvyA" name="param_filename" prompt="param_filename?" promptNeeded="false" repositoryContextId="_53PHkOYyEeuFpORMEEegkQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_z2_T0OYbEeuao5vXhf7Rfw" name="cv_keytab_file" prompt="cv_keytab_file?" promptNeeded="false" repositoryContextId="_53PHkOYyEeuFpORMEEegkQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_z2_T0eYbEeuao5vXhf7Rfw" name="cv_kerberos_principal" prompt="cv_kerberos_principal?" promptNeeded="false" repositoryContextId="_53PHkOYyEeuFpORMEEegkQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_ezTf8P-IEeuK4LEcwibrgA" name="AdditionalParams" prompt="AdditionalParams?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_ezTf8f-IEeuK4LEcwibrgA" name="Database" prompt="Database?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_ezTf8v-IEeuK4LEcwibrgA" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_ezTf8_-IEeuK4LEcwibrgA" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_ezTf9P-IEeuK4LEcwibrgA" name="Schema" prompt="Schema?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_ezTf9f-IEeuK4LEcwibrgA" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_ezTf9v-IEeuK4LEcwibrgA" name="Username" prompt="Username?" promptNeeded="false" repositoryContextId="_cI7BINqYEeujjfBicVi1Wg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_HDIi4NgWEeuL9I2qIcNgZQ" name="DATA_PIPLN_NM" prompt="DATA_PIPLN_NM?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_HDIi4dgWEeuL9I2qIcNgZQ" name="PIPLN_EXEC_ID" prompt="PIPLN_EXEC_ID?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_HDIi4tgWEeuL9I2qIcNgZQ" name="PIPLN_STS" prompt="PIPLN_STS?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_wJ-9N94xEeuzAt6DtsponA" name="out_code" prompt="out_code?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_LYtaQOikEeuHwYDGl8eH6g" name="DOM_NM" prompt="DOM_NM?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_LYtaQeikEeuHwYDGl8eH6g" name="SUB_DOM_NM" prompt="SUB_DOM_NM?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_LYtaQuikEeuHwYDGl8eH6g" name="DATA_PLTFRM_NM" prompt="DATA_PLTFRM_NM?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_LYtaQ-ikEeuHwYDGl8eH6g" name="MDUL_NM" prompt="MDUL_NM?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_LYtaROikEeuHwYDGl8eH6g" name="PRDCT_NM" prompt="PRDCT_NM?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_xwS9wOk0EeuIAY7c6JfFAw" name="PIPLN_ID" prompt="PIPLN_ID?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_3Ec-AOk_EeuIAY7c6JfFAw" name="CRTE_BY" prompt="CRTE_BY?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_3Ec-Aek_EeuIAY7c6JfFAw" name="UPDTD_BY" prompt="UPDTD_BY?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_VEsowDs1EeyFcZavnMV-2w" name="BATCH_STRT_OUT_CODE" prompt="BATCH_STRT_OUT_CODE?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_P-0-8FNOEeylfot_GL48Kg" name="DATA_PIPLN_EXEC_ID" prompt="DATA_PIPLN_EXEC_ID?" promptNeeded="false" repositoryContextId="_0yoFINgDEeuL9I2qIcNgZQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_wRGeoMCKEey8Jr5WS1F1ow" name="CONJUR_ACCOUNT" prompt="CONJUR_ACCOUNT?" promptNeeded="false" repositoryContextId="_53PHkOYyEeuFpORMEEegkQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_wRGeocCKEey8Jr5WS1F1ow" name="CONJUR_AUTHN_LOGIN" prompt="CONJUR_AUTHN_LOGIN?" promptNeeded="false" repositoryContextId="_53PHkOYyEeuFpORMEEegkQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_wRGeosCKEey8Jr5WS1F1ow" name="CONJUR_AUTHN_API_KEY" prompt="CONJUR_AUTHN_API_KEY?" promptNeeded="false" repositoryContextId="_53PHkOYyEeuFpORMEEegkQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_wRGeo8CKEey8Jr5WS1F1ow" name="CONJUR_APPLIANCE_URL" prompt="CONJUR_APPLIANCE_URL?" promptNeeded="false" repositoryContextId="_53PHkOYyEeuFpORMEEegkQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_wRGepMCKEey8Jr5WS1F1ow" name="CONJUR_DER_CERTIFICATE_PATH" prompt="CONJUR_DER_CERTIFICATE_PATH?" promptNeeded="false" repositoryContextId="_53PHkOYyEeuFpORMEEegkQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_wRGepcCKEey8Jr5WS1F1ow" name="CONJUR_USER_VARIABLE" prompt="CONJUR_USER_VARIABLE?" promptNeeded="false" repositoryContextId="_53PHkOYyEeuFpORMEEegkQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_wRGepsCKEey8Jr5WS1F1ow" name="CONJUR_PASSWORD_VARIABLE" prompt="CONJUR_PASSWORD_VARIABLE?" promptNeeded="false" repositoryContextId="_53PHkOYyEeuFpORMEEegkQ" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:dsBo+3NB4nMiGIUMi9HVdeEZV6zyIE0Wrb234PW0"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/u390560/Talend-workspace-7.3.1/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="JDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:+8wCiLDD4WbnzjxY4UfgNBP7RNWH1LDYH4P+Xsly"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_aFxy4HfDEey-_4zm0rH_zA" name="DQTechnical"/>
+    <routinesParameter id="_aBGuQHfDEey-_4zm0rH_zA" name="DataMasking"/>
+    <routinesParameter id="_aGwqUHfDEey-_4zm0rH_zA" name="DataOperation"/>
+    <routinesParameter id="_aDt9YHfDEey-_4zm0rH_zA" name="DataQualityDependencies"/>
+    <routinesParameter id="_aCwUEHfDEey-_4zm0rH_zA" name="DataQuality"/>
+    <routinesParameter id="_aE0JkHfDEey-_4zm0rH_zA" name="DqStringHandling"/>
+    <routinesParameter id="_aH-yUHfDEey-_4zm0rH_zA" name="Mathematical"/>
+    <routinesParameter id="_aJB7MHfDEey-_4zm0rH_zA" name="Numeric"/>
+    <routinesParameter id="_aKD18HfDEey-_4zm0rH_zA" name="Relational"/>
+    <routinesParameter id="_aQZugHfDEey-_4zm0rH_zA" name="SQLike"/>
+    <routinesParameter id="_aLCtYHfDEey-_4zm0rH_zA" name="StringHandling"/>
+    <routinesParameter id="_aMGdUHfDEey-_4zm0rH_zA" name="TalendDataGenerator"/>
+    <routinesParameter id="_aNPFwHfDEey-_4zm0rH_zA" name="TalendDate"/>
+    <routinesParameter id="_aPVXgHfDEey-_4zm0rH_zA" name="TalendStringUtil"/>
+    <routinesParameter id="_aOSOoHfDEey-_4zm0rH_zA" name="TalendString"/>
+  </parameters>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="JOBLET_ABC_METADATA_CONNECTION" componentVersion="4.0" offsetLabelX="0" offsetLabelY="0" posX="320" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="JOBLET_ABC_METADATA_CONNECTION_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="JOBLET_ABC_BATCH_START" componentVersion="4.0" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="JOBLET_ABC_BATCH_START_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tJavaFlex_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_1"/>
+    <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#10;      "/>
+    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#10;// a piece of code executed in the row&#10;// loop&#10;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#10;      "/>
+    <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
+    <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
+    <elementParameter field="CHECK" name="Version_V4.0" show="false" value="true"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaFlex_1"/>
+  </node>
+  <node componentName="tMSSqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="JOBLET_ABC_METADATA_CONNECTION_1_tDBConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="JOBLET_ABC_METADATA_CONNECTION_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJavaFlex_1" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_1" target="JOBLET_ABC_BATCH_START_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="JOBLET_ABC_METADATA_CONNECTION_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="JOBLET_ABC_BATCH_START_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_81927854-097a-4741-b503-c6a6d49f89c9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Fp/mwmHw9mZBIT/5h784kwsyHJWpAx4Cs6/RGPDZgioYO9xXEAZujWT6o7qyBR3QNgr1e62yPXSP&#13;
+ZOOlYzsoyg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_abe4948d-363e-4e99-ac2f-264dcbbb46dc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4f5MQmQzVR4PqSxW05Ynyp3O1wmCuqyq7LUworYTzb+knFX8qcu4Pjk7JUJ8XM2KIO87nD3y10xA&#13;
+F1m6Vm/NEg==</DigestValue></Reference></SignedInfo><SignatureValue>FlFH3CxkwfK3BwDtBlvCC+Z8XysrKNAvFDcWBb3JiR721DnJkXclIaOu3s3ToglX3vucb8y+Jysk&#13;
+TX+q4tGy3CkJh44Z9JU0bJHfydK/pZ4w6G4uB0kQ2IJbgYkD9TEpq1RO6Bi/g7JCaES6hv211098&#13;
+q88G1RGhfY5753jyD2NDOdPjrNUvjRS8TRFTb5fN6071qJj9Bul42EQVwhno5MI4Zdtqp4zN8uZC&#13;
+IZdwGOHo4M1xIBbjcC98jnKSyv6aZN9q9e8d5O4Qwf5/E36zblgWgc0gwdlZiy6CIWRYlpYZAoCZ&#13;
+OoUYe6LTHj0+o62VsRtMvEiGcyy0WyVCRvRp3g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_abe4948d-363e-4e99-ac2f-264dcbbb46dc" Target="#_81927854-097a-4741-b503-c6a6d49f89c9"><Timestamp>2024-09-25 09:59:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="AUS" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="AUS">
+    <contextParameter comment="" internalId="_oHki4gZ_Ee2l2twyHEexww" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="amc"/>
+    <contextParameter comment="" internalId="_oHki4wZ_Ee2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_1cWZ0P63EeynOsGUnOGOHQ" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_1cWZ0f63EeynOsGUnOGOHQ" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_1cWZ0v63EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_1cWZ0_63EeynOsGUnOGOHQ" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_1cWZ1P63EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02"/>
+    <contextParameter comment="" internalId="_1cWZ1f63EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:bOc25O43IYDtXwg7FAVkzmY6soLlWquENeTkN5eI16xRQ32BSPDBV3P0MxjFJxfc"/>
+    <contextParameter comment="" internalId="_oHlJ8AZ_Ee2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_1cWZ1v63EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_1cWZ1_63EeynOsGUnOGOHQ" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_oHlJ8QZ_Ee2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_1cWZ2P63EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="AUS"/>
+    <contextParameter comment="" internalId="_1cWZ2f63EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_1cWZ2v63EeynOsGUnOGOHQ" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_oHlJ8gZ_Ee2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_oHlJ8wZ_Ee2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="HKG">
+    <contextParameter comment="" internalId="_oHlJ9AZ_Ee2l2twyHEexww" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="amc"/>
+    <contextParameter comment="" internalId="_oHlJ9QZ_Ee2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_1cWZ2_63EeynOsGUnOGOHQ" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_1cWZ3P63EeynOsGUnOGOHQ" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_1cWZ3f63EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_1cWZ3v63EeynOsGUnOGOHQ" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_1cWZ3_63EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02"/>
+    <contextParameter comment="" internalId="_1cWZ4P63EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:2lMkz+YLma5ykIFwamWW8j7lLSt8cI6g0iMY1GaD0B1ffgdWcYympcu4/Zii21u9"/>
+    <contextParameter comment="" internalId="_oHlJ9gZ_Ee2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_1cWZ4f63EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_1cWZ4v63EeynOsGUnOGOHQ" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_oHlJ9wZ_Ee2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_1cWZ4_63EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HKG"/>
+    <contextParameter comment="" internalId="_1cWZ5P63EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_1cWZ5f63EeynOsGUnOGOHQ" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_oHlJ-AZ_Ee2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_oHlJ-QZ_Ee2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="KOREA">
+    <contextParameter comment="" internalId="_oHlJ-gZ_Ee2l2twyHEexww" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="amc"/>
+    <contextParameter comment="" internalId="_oHlJ-wZ_Ee2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_1cWZ5v63EeynOsGUnOGOHQ" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_1cWZ5_63EeynOsGUnOGOHQ" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_1cWZ6P63EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8&amp;enabledTLSProtocols=TLSv1.2&amp;serverTimezone=Asia/Seoul"/>
+    <contextParameter comment="" internalId="_1cWZ6f63EeynOsGUnOGOHQ" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_1cWZ6v63EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02"/>
+    <contextParameter comment="" internalId="_1cWZ6_63EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:oAHR22QO0YjUsX0ZR2CE20oH9CexYX3SBobv771Ybj9e+nR01XEWi945BzJM5sfj"/>
+    <contextParameter comment="" internalId="_oHlJ_AZ_Ee2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_1cWZ7P63EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_1cWZ7f63EeynOsGUnOGOHQ" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_oHlJ_QZ_Ee2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_1cWZ7v63EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="KOREA"/>
+    <contextParameter comment="" internalId="_1cWZ7_63EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_1cWZ8P63EeynOsGUnOGOHQ" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_oHlJ_gZ_Ee2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_oHlJ_wZ_Ee2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="MYS">
+    <contextParameter comment="" internalId="_oHlKAAZ_Ee2l2twyHEexww" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="amc"/>
+    <contextParameter comment="" internalId="_oHlKAQZ_Ee2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_1cWZ8f63EeynOsGUnOGOHQ" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_1cWZ8v63EeynOsGUnOGOHQ" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_1cWZ8_63EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_1cWZ9P63EeynOsGUnOGOHQ" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_1cWZ9f63EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02"/>
+    <contextParameter comment="" internalId="_1cWZ9v63EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ctFkjR66miI1dlotm0AjwtN7tDgIf5ojUOFxMQqSN/VQHcT9T3oZImH9sE9Mm8/G"/>
+    <contextParameter comment="" internalId="_oHlKAgZ_Ee2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_1cWZ9_63EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_1cWZ-P63EeynOsGUnOGOHQ" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_oHlKAwZ_Ee2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_1cWZ-f63EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MYS"/>
+    <contextParameter comment="" internalId="_1cWZ-v63EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_1cWZ-_63EeynOsGUnOGOHQ" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_oHlKBAZ_Ee2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_oHlKBQZ_Ee2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="NZL">
+    <contextParameter comment="" internalId="_oHlKBgZ_Ee2l2twyHEexww" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="amc"/>
+    <contextParameter comment="" internalId="_oHlKBwZ_Ee2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_1cWZ_P63EeynOsGUnOGOHQ" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_1cWZ_f63EeynOsGUnOGOHQ" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_1cWZ_v63EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_1cWZ__63EeynOsGUnOGOHQ" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_1cWaAP63EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02"/>
+    <contextParameter comment="" internalId="_1cWaAf63EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:V8n7U+5n8odlREcE9WUTaNYEydVxwTOPq0PlP00HSyLj7dakfFOU4bq7SF3Bn4jC"/>
+    <contextParameter comment="" internalId="_oHlKCAZ_Ee2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_1cWaAv63EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_1cWaA_63EeynOsGUnOGOHQ" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_oHlKCQZ_Ee2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_1cWaBP63EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="NZL"/>
+    <contextParameter comment="" internalId="_1cWaBf63EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_1cWaBv63EeynOsGUnOGOHQ" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_oHlKCgZ_Ee2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_oHlKCwZ_Ee2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="PHL">
+    <contextParameter comment="" internalId="_oHlxAAZ_Ee2l2twyHEexww" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="amc"/>
+    <contextParameter comment="" internalId="_oHlxAQZ_Ee2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_1cWaB_63EeynOsGUnOGOHQ" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_1cWaCP63EeynOsGUnOGOHQ" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_1cWaCf63EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_1cWaCv63EeynOsGUnOGOHQ" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_1cWaC_63EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02"/>
+    <contextParameter comment="" internalId="_1cWaDP63EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:lQY24hVv2cc1cTBYzVvz0aDi66EhuTKYizqg7Fu6i+2JxvhoZNTzLxXfgMnwYKes"/>
+    <contextParameter comment="" internalId="_oHlxAgZ_Ee2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_1cWaDf63EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_1cWaDv63EeynOsGUnOGOHQ" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_oHlxAwZ_Ee2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_1cWaD_63EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PHL"/>
+    <contextParameter comment="" internalId="_1cWaEP63EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_1cWaEf63EeynOsGUnOGOHQ" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_oHlxBAZ_Ee2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_oHlxBQZ_Ee2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="SGP">
+    <contextParameter comment="" internalId="_oHlxBgZ_Ee2l2twyHEexww" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="amc"/>
+    <contextParameter comment="" internalId="_oHlxBwZ_Ee2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_1cWaEv63EeynOsGUnOGOHQ" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_1cWaE_63EeynOsGUnOGOHQ" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_1cWaFP63EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_1cWaFf63EeynOsGUnOGOHQ" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_1cWaFv63EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02"/>
+    <contextParameter comment="" internalId="_1cWaF_63EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:KHl1yw5rujZuQfyZ33q/mlwROggnt4YwsP9jXP4v2ZIIPnpD56yzLgtzCfAK5nQj"/>
+    <contextParameter comment="" internalId="_oHlxCAZ_Ee2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_1cWaGP63EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_1cWaGf63EeynOsGUnOGOHQ" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_oHlxCQZ_Ee2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_1cWaGv63EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SGP"/>
+    <contextParameter comment="" internalId="_1cWaG_63EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_1cWaHP63EeynOsGUnOGOHQ" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_oHlxCgZ_Ee2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_oHlxCwZ_Ee2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="THA">
+    <contextParameter comment="" internalId="_oHlxDAZ_Ee2l2twyHEexww" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="amc"/>
+    <contextParameter comment="" internalId="_oHlxDQZ_Ee2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_1cWaHf63EeynOsGUnOGOHQ" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_1cWaHv63EeynOsGUnOGOHQ" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_1cWaH_63EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_1cWaIP63EeynOsGUnOGOHQ" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_1cWaIf63EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02"/>
+    <contextParameter comment="" internalId="_1cWaIv63EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ovFXqHvqSyMeaMZOLzrd/wDoGHukLOxSahDuD1YxLMpz9K+1mHqsbVGvxYYicnUU"/>
+    <contextParameter comment="" internalId="_oHlxDgZ_Ee2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_1cWaI_63EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_1cWaJP63EeynOsGUnOGOHQ" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_oHlxDwZ_Ee2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_1cWaJf63EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="THA"/>
+    <contextParameter comment="" internalId="_1cWaJv63EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_1cWaJ_63EeynOsGUnOGOHQ" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_oHlxEAZ_Ee2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_oHlxEQZ_Ee2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="TWN">
+    <contextParameter comment="" internalId="_oHlxEgZ_Ee2l2twyHEexww" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="amc"/>
+    <contextParameter comment="" internalId="_oHlxEwZ_Ee2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_1cWaKP63EeynOsGUnOGOHQ" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_1cWaKf63EeynOsGUnOGOHQ" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_1cWaKv63EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_1cWaK_63EeynOsGUnOGOHQ" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_1cWaLP63EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02"/>
+    <contextParameter comment="" internalId="_1cWaLf63EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:RSsO2h33LZuS1BQMMa1l9PWBuaUHdL2pC96wmfCXAHEFhUe1Bd1nd/NSxFxEq0q8"/>
+    <contextParameter comment="" internalId="_oHlxFAZ_Ee2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_1cWaLv63EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_1cWaL_63EeynOsGUnOGOHQ" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_oHlxFQZ_Ee2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_1cWaMP63EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="TWN"/>
+    <contextParameter comment="" internalId="_1cWaMf63EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_1cWaMv63EeynOsGUnOGOHQ" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_oHlxFgZ_Ee2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_oHlxFwZ_Ee2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="VER">
+    <contextParameter comment="" internalId="_oHki4gZ_Ee2l2twyHEexww" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="amc"/>
+    <contextParameter comment="" internalId="_oHki4wZ_Ee2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_1cWZ0P63EeynOsGUnOGOHQ" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_1cWZ0f63EeynOsGUnOGOHQ" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_1cWZ0v63EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_1cWZ0_63EeynOsGUnOGOHQ" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_1cWZ1P63EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02"/>
+    <contextParameter comment="" internalId="_1cWZ1f63EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:5OWQtSj21vDBazZeO627vuNUDxXTllAxVtcDR26+LBXQDsTO2fHY7NmES4+6ELDH"/>
+    <contextParameter comment="" internalId="_oHlJ8AZ_Ee2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_1cWZ1v63EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_1cWZ1_63EeynOsGUnOGOHQ" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_oHlJ8QZ_Ee2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_1cWZ2P63EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="VER"/>
+    <contextParameter comment="" internalId="_1cWZ2f63EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_1cWZ2v63EeynOsGUnOGOHQ" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_oHlJ8gZ_Ee2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_oHlJ8wZ_Ee2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="VNM">
+    <contextParameter comment="" internalId="_oHlxGAZ_Ee2l2twyHEexww" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="amc"/>
+    <contextParameter comment="" internalId="_oHlxGQZ_Ee2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_1cWaM_63EeynOsGUnOGOHQ" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_1cWaNP63EeynOsGUnOGOHQ" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_1cWaNf63EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_1cWaNv63EeynOsGUnOGOHQ" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_1cWaN_63EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02"/>
+    <contextParameter comment="" internalId="_1cWaOP63EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:jTX/mFsPhtd22RX/ATxAhnbizjJ+PTZRYg1x7vwi0rAtC4VeHHviGZI8BeUJjeuO"/>
+    <contextParameter comment="" internalId="_oHlxGgZ_Ee2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_1cWaOf63EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_1cWaOv63EeynOsGUnOGOHQ" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_oHlxGwZ_Ee2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_1cWaO_63EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="VNM"/>
+    <contextParameter comment="" internalId="_1cWaPP63EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_1cWaPf63EeynOsGUnOGOHQ" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_oHlxHAZ_Ee2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_oHlxHQZ_Ee2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="224"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:HPxyzf27aBONVhVTnJdUXgwo5jZadYiK9FEDsXU+"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/731WKSP/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:SdaWDbMTBHz8jo5vn3Y9wjWFDnHnhiUuKPA5tkrD"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_yqwmcJMFEempHYWoQ1vTzA" name="DQTechnical"/>
+    <routinesParameter id="_ya6MkJMFEempHYWoQ1vTzA" name="DataMasking"/>
+    <routinesParameter id="_yuIDgJMFEempHYWoQ1vTzA" name="DataOperation"/>
+    <routinesParameter id="_yiLSMJMFEempHYWoQ1vTzA" name="DataQualityDependencies"/>
+    <routinesParameter id="_yfFh8JMFEempHYWoQ1vTzA" name="DataQuality"/>
+    <routinesParameter id="_ymzTgJMFEempHYWoQ1vTzA" name="DqStringHandling"/>
+    <routinesParameter id="_yDpjIJMFEempHYWoQ1vTzA" name="MDM"/>
+    <routinesParameter id="_yyBsEJMFEempHYWoQ1vTzA" name="Mathematical"/>
+    <routinesParameter id="_y1-X8JMFEempHYWoQ1vTzA" name="Numeric"/>
+    <routinesParameter id="_y5p-EJMFEempHYWoQ1vTzA" name="Relational"/>
+    <routinesParameter id="_zKtR0JMFEempHYWoQ1vTzA" name="SQLike"/>
+    <routinesParameter id="_y8J4cJMFEempHYWoQ1vTzA" name="StringHandling"/>
+    <routinesParameter id="_y-urUJMFEempHYWoQ1vTzA" name="TalendDataGenerator"/>
+    <routinesParameter id="_zBK7UJMFEempHYWoQ1vTzA" name="TalendDate"/>
+    <routinesParameter id="_zHXp8JMFEempHYWoQ1vTzA" name="TalendStringUtil"/>
+    <routinesParameter id="_zENoQJMFEempHYWoQ1vTzA" name="TalendString"/>
+    <routinesParameter id="_R8fioDrjEemM0rYXQm8hTw" name="SurvivorCodeRoutines"/>
+    <routinesParameter id="_CIjt0Lr6EeWUpqgbhKkslw" name="EncryptUtility"/>
+  </parameters>
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter field="TEXT" name="HOST" value="context.ELC_Landing_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.ELC_Landing_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.ELC_MDM_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.ELC_Landing_AdditionalParams"/>
+    <elementParameter field="TEXT" name="USER" value="context.ELC_Landing_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:q/bB1M5YL2AlgjAC8XNuwrCJwZC36hcBAiFvwMacjwMb3ZsPNoiTZnjEZ7jQ8iVmup1DrJXDbRU="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="ELC_DB_Connection"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:mr5lWvO+3EzlzfKx84HKKNaexVd+6JT8J4mD9O0h"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;matchgroup&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;Select &#13;&#10;&#9;Consumermdmkey, &#13;&#10;&#9;max(scon_srcc_id) as srcc_id,&#13;&#10;&#9;count(scon_srcc_id) as grpCount&#13;&#10;from &#13;&#10;&#9;sconsumer &#13;&#10;where &#13;&#10;&#9;scon_cbr_flag = 0&#13;&#10;group by Consumermdmkey;&#13;&#10;&quot;&#13;&#10;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ConsumerMDMKey"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Srcc_Id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="grpCount"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="matchgroup" name="tDBInput_1">
+      <column comment="" key="false" length="255" name="ConsumerMDMKey" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="Srcc_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="BIGINT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="grpCount" nullable="true" originalLength="4" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="288" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_UHd2wLSEEemId67EFJHrYQ-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="pipe1">
+      <column comment="" key="false" length="19" name="Srcc_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="BIGINT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ConsumerMDMKey" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="grpCount" nullable="true" originalLength="4" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Pipeline" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables name="Var" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="/*&#13;&#10;routines.SurvivorCodeRoutines.returnPartition(row1.grpCount,row1.ConsumerMDMKey) &#13;&#10;*/&#13;&#10;routines.SurvivorCodeRoutines.returnPartition_test(row1.Srcc_Id,row1.ConsumerMDMKey) " name="vPipe" type="id_Integer"/>
+      </varTables>
+      <outputTables name="pipe1" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.Srcc_Id " name="Srcc_Id" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.ConsumerMDMKey " name="ConsumerMDMKey" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.grpCount " name="grpCount" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="Var.vPipe" name="Pipeline" nullable="true" type="id_Integer"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="ConsumerMDMKey" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Srcc_Id" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="grpCount" nullable="true" type="id_Integer"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:6Ym8x6zCKhvh1QfTuIqHN3EoahUlN1xXSFp2DvjQ"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;MDMKeyPipelines&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
+    <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
+    <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="8000"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Srcc_Id"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ConsumerMDMKey"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="grpCount"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Pipeline"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
+    <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_1">
+      <column comment="" key="false" length="19" name="Srcc_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="BIGINT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ConsumerMDMKey" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="grpCount" nullable="true" originalLength="4" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Pipeline" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="19" name="Srcc_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="BIGINT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="ConsumerMDMKey" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="grpCount" nullable="true" originalLength="4" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Pipeline" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="-160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(jobName + &quot;: Started at &quot; + new java.util.Date().toString());"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Job_Start"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;CONSUMER Processing RowCount:&quot;+ ((Integer)globalMap.get(&quot;tDBOutput_1_NB_LINE&quot;)));&#10;System.out.println(jobName + &quot;: Ended at &quot; + new java.util.Date().toString());&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Job_End"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="InitializeCommonContext_V2" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="128" posY="-32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="InitializeCommonContext_V2_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="SUBJOB_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tJava_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="InitializeCommonContext_V2"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="MASTER"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SCORE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GRP_QUALITY"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GRP_SIZE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Scon_Id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Brnd_Code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Srcc_Id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Source_Code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ConsumerMDMKey"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Consumer_Id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Mrkt_Code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Source_Timestamp"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="FLOW" label="pipe1" lineStyle="0" metaname="pipe1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDBOutput_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Source_Timestamp"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Pipeline"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="grpCount"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Srcc_Id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="pipe1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBClose_1" offsetLabelX="0" offsetLabelY="0" source="tDBClose_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="InitializeCommonContext_V2_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+  </connection>
+  <connection connectorName="TRIGGER_OUTPUT_1" label="OnSubjobOk (TRIGGER_OUTPUT_1)" lineStyle="1" metaname="InitializeCommonContext_V2_1" offsetLabelX="0" offsetLabelY="0" source="InitializeCommonContext_V2_1" target="tDBConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk6"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="InitializeCommonContext_V2_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fb1d442c-9de4-49df-990c-291aaf31f594"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2a9jpWqkOT05tzxDPuJev4PN68/4vdHMvZGA35aPyOm3QaEAAsYgc/kzIEUUqFfrsgp8ys78NUHd&#13;
+1HwBxmzaIw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7354d408-17d3-493a-a666-9b5cb59626ea"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ehTCoECOAGauODEynM2v2AVipi+ig41XpAcs/EvLbR6oOLzrCTbDoh+wnP7JNstlaHR4Zqy2VBJ2&#13;
+Vj5Gl7R+Xg==</DigestValue></Reference></SignedInfo><SignatureValue>Fr+HCyqMQjkF6XEVBqtamXNZ95i11yK8q6rZgvYT5t2jTP6xt6MDAZvLiSywgeH/Ro6lclS8utMR&#13;
+WXfuYKZ5GjLvHZEU0Qxu2laKc7VU+h2RzMsIWVphr7PsKYXe5RliMn/w6CcXmdkrUpSwNmF2Gpc+&#13;
+sswl0YGhFdieQuHe64TPhP+rJGrBt5dbV3ugtgabNPJjlXM9lolrYSF06s6yrWkfRp2hbZcN1wIB&#13;
+jg5HW3bvfA3omaUjUPCBC9Fj9Z4xIk36gTrYqr9338c1osKU0bTwU9qdvBJJCvmL7hr86XN6RQVd&#13;
+iom9L1rONW+8q7uuLDPWhRGGwQDT5PIRnaeRHw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7354d408-17d3-493a-a666-9b5cb59626ea" Target="#_fb1d442c-9de4-49df-990c-291aaf31f594"><Timestamp>2024-09-25 09:59:28</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

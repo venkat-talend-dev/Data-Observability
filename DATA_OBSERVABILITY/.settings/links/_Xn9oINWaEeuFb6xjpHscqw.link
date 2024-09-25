@@ -1,0 +1,235 @@
+{
+  "itemId" : "_Xn9oINWaEeuFb6xjpHscqw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_xhnG8LyREeu1CdUvqJXKtw",
+    "parameterList" : [ {
+      "id" : "_DK3BscHZEeuNY4n86DBDMA",
+      "name" : "Account_key"
+    }, {
+      "id" : "_DK3BsMHZEeuNY4n86DBDMA",
+      "name" : "Accountname"
+    }, {
+      "id" : "_7UpuVbyREeu1CdUvqJXKtw",
+      "name" : "Add_parm"
+    }, {
+      "id" : "_2RNiUM9YEeub_bn0Jmuo9w",
+      "name" : "brokers"
+    }, {
+      "id" : "_DPPVIdMhEeuduMrZ_BX0Bg",
+      "name" : "clientID"
+    }, {
+      "id" : "_DPPVItMhEeuduMrZ_BX0Bg",
+      "name" : "clientSecret"
+    }, {
+      "id" : "_--GCUcIEEeuu0urC0sfdWA",
+      "name" : "connection_PATH"
+    }, {
+      "id" : "_2RNiUs9YEeub_bn0Jmuo9w",
+      "name" : "consumerld"
+    }, {
+      "id" : "_2RNiVM9YEeub_bn0Jmuo9w",
+      "name" : "jaasPath"
+    }, {
+      "id" : "_2RNiVc9YEeub_bn0Jmuo9w",
+      "name" : "kafkaName"
+    }, {
+      "id" : "_2RNiV89YEeub_bn0Jmuo9w",
+      "name" : "kerberosPath"
+    }, {
+      "id" : "_2RNiVs9YEeub_bn0Jmuo9w",
+      "name" : "kinitPath"
+    }, {
+      "id" : "_6sQQUNM0EeuduMrZ_BX0Bg",
+      "name" : "new_ENV_TYP"
+    }, {
+      "id" : "_DPPVINMhEeuduMrZ_BX0Bg",
+      "name" : "tenantID"
+    }, {
+      "id" : "_2RNiU89YEeub_bn0Jmuo9w",
+      "name" : "topicPath"
+    }, {
+      "id" : "_FBOi4MHYEeuNY4n86DBDMA",
+      "name" : "User_ID"
+    }, {
+      "id" : "_2RNiUc9YEeub_bn0Jmuo9w",
+      "name" : "zookeeper"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_a7WP8NPjEeu_qseiYRB85A",
+    "parameterList" : [ {
+      "id" : "_a9SJsdPjEeu_qseiYRB85A",
+      "name" : "FN_CTRL_COL"
+    }, {
+      "id" : "_a9SJsNPjEeu_qseiYRB85A",
+      "name" : "FN_CTRL_DELIMITER"
+    }, {
+      "id" : "_a9SJrdPjEeu_qseiYRB85A",
+      "name" : "FN_CTRL_DIR"
+    }, {
+      "id" : "_a9SJr9PjEeu_qseiYRB85A",
+      "name" : "FN_CTRL_FRMT"
+    }, {
+      "id" : "_CLBVstWrEeunqfRW_Hf-DA",
+      "name" : "FN_CTRL_Json_query"
+    }, {
+      "id" : "_CLBVs9WrEeunqfRW_Hf-DA",
+      "name" : "FN_CTRL_Loop_Json_query"
+    }, {
+      "id" : "_CLBVsdWrEeunqfRW_Hf-DA",
+      "name" : "FN_CTRL_Loop_XPath_Query"
+    }, {
+      "id" : "_a9SJrtPjEeu_qseiYRB85A",
+      "name" : "FN_CTRL_PTRN"
+    }, {
+      "id" : "_CLBVsNWrEeunqfRW_Hf-DA",
+      "name" : "FN_CTRL_XPath_Query"
+    }, {
+      "id" : "_a9SJodPjEeu_qseiYRB85A",
+      "name" : "FN_FILE_PTRN"
+    }, {
+      "id" : "_IcnCMd-0EeuHeco2zPo2GQ",
+      "name" : "FN_FIXED_END_POS"
+    }, {
+      "id" : "_IcnCMN-0EeuHeco2zPo2GQ",
+      "name" : "FN_FIXED_STRT_POS"
+    }, {
+      "id" : "_a9SJqtPjEeu_qseiYRB85A",
+      "name" : "FN_FTR_COL"
+    }, {
+      "id" : "_a9SJqdPjEeu_qseiYRB85A",
+      "name" : "FN_FTR_DELIMITER"
+    }, {
+      "id" : "_a9SJqNPjEeu_qseiYRB85A",
+      "name" : "FN_FTR_FRMT"
+    }, {
+      "id" : "_a9SJq9PjEeu_qseiYRB85A",
+      "name" : "FN_FTR_ROW"
+    }, {
+      "id" : "_a9SJpdPjEeu_qseiYRB85A",
+      "name" : "FN_HDR_COL"
+    }, {
+      "id" : "_a9SJpNPjEeu_qseiYRB85A",
+      "name" : "FN_HDR_DELIMITER"
+    }, {
+      "id" : "_a9SJo9PjEeu_qseiYRB85A",
+      "name" : "FN_HDR_FRMT"
+    }, {
+      "id" : "_a9SJptPjEeu_qseiYRB85A",
+      "name" : "FN_HDR_ROW"
+    }, {
+      "id" : "_Lq9a4NWrEeunqfRW_Hf-DA",
+      "name" : "FN_ITRN_NBR"
+    }, {
+      "id" : "_a9SJoNPjEeu_qseiYRB85A",
+      "name" : "FN_SRC_DIR"
+    }, {
+      "id" : "_1PXq0PtKEeuvvedJmgHAjg",
+      "name" : "FN_SRC_FILENAME"
+    }, {
+      "id" : "_TH9lgtf8Eeumq7rc_KDnDA",
+      "name" : "FN_SRC_Json_query"
+    }, {
+      "id" : "_TH9lg9f8Eeumq7rc_KDnDA",
+      "name" : "FN_SRC_Loop_Json_query"
+    }, {
+      "id" : "_TH9lgdf8Eeumq7rc_KDnDA",
+      "name" : "FN_SRC_Loop_XPath_Query"
+    }, {
+      "id" : "_TH9lgNf8Eeumq7rc_KDnDA",
+      "name" : "FN_SRC_XPath_Query"
+    }, {
+      "id" : "_a9SJstPjEeu_qseiYRB85A",
+      "name" : "FN_TGT_NM"
+    }, {
+      "id" : "_OFfqANgkEeumq7rc_KDnDA",
+      "name" : "FN_TYP_CHK"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_cI7BINqYEeujjfBicVi1Wg",
+    "parameterList" : [ {
+      "id" : "_cJeawtqYEeujjfBicVi1Wg",
+      "name" : "AdditionalParams"
+    }, {
+      "id" : "_cJeaxNqYEeujjfBicVi1Wg",
+      "name" : "Username"
+    }, {
+      "id" : "_cJeaxtqYEeujjfBicVi1Wg",
+      "name" : "Port"
+    }, {
+      "id" : "_cJeaxdqYEeujjfBicVi1Wg",
+      "name" : "Schema"
+    }, {
+      "id" : "_cJeawdqYEeujjfBicVi1Wg",
+      "name" : "Database"
+    }, {
+      "id" : "_4zqHYAAgEeycvIkTqE-2vA",
+      "name" : "Host"
+    }, {
+      "id" : "_cJeaw9qYEeujjfBicVi1Wg",
+      "name" : "Password"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_cbbY4DVaEeyEf9ItI23Z1A",
+    "parameterList" : [ {
+      "id" : "_cbx-MTVaEeyEf9ItI23Z1A",
+      "name" : "BA_OUT_CODE"
+    }, {
+      "id" : "_cbx-NjVaEeyEf9ItI23Z1A",
+      "name" : "DF_OUT_CODE"
+    }, {
+      "id" : "_cbx-NzVaEeyEf9ItI23Z1A",
+      "name" : "DFC_OUT_CODE"
+    }, {
+      "id" : "_cbx-MzVaEeyEf9ItI23Z1A",
+      "name" : "FA_OUT_CODE"
+    }, {
+      "id" : "_cbx-NDVaEeyEf9ItI23Z1A",
+      "name" : "FN_OUT_CODE"
+    }, {
+      "id" : "_cbx-NTVaEeyEf9ItI23Z1A",
+      "name" : "FS_OUT_CODE"
+    }, {
+      "id" : "_cbx-MjVaEeyEf9ItI23Z1A",
+      "name" : "MF_OUT_CODE"
+    }, {
+      "id" : "_cbx-ODVaEeyEf9ItI23Z1A",
+      "name" : "RC_OUT_CODE"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_yE6XYOh6EeupKtBFNjJT4Q",
+    "parameterList" : [ {
+      "id" : "_T935mDVhEeykwd_IpuljgA",
+      "name" : "validation"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_BZk7YC3MEe2G0fH5mu0Pwg",
+    "parameterList" : [ {
+      "id" : "_WFf9kC3cEe2jfojU7e2P_g",
+      "name" : "max_iteration"
+    }, {
+      "id" : "_WFf9kS3cEe2jfojU7e2P_g",
+      "name" : "data"
+    }, {
+      "id" : "_KsVIgDTEEe2-_tHbLJex9A",
+      "name" : "FN_SRC_MANIFEST_HDR_ROWS"
+    }, {
+      "id" : "_KsVIgTTEEe2-_tHbLJex9A",
+      "name" : "start"
+    }, {
+      "id" : "_vsNY8DgXEe2DMYFyhRI-Jw",
+      "name" : "FN_CTRL_ABS_FL_NM_COL_PRESENT"
+    }, {
+      "id" : "_vsNY8TgXEe2DMYFyhRI-Jw",
+      "name" : "FN_CTRL_FL_NM_COL_SPLITTER"
+    }, {
+      "id" : "_CtMPokZHEe2LFuvbDyJCCQ",
+      "name" : "t"
+    } ]
+  } ]
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_m1iecNyqEey1UN03ofn6vg">
+    <contextParameter comment="" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" type="id_String" value="mysql-ap-southeastasia-dev-cepa-06.mysql.database.azure.com" xmi:id="_m1iecdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8" xmi:id="_m1iectyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" type="id_String" value="mdmlanding" xmi:id="_m1iec9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:QcnktpfoXFDxa9bHcz4Rxi1eYBXp8+1lqvhYP4fZ8/X6mJT+NRtqZobLwV/QBRXX" xmi:id="_m1iedNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06" xmi:id="_m1ieddyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_m1iedtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" type="id_String" value="mdmintermediate" xmi:id="_m1ied9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" type="id_String" value="elc_china_dw_v6" xmi:id="_m1ieeNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" type="id_String" value="intermediate_stage" xmi:id="_m1ieedyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" type="id_String" value="elc_cbr_china_v25_master" xmi:id="_m1ieetyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" type="id_String" value="elcconsumermdm" xmi:id="_m1iee9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" type="id_String" value="amc" xmi:id="_m1iefNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="Talend_Metadata_Login" prompt="Talend_Metadata_Login?" promptNeeded="false" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06" xmi:id="_m1iefdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="Talend_Metadata_Password" prompt="Talend_Metadata_Password?" promptNeeded="false" type="id_Password" value="KWjDhW#0LI!zHTejqS#S" xmi:id="_m1ieftyqEey1UN03ofn6vg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="UAT" xmi:id="_m1ief9yqEey1UN03ofn6vg">
+    <contextParameter comment="" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" type="id_String" value="mysql-ap-southeastasia-uat-cepa-data-06.mysql.database.azure.com" xmi:id="_m1iegNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8" xmi:id="_m1iegdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" type="id_String" value="mdmlanding" xmi:id="_m1iegtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:SuqeUHeQGcS7nUp6muG+AjTmlmM4xqPvJutqrMEgYeS/yAMiknKHt3gO6YUyZLR1" xmi:id="_m1ieg9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" type="id_String" value="mysqladmin@mysql-ap-southeastasia-uat-cepa-data-06" xmi:id="_m1iehNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_m1iehdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" type="id_String" value="mdmintermediate" xmi:id="_m1iehtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" type="id_String" value="elc_china_dw_v6" xmi:id="_m1ieh9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" type="id_String" value="intermediate_stage" xmi:id="_m1ieiNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" type="id_String" value="elc_cbr_china_v25_master" xmi:id="_m1ieidyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" type="id_String" value="elcconsumermdm" xmi:id="_m1ieityqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" type="id_String" value="amc" xmi:id="_m1iei9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="Talend_Metadata_Login" prompt="Talend_Metadata_Login?" promptNeeded="false" type="id_String" value="mysqladmin@mysql-ap-southeastasia-uat-cepa-data-06-new" xmi:id="_m1iejNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="Talend_Metadata_Password" prompt="Talend_Metadata_Password?" promptNeeded="false" type="id_Password" value="KWjDhW#0LI!zHTejqS#S" xmi:id="_m1iejdyqEey1UN03ofn6vg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_m1iejtyqEey1UN03ofn6vg">
+    <contextParameter comment="" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" type="id_String" value="mysql-ap-southeastasia-prod-cepa-talend-02.mysql.database.azure.com" xmi:id="_m1iej9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8" xmi:id="_m1iekNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" type="id_String" value="mdmlanding" xmi:id="_m1iekdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:0K2GakiS0//Zs6jXArAWaZ30p8qW6CUbmnDqi65HA9qsFn2Mrq7tlhplukkt/QZJ" xmi:id="_m1iektyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02" xmi:id="_m1iek9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_m1ielNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" type="id_String" value="mdmintermediate" xmi:id="_m1ieldyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" type="id_String" value="elc_china_dw_v6" xmi:id="_m1ieltyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" type="id_String" value="intermediate_stage" xmi:id="_m1iel9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" type="id_String" value="elc_cbr_china_v25_master" xmi:id="_m1iemNyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" type="id_String" value="elcconsumermdm" xmi:id="_m1iemdyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="ELC_AMC_Database" prompt="ELC_AMC_Database?" promptNeeded="false" type="id_String" value="amc" xmi:id="_m1iemtyqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="Talend_Metadata_Login" prompt="Talend_Metadata_Login?" promptNeeded="false" type="id_String" value="talend_mdm_apac_prod@mysql-ap-southeastasia-prod-cepa-talend-02" xmi:id="_m1iem9yqEey1UN03ofn6vg"/>
+    <contextParameter comment="" name="Talend_Metadata_Password" prompt="Talend_Metadata_Password?" promptNeeded="false" type="id_Password" value="imGC5XY3TTq5TD8mJWyn" xmi:id="_m1ienNyqEey1UN03ofn6vg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_98ed4676-a086-4d79-977f-24d367cfef2a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>t5T3GYCjM6DvB1BbM5+xC75C99uAAjTm2NOXMyzJqOeYUriJ+VdhpXJij2A7EoTbD8E1F/Dq17+0&#13;
+LlCrZyfqtw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e929ad0c-c905-42f1-9636-51d6c326b6c9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>juJCp92vgdMEJtqOZcXPeXNkfeMsF/cMq3bqeo+X36fv8MWYNGcdicAwL3WgoQeqCCXuPXN0lad3&#13;
+s6vfNNdAXg==</DigestValue></Reference></SignedInfo><SignatureValue>WV2jwBhshiPiW9+jb2D8WYVjsRm4VjvQa0dfFgf7hnn/jruMTpDv8ntTIGw5CDUARuGWKjKR6Woh&#13;
+Vlwin+yGtztKdjTQn93WhzHNH66pHCzvfdEouzUUUWNSn5AkQOYEl/NULB7aHUTOyZZcPmu17kmZ&#13;
+RhTlkLxbhnd/x3LymggiI/xLjkscLQwkeE+0ZvIaz/QI96xGJF6DicsctgvRJet2eG/Vno37J+Rk&#13;
+uH2QCoJVfdTkPUVVruGZsyK62tP3Wa3J92EgPFg4XuuHQwvNvEth0ZLFq/Nevt+6OciGJRihBQVb&#13;
+x4DqeHfOWKt4OnjvJgGhoeO1RTRESsjwZoqIfw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e929ad0c-c905-42f1-9636-51d6c326b6c9" Target="#_98ed4676-a086-4d79-977f-24d367cfef2a"><Timestamp>2024-09-25 09:59:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

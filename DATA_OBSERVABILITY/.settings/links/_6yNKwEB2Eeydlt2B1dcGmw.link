@@ -1,0 +1,1500 @@
+{
+  "itemId" : "_6yNKwEB2Eeydlt2B1dcGmw",
+  "contextList" : [ {
+    "contextName" : "AUS",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "AUS",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "AUS",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "AUS",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54ptXdEeyV95QwGCVc2w",
+      "name" : "query_address_delete"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54qdXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute_delete"
+    }, {
+      "id" : "_xf54l9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns"
+    }, {
+      "id" : "_xf54q9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns_delete"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54rdXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup_delete"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54rNXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute_delete"
+    }, {
+      "id" : "_xf54pNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia_delete"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54rtXdEeyV95QwGCVc2w",
+      "name" : "query_hairtype_delete"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54r9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby_delete"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54sNXdEeyV95QwGCVc2w",
+      "name" : "query_notes_delete"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54pdXdEeyV95QwGCVc2w",
+      "name" : "query_phone_delete"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54qtXdEeyV95QwGCVc2w",
+      "name" : "query_program_delete"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54sdXdEeyV95QwGCVc2w",
+      "name" : "query_remark_delete"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    }, {
+      "id" : "_xf54stXdEeyV95QwGCVc2w",
+      "name" : "query_terms_delete"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54ptXdEeyV95QwGCVc2w",
+      "name" : "query_address_delete"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54qdXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute_delete"
+    }, {
+      "id" : "_xf54l9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns"
+    }, {
+      "id" : "_xf54q9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns_delete"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54rdXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup_delete"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54rNXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute_delete"
+    }, {
+      "id" : "_xf54pNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia_delete"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54rtXdEeyV95QwGCVc2w",
+      "name" : "query_hairtype_delete"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54r9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby_delete"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54sNXdEeyV95QwGCVc2w",
+      "name" : "query_notes_delete"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54pdXdEeyV95QwGCVc2w",
+      "name" : "query_phone_delete"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54qtXdEeyV95QwGCVc2w",
+      "name" : "query_program_delete"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54sdXdEeyV95QwGCVc2w",
+      "name" : "query_remark_delete"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    }, {
+      "id" : "_xf54stXdEeyV95QwGCVc2w",
+      "name" : "query_terms_delete"
+    } ]
+  }, {
+    "contextName" : "KOREA",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "KOREA",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "KOREA",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "KOREA",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54ptXdEeyV95QwGCVc2w",
+      "name" : "query_address_delete"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54qdXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute_delete"
+    }, {
+      "id" : "_xf54l9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns"
+    }, {
+      "id" : "_xf54q9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns_delete"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54rdXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup_delete"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54rNXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute_delete"
+    }, {
+      "id" : "_xf54pNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia_delete"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54rtXdEeyV95QwGCVc2w",
+      "name" : "query_hairtype_delete"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54r9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby_delete"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54sNXdEeyV95QwGCVc2w",
+      "name" : "query_notes_delete"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54pdXdEeyV95QwGCVc2w",
+      "name" : "query_phone_delete"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54qtXdEeyV95QwGCVc2w",
+      "name" : "query_program_delete"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54sdXdEeyV95QwGCVc2w",
+      "name" : "query_remark_delete"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    }, {
+      "id" : "_xf54stXdEeyV95QwGCVc2w",
+      "name" : "query_terms_delete"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54ptXdEeyV95QwGCVc2w",
+      "name" : "query_address_delete"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54qdXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute_delete"
+    }, {
+      "id" : "_xf54l9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns"
+    }, {
+      "id" : "_xf54q9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns_delete"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54rdXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup_delete"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54rNXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute_delete"
+    }, {
+      "id" : "_xf54pNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia_delete"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54rtXdEeyV95QwGCVc2w",
+      "name" : "query_hairtype_delete"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54r9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby_delete"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54sNXdEeyV95QwGCVc2w",
+      "name" : "query_notes_delete"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54pdXdEeyV95QwGCVc2w",
+      "name" : "query_phone_delete"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54qtXdEeyV95QwGCVc2w",
+      "name" : "query_program_delete"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54sdXdEeyV95QwGCVc2w",
+      "name" : "query_remark_delete"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    }, {
+      "id" : "_xf54stXdEeyV95QwGCVc2w",
+      "name" : "query_terms_delete"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54ptXdEeyV95QwGCVc2w",
+      "name" : "query_address_delete"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54qdXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute_delete"
+    }, {
+      "id" : "_xf54l9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns"
+    }, {
+      "id" : "_xf54q9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns_delete"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54rdXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup_delete"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54rNXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute_delete"
+    }, {
+      "id" : "_xf54pNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia_delete"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54rtXdEeyV95QwGCVc2w",
+      "name" : "query_hairtype_delete"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54r9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby_delete"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54sNXdEeyV95QwGCVc2w",
+      "name" : "query_notes_delete"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54pdXdEeyV95QwGCVc2w",
+      "name" : "query_phone_delete"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54qtXdEeyV95QwGCVc2w",
+      "name" : "query_program_delete"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54sdXdEeyV95QwGCVc2w",
+      "name" : "query_remark_delete"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    }, {
+      "id" : "_xf54stXdEeyV95QwGCVc2w",
+      "name" : "query_terms_delete"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54ptXdEeyV95QwGCVc2w",
+      "name" : "query_address_delete"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54qdXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute_delete"
+    }, {
+      "id" : "_xf54l9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns"
+    }, {
+      "id" : "_xf54q9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns_delete"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54rdXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup_delete"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54rNXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute_delete"
+    }, {
+      "id" : "_xf54pNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia_delete"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54rtXdEeyV95QwGCVc2w",
+      "name" : "query_hairtype_delete"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54r9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby_delete"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54sNXdEeyV95QwGCVc2w",
+      "name" : "query_notes_delete"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54pdXdEeyV95QwGCVc2w",
+      "name" : "query_phone_delete"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54qtXdEeyV95QwGCVc2w",
+      "name" : "query_program_delete"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54sdXdEeyV95QwGCVc2w",
+      "name" : "query_remark_delete"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    }, {
+      "id" : "_xf54stXdEeyV95QwGCVc2w",
+      "name" : "query_terms_delete"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54ptXdEeyV95QwGCVc2w",
+      "name" : "query_address_delete"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54qdXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute_delete"
+    }, {
+      "id" : "_xf54l9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns"
+    }, {
+      "id" : "_xf54q9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns_delete"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54rdXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup_delete"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54rNXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute_delete"
+    }, {
+      "id" : "_xf54pNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia_delete"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54rtXdEeyV95QwGCVc2w",
+      "name" : "query_hairtype_delete"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54r9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby_delete"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54sNXdEeyV95QwGCVc2w",
+      "name" : "query_notes_delete"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54pdXdEeyV95QwGCVc2w",
+      "name" : "query_phone_delete"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54qtXdEeyV95QwGCVc2w",
+      "name" : "query_program_delete"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54sdXdEeyV95QwGCVc2w",
+      "name" : "query_remark_delete"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    }, {
+      "id" : "_xf54stXdEeyV95QwGCVc2w",
+      "name" : "query_terms_delete"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54ptXdEeyV95QwGCVc2w",
+      "name" : "query_address_delete"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54qdXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute_delete"
+    }, {
+      "id" : "_xf54l9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns"
+    }, {
+      "id" : "_xf54q9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns_delete"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54rdXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup_delete"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54rNXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute_delete"
+    }, {
+      "id" : "_xf54pNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia_delete"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54rtXdEeyV95QwGCVc2w",
+      "name" : "query_hairtype_delete"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54r9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby_delete"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54sNXdEeyV95QwGCVc2w",
+      "name" : "query_notes_delete"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54pdXdEeyV95QwGCVc2w",
+      "name" : "query_phone_delete"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54qtXdEeyV95QwGCVc2w",
+      "name" : "query_program_delete"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54sdXdEeyV95QwGCVc2w",
+      "name" : "query_remark_delete"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    }, {
+      "id" : "_xf54stXdEeyV95QwGCVc2w",
+      "name" : "query_terms_delete"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54ptXdEeyV95QwGCVc2w",
+      "name" : "query_address_delete"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54qdXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute_delete"
+    }, {
+      "id" : "_xf54l9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns"
+    }, {
+      "id" : "_xf54q9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns_delete"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54rdXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup_delete"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54rNXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute_delete"
+    }, {
+      "id" : "_xf54pNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia_delete"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54rtXdEeyV95QwGCVc2w",
+      "name" : "query_hairtype_delete"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54r9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby_delete"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54sNXdEeyV95QwGCVc2w",
+      "name" : "query_notes_delete"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54pdXdEeyV95QwGCVc2w",
+      "name" : "query_phone_delete"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54qtXdEeyV95QwGCVc2w",
+      "name" : "query_program_delete"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54sdXdEeyV95QwGCVc2w",
+      "name" : "query_remark_delete"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    }, {
+      "id" : "_xf54stXdEeyV95QwGCVc2w",
+      "name" : "query_terms_delete"
+    } ]
+  }, {
+    "contextName" : "VER",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "VER",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "VER",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "VER",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54ptXdEeyV95QwGCVc2w",
+      "name" : "query_address_delete"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54qdXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute_delete"
+    }, {
+      "id" : "_xf54l9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns"
+    }, {
+      "id" : "_xf54q9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns_delete"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54rdXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup_delete"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54rNXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute_delete"
+    }, {
+      "id" : "_xf54pNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia_delete"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54rtXdEeyV95QwGCVc2w",
+      "name" : "query_hairtype_delete"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54r9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby_delete"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54sNXdEeyV95QwGCVc2w",
+      "name" : "query_notes_delete"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54pdXdEeyV95QwGCVc2w",
+      "name" : "query_phone_delete"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54qtXdEeyV95QwGCVc2w",
+      "name" : "query_program_delete"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54sdXdEeyV95QwGCVc2w",
+      "name" : "query_remark_delete"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    }, {
+      "id" : "_xf54stXdEeyV95QwGCVc2w",
+      "name" : "query_terms_delete"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1ieedyqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Stage_DB"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    }, {
+      "id" : "_m1ieeNyqEey1UN03ofn6vg",
+      "name" : "ELC_Staging_Database"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_OC2bkEldEemRoeh_swVTuQ",
+    "parameterList" : [ {
+      "id" : "_y_-WA_BpEeyJ2JINAlzYkw",
+      "name" : "Mail_Host"
+    }, {
+      "id" : "_y_-WBPBpEeyJ2JINAlzYkw",
+      "name" : "Mail_Port"
+    }, {
+      "id" : "_y_-WAfBpEeyJ2JINAlzYkw",
+      "name" : "TO"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54htXdEeyV95QwGCVc2w",
+      "name" : "query_address"
+    }, {
+      "id" : "_xf54ptXdEeyV95QwGCVc2w",
+      "name" : "query_address_delete"
+    }, {
+      "id" : "_xf54itXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute"
+    }, {
+      "id" : "_xf54qdXdEeyV95QwGCVc2w",
+      "name" : "query_auxiliaryattribute_delete"
+    }, {
+      "id" : "_xf54l9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns"
+    }, {
+      "id" : "_xf54q9XdEeyV95QwGCVc2w",
+      "name" : "query_beautyconcerns_delete"
+    }, {
+      "id" : "_xf54kNXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup"
+    }, {
+      "id" : "_xf54rdXdEeyV95QwGCVc2w",
+      "name" : "query_consumergroup_delete"
+    }, {
+      "id" : "_xf54iNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin"
+    }, {
+      "id" : "_xf54qNXdEeyV95QwGCVc2w",
+      "name" : "query_crossbrandoptin_delete"
+    }, {
+      "id" : "_xf54idXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute"
+    }, {
+      "id" : "_xf54rNXdEeyV95QwGCVc2w",
+      "name" : "query_customattribute_delete"
+    }, {
+      "id" : "_xf54pNXdEeyV95QwGCVc2w",
+      "name" : "query_emedia_delete"
+    }, {
+      "id" : "_xf54i9XdEeyV95QwGCVc2w",
+      "name" : "query_hairtype"
+    }, {
+      "id" : "_xf54rtXdEeyV95QwGCVc2w",
+      "name" : "query_hairtype_delete"
+    }, {
+      "id" : "_xf54g9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby"
+    }, {
+      "id" : "_xf54r9XdEeyV95QwGCVc2w",
+      "name" : "query_hobby_delete"
+    }, {
+      "id" : "_xf54ktXdEeyV95QwGCVc2w",
+      "name" : "query_notes"
+    }, {
+      "id" : "_xf54sNXdEeyV95QwGCVc2w",
+      "name" : "query_notes_delete"
+    }, {
+      "id" : "_xf54h9XdEeyV95QwGCVc2w",
+      "name" : "query_optin"
+    }, {
+      "id" : "_xf54p9XdEeyV95QwGCVc2w",
+      "name" : "query_optin_delete"
+    }, {
+      "id" : "_xf54pdXdEeyV95QwGCVc2w",
+      "name" : "query_phone_delete"
+    }, {
+      "id" : "_xf54k9XdEeyV95QwGCVc2w",
+      "name" : "query_program"
+    }, {
+      "id" : "_xf54qtXdEeyV95QwGCVc2w",
+      "name" : "query_program_delete"
+    }, {
+      "id" : "_xf54kdXdEeyV95QwGCVc2w",
+      "name" : "query_remark"
+    }, {
+      "id" : "_xf54sdXdEeyV95QwGCVc2w",
+      "name" : "query_remark_delete"
+    }, {
+      "id" : "_xf54j9XdEeyV95QwGCVc2w",
+      "name" : "query_terms"
+    }, {
+      "id" : "_xf54stXdEeyV95QwGCVc2w",
+      "name" : "query_terms_delete"
+    } ]
+  } ]
+}

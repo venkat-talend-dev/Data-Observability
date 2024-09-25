@@ -1,0 +1,194 @@
+package routines;
+
+import java.util.HashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class NameValidation {
+
+	public static int char1_count = 0;
+	
+	public static int char2_count = 0;
+	
+	public static int char3_count = 0;
+	
+	public static int char4_count = 0;
+	
+	public static int char5_count = 0;
+		
+	public static int m2_char1_count = 0;
+	
+	public static int m2_char2_count = 0;
+	
+	public static int m2_char3_count = 0;
+	
+	public static int m2_char4_count = 0;
+	
+	public static int m2_char5_count = 0;
+	
+
+	 public static String validateName(String message, String unicode_regex, String digit_regex, String special_char_regex, String marketCode) {
+	    	
+   	  String namedqcode = "vld";
+   	  
+   	  if (marketCode == null || marketCode.trim().isEmpty() || marketCode.trim().equalsIgnoreCase("null")) 
+   	  { marketCode = ""; }
+             
+   	  
+   	 // message = "hello world _# \\ 陳怡如 ` - =[]\\;’/+ 21425 皆さん、こんにちは！　私はジョンと申します。🔥 `-=[]\\;’/+ `-=[]\\;’/+";
+   	 
+   	//  message = "陳盟佳";
+   	 
+   //	  System.out.println("\n\nmessage: "+message);
+   	  
+       if (message == null || message.trim().isEmpty() || message.trim().equalsIgnoreCase("null")) {
+           namedqcode = "inv";
+        
+         //  System.out.print(namedqcode+" : "+ message);
+           return namedqcode;
+       }
+      
+       message = message.trim().replaceAll("\\s\\s*", " ");
+       
+       if (marketCode.equalsIgnoreCase("TWN"))
+       		{
+       		if (message.contains("不"))
+       		{
+       			 m2_char1_count++;
+       			 namedqcode = "inv";
+       			 return namedqcode;
+       		}
+       		if (message.contains("留"))
+       		{
+       			 m2_char2_count++;
+       			 namedqcode = "inv";
+       			 return namedqcode;
+       		}
+       	
+           	//  System.out.print(namedqcode+" : "+ message);
+          
+       }
+       		
+    //   String result = message.replaceAll("[^\\p{L}\\p{M}\\p{Z}\\p{Cf}\\p{Cs}\\s]","")
+    //   		.replaceAll("\\s\\s*", " ");
+       
+       String result = message.replaceAll(unicode_regex,"").replaceAll("\\s\\s*", " ");
+       
+     //  System.out.println("\n\nmessage :" +message);
+     //  System.out.println("regex full result :" +result);
+       
+       
+          
+		if(result.length() != message.length())
+			namedqcode = "inv";
+		
+	//	System.out.println(namedqcode+" : ***** message.length() : "+message.length()+" ***** result.length() : "+result.length());
+		 
+       
+		String bValue =	isNameWithNumbers(message, marketCode, digit_regex);
+		String bValue2 = isNameWithSpecialCharacters(message, marketCode, special_char_regex);
+		
+		 return namedqcode;
+   }   
+   
+   
+   public static String isAllNameFieldsEmpty(String message, String marketCode)
+   
+   {
+		String bValue = "N";
+   	
+	   	  if (marketCode == null || marketCode.trim().isEmpty() || marketCode.trim().equalsIgnoreCase("null") ) 
+	   	  { marketCode = ""; }
+	             
+		
+	   	  if (message == null || message.trim().isEmpty() || message.trim().equalsIgnoreCase("null"))
+	   	  {
+	   		  bValue = "Y";
+   
+	   		  if (marketCode.equalsIgnoreCase("TWN"))
+	   			  m2_char3_count++;
+	   		  else
+	   			  char3_count++;	
+	   	  }
+	   	  
+	   	  return bValue;	
+	   	  
+   }
+   
+ public static String isNameWithNumbers(String message, String marketCode, String digit_regex)
+   
+   {
+	 
+	 	message = message.trim();
+	   
+	    String result = message.replaceAll(digit_regex,"");
+			
+	//	System.out.print("\nboolean result: " +result);
+		String bValue = "N";
+   	
+	   	  if (marketCode == null || marketCode.trim().isEmpty() || marketCode.trim().equalsIgnoreCase("null")) 
+	   	  { marketCode = ""; }
+	             
+		
+	   	  if (result.length() != message.length())
+	   	  {
+	   		  bValue = "Y";
+   
+	   		  if (marketCode.equalsIgnoreCase("TWN"))
+	   			  m2_char4_count++;
+	   		  else
+	   			  char4_count++;	
+	   	  }
+	   	  
+	   	  return bValue;	
+	   	  
+   }
+ 
+ public static String isNameWithSpecialCharacters(String message, String marketCode, String special_char_regex)
+ 
+ {
+	 
+	   	message = message.trim().replaceAll("\\s\\s*", " ");
+	   
+	    String result = message.replaceAll(special_char_regex,"").replaceAll("\\s\\s*", " ");
+		
+	//	System.out.println("\nmessage : " +message+"\n");
+	//	System.out.println("\nboolean result: " +result+"\n");
+		String bValue = "N";
+ 	
+	   	  if (marketCode == null || marketCode.trim().isEmpty() || marketCode.trim().equalsIgnoreCase("null")) 
+	   	  { marketCode = ""; }
+	             
+		
+	   	  if (result.length() != message.length())
+	   	  {
+	   		  bValue = "Y";
+ 
+	   		  if (marketCode.equalsIgnoreCase("TWN"))
+	   			  m2_char5_count++;
+	   		  else
+	   			  char5_count++;	
+	   	  }
+	   	  
+	   	  return bValue;	
+	   	  
+ }
+}

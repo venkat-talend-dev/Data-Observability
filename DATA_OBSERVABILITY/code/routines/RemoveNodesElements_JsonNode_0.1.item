@@ -1,0 +1,99 @@
+package routines;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.util.Arrays;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+
+public class RemoveNodesElements_JsonNode {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+    public static String removePII(String message, String pii_element_list,String nodepath) {
+       
+    	ObjectMapper objectMapper = new ObjectMapper();
+        JsonNode jsonNode;
+        
+        Writer writer = new StringWriter();
+        
+        int i;
+        
+        String[] pii_element = pii_element_list.split(",");
+        
+		try {
+			jsonNode = objectMapper.readTree(message);
+			
+			
+			JsonNode currentNode = jsonNode.path(nodepath);
+            if (currentNode.isArray()) {
+
+       //         System.out.println("Is this node an Array? " + currentNode.isArray());
+
+                for (JsonNode node : currentNode) {
+                	
+                	 for(i=0; i < pii_element.length; i++)
+     	                
+                     {
+                	  
+       //         	 System.out.println(pii_element[i]);
+                                 
+                     ((ObjectNode)node).remove(pii_element[i]);
+
+                     }
+                	
+                   // String phonenumber = node.path("PhoneNumber").asText();
+                    
+                   // System.out.println("PhoneNumber : " + phonenumber);
+                   
+
+                }
+            }
+			
+            else
+            {
+			
+			for (JsonNode node : jsonNode) {
+	                       
+	            	            
+	            for(i=0; i < pii_element.length; i++)
+	                
+                {
+       //         System.out.println(pii_element[i]);
+                            
+                ((ObjectNode)node).remove(pii_element[i]);
+
+                }
+	            
+	        }
+			
+            }
+			
+	    //    objectMapper.writeValue(new File("C:\\Users\\Mrudula\\Desktop\\data1.json"), jsonNode);
+	        objectMapper.writeValue(writer, jsonNode);
+			
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return writer.toString();
+        
+    }
+    
+}

@@ -1,0 +1,1214 @@
+{
+  "itemId" : "_qDL3sPIKEeyob9Mj6jxaVA",
+  "contextList" : [ {
+    "contextName" : "AUS",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd7EXjEeyybMb3qzeRQw",
+      "name" : "numberofpipelines"
+    }, {
+      "id" : "_E2Gd7UXjEeyybMb3qzeRQw",
+      "name" : "partitionerChildThreads"
+    }, {
+      "id" : "_E2Gd7kXjEeyybMb3qzeRQw",
+      "name" : "regexReplaceEmptyNodes"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "AUS",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iefNyqEey1UN03ofn6vg",
+      "name" : "ELC_AMC_Database"
+    }, {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "AUS",
+    "repoId" : "_OiajEFqNEemOzcAjuE6bdQ",
+    "parameterList" : [ {
+      "id" : "_m38SMtyqEey1UN03ofn6vg",
+      "name" : "ConsumerGroupId"
+    }, {
+      "id" : "_m38SM9yqEey1UN03ofn6vg",
+      "name" : "kafkaBrokers"
+    }, {
+      "id" : "_m38SNNyqEey1UN03ofn6vg",
+      "name" : "kafkaPort"
+    }, {
+      "id" : "_m38SNdyqEey1UN03ofn6vg",
+      "name" : "maxMesgsToRead"
+    }, {
+      "id" : "_m38SNtyqEey1UN03ofn6vg",
+      "name" : "maxTime_ms_BetwnMsgs"
+    }, {
+      "id" : "_m38SN9yqEey1UN03ofn6vg",
+      "name" : "ObjectType"
+    }, {
+      "id" : "_m38SOtyqEey1UN03ofn6vg",
+      "name" : "touchpointTopic"
+    }, {
+      "id" : "_m38SONyqEey1UN03ofn6vg",
+      "name" : "UID"
+    } ]
+  }, {
+    "contextName" : "AUS",
+    "repoId" : "_Pm0R0HifEeq6ad1VwDP1tg",
+    "parameterList" : [ {
+      "id" : "_egLRBvLaEeye_uHDEqEbuQ",
+      "name" : "address_pii_list"
+    }, {
+      "id" : "_egLRB_LaEeye_uHDEqEbuQ",
+      "name" : "cbr_pii_list"
+    }, {
+      "id" : "_egLRCPLaEeye_uHDEqEbuQ",
+      "name" : "emedia_pii_list"
+    }, {
+      "id" : "_egLRCfLaEeye_uHDEqEbuQ",
+      "name" : "phone_pii_list"
+    } ]
+  }, {
+    "contextName" : "AUS",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54ltXdEeyV95QwGCVc2w",
+      "name" : "query_cbr"
+    }, {
+      "id" : "_xf54lNXdEeyV95QwGCVc2w",
+      "name" : "query_header"
+    }, {
+      "id" : "_xf54ldXdEeyV95QwGCVc2w",
+      "name" : "query_union_l2_l3"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd7EXjEeyybMb3qzeRQw",
+      "name" : "numberofpipelines"
+    }, {
+      "id" : "_E2Gd7UXjEeyybMb3qzeRQw",
+      "name" : "partitionerChildThreads"
+    }, {
+      "id" : "_E2Gd7kXjEeyybMb3qzeRQw",
+      "name" : "regexReplaceEmptyNodes"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iefNyqEey1UN03ofn6vg",
+      "name" : "ELC_AMC_Database"
+    }, {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_OiajEFqNEemOzcAjuE6bdQ",
+    "parameterList" : [ {
+      "id" : "_m38SMtyqEey1UN03ofn6vg",
+      "name" : "ConsumerGroupId"
+    }, {
+      "id" : "_m38SM9yqEey1UN03ofn6vg",
+      "name" : "kafkaBrokers"
+    }, {
+      "id" : "_m38SNNyqEey1UN03ofn6vg",
+      "name" : "kafkaPort"
+    }, {
+      "id" : "_m38SNdyqEey1UN03ofn6vg",
+      "name" : "maxMesgsToRead"
+    }, {
+      "id" : "_m38SNtyqEey1UN03ofn6vg",
+      "name" : "maxTime_ms_BetwnMsgs"
+    }, {
+      "id" : "_m38SN9yqEey1UN03ofn6vg",
+      "name" : "ObjectType"
+    }, {
+      "id" : "_m38SOtyqEey1UN03ofn6vg",
+      "name" : "touchpointTopic"
+    }, {
+      "id" : "_m38SONyqEey1UN03ofn6vg",
+      "name" : "UID"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_Pm0R0HifEeq6ad1VwDP1tg",
+    "parameterList" : [ {
+      "id" : "_egLRBvLaEeye_uHDEqEbuQ",
+      "name" : "address_pii_list"
+    }, {
+      "id" : "_egLRB_LaEeye_uHDEqEbuQ",
+      "name" : "cbr_pii_list"
+    }, {
+      "id" : "_egLRCPLaEeye_uHDEqEbuQ",
+      "name" : "emedia_pii_list"
+    }, {
+      "id" : "_egLRCfLaEeye_uHDEqEbuQ",
+      "name" : "phone_pii_list"
+    } ]
+  }, {
+    "contextName" : "HKG",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54ltXdEeyV95QwGCVc2w",
+      "name" : "query_cbr"
+    }, {
+      "id" : "_xf54lNXdEeyV95QwGCVc2w",
+      "name" : "query_header"
+    }, {
+      "id" : "_xf54ldXdEeyV95QwGCVc2w",
+      "name" : "query_union_l2_l3"
+    } ]
+  }, {
+    "contextName" : "KOR_PROD",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd7EXjEeyybMb3qzeRQw",
+      "name" : "numberofpipelines"
+    }, {
+      "id" : "_E2Gd7UXjEeyybMb3qzeRQw",
+      "name" : "partitionerChildThreads"
+    }, {
+      "id" : "_E2Gd7kXjEeyybMb3qzeRQw",
+      "name" : "regexReplaceEmptyNodes"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "KOR_PROD",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iefNyqEey1UN03ofn6vg",
+      "name" : "ELC_AMC_Database"
+    }, {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "KOR_PROD",
+    "repoId" : "_OiajEFqNEemOzcAjuE6bdQ",
+    "parameterList" : [ {
+      "id" : "_m38SMtyqEey1UN03ofn6vg",
+      "name" : "ConsumerGroupId"
+    }, {
+      "id" : "_m38SM9yqEey1UN03ofn6vg",
+      "name" : "kafkaBrokers"
+    }, {
+      "id" : "_m38SNNyqEey1UN03ofn6vg",
+      "name" : "kafkaPort"
+    }, {
+      "id" : "_m38SNdyqEey1UN03ofn6vg",
+      "name" : "maxMesgsToRead"
+    }, {
+      "id" : "_m38SNtyqEey1UN03ofn6vg",
+      "name" : "maxTime_ms_BetwnMsgs"
+    }, {
+      "id" : "_m38SN9yqEey1UN03ofn6vg",
+      "name" : "ObjectType"
+    }, {
+      "id" : "_m38SOtyqEey1UN03ofn6vg",
+      "name" : "touchpointTopic"
+    }, {
+      "id" : "_m38SONyqEey1UN03ofn6vg",
+      "name" : "UID"
+    } ]
+  }, {
+    "contextName" : "KOR_PROD",
+    "repoId" : "_Pm0R0HifEeq6ad1VwDP1tg",
+    "parameterList" : [ {
+      "id" : "_egLRBvLaEeye_uHDEqEbuQ",
+      "name" : "address_pii_list"
+    }, {
+      "id" : "_egLRB_LaEeye_uHDEqEbuQ",
+      "name" : "cbr_pii_list"
+    }, {
+      "id" : "_egLRCPLaEeye_uHDEqEbuQ",
+      "name" : "emedia_pii_list"
+    }, {
+      "id" : "_egLRCfLaEeye_uHDEqEbuQ",
+      "name" : "phone_pii_list"
+    } ]
+  }, {
+    "contextName" : "KOR_PROD",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54ltXdEeyV95QwGCVc2w",
+      "name" : "query_cbr"
+    }, {
+      "id" : "_xf54lNXdEeyV95QwGCVc2w",
+      "name" : "query_header"
+    }, {
+      "id" : "_xf54ldXdEeyV95QwGCVc2w",
+      "name" : "query_union_l2_l3"
+    } ]
+  }, {
+    "contextName" : "KOR_UAT",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd7EXjEeyybMb3qzeRQw",
+      "name" : "numberofpipelines"
+    }, {
+      "id" : "_E2Gd7UXjEeyybMb3qzeRQw",
+      "name" : "partitionerChildThreads"
+    }, {
+      "id" : "_E2Gd7kXjEeyybMb3qzeRQw",
+      "name" : "regexReplaceEmptyNodes"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "KOR_UAT",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iefNyqEey1UN03ofn6vg",
+      "name" : "ELC_AMC_Database"
+    }, {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "KOR_UAT",
+    "repoId" : "_OiajEFqNEemOzcAjuE6bdQ",
+    "parameterList" : [ {
+      "id" : "_m38SMtyqEey1UN03ofn6vg",
+      "name" : "ConsumerGroupId"
+    }, {
+      "id" : "_m38SM9yqEey1UN03ofn6vg",
+      "name" : "kafkaBrokers"
+    }, {
+      "id" : "_m38SNNyqEey1UN03ofn6vg",
+      "name" : "kafkaPort"
+    }, {
+      "id" : "_m38SNdyqEey1UN03ofn6vg",
+      "name" : "maxMesgsToRead"
+    }, {
+      "id" : "_m38SNtyqEey1UN03ofn6vg",
+      "name" : "maxTime_ms_BetwnMsgs"
+    }, {
+      "id" : "_m38SN9yqEey1UN03ofn6vg",
+      "name" : "ObjectType"
+    }, {
+      "id" : "_m38SOtyqEey1UN03ofn6vg",
+      "name" : "touchpointTopic"
+    }, {
+      "id" : "_m38SONyqEey1UN03ofn6vg",
+      "name" : "UID"
+    } ]
+  }, {
+    "contextName" : "KOR_UAT",
+    "repoId" : "_Pm0R0HifEeq6ad1VwDP1tg",
+    "parameterList" : [ {
+      "id" : "_egLRBvLaEeye_uHDEqEbuQ",
+      "name" : "address_pii_list"
+    }, {
+      "id" : "_egLRB_LaEeye_uHDEqEbuQ",
+      "name" : "cbr_pii_list"
+    }, {
+      "id" : "_egLRCPLaEeye_uHDEqEbuQ",
+      "name" : "emedia_pii_list"
+    }, {
+      "id" : "_egLRCfLaEeye_uHDEqEbuQ",
+      "name" : "phone_pii_list"
+    } ]
+  }, {
+    "contextName" : "KOR_UAT",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54ltXdEeyV95QwGCVc2w",
+      "name" : "query_cbr"
+    }, {
+      "id" : "_xf54lNXdEeyV95QwGCVc2w",
+      "name" : "query_header"
+    }, {
+      "id" : "_xf54ldXdEeyV95QwGCVc2w",
+      "name" : "query_union_l2_l3"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd7EXjEeyybMb3qzeRQw",
+      "name" : "numberofpipelines"
+    }, {
+      "id" : "_E2Gd7UXjEeyybMb3qzeRQw",
+      "name" : "partitionerChildThreads"
+    }, {
+      "id" : "_E2Gd7kXjEeyybMb3qzeRQw",
+      "name" : "regexReplaceEmptyNodes"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iefNyqEey1UN03ofn6vg",
+      "name" : "ELC_AMC_Database"
+    }, {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_OiajEFqNEemOzcAjuE6bdQ",
+    "parameterList" : [ {
+      "id" : "_m38SMtyqEey1UN03ofn6vg",
+      "name" : "ConsumerGroupId"
+    }, {
+      "id" : "_m38SM9yqEey1UN03ofn6vg",
+      "name" : "kafkaBrokers"
+    }, {
+      "id" : "_m38SNNyqEey1UN03ofn6vg",
+      "name" : "kafkaPort"
+    }, {
+      "id" : "_m38SNdyqEey1UN03ofn6vg",
+      "name" : "maxMesgsToRead"
+    }, {
+      "id" : "_m38SNtyqEey1UN03ofn6vg",
+      "name" : "maxTime_ms_BetwnMsgs"
+    }, {
+      "id" : "_m38SN9yqEey1UN03ofn6vg",
+      "name" : "ObjectType"
+    }, {
+      "id" : "_m38SOtyqEey1UN03ofn6vg",
+      "name" : "touchpointTopic"
+    }, {
+      "id" : "_m38SONyqEey1UN03ofn6vg",
+      "name" : "UID"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_Pm0R0HifEeq6ad1VwDP1tg",
+    "parameterList" : [ {
+      "id" : "_egLRBvLaEeye_uHDEqEbuQ",
+      "name" : "address_pii_list"
+    }, {
+      "id" : "_egLRB_LaEeye_uHDEqEbuQ",
+      "name" : "cbr_pii_list"
+    }, {
+      "id" : "_egLRCPLaEeye_uHDEqEbuQ",
+      "name" : "emedia_pii_list"
+    }, {
+      "id" : "_egLRCfLaEeye_uHDEqEbuQ",
+      "name" : "phone_pii_list"
+    } ]
+  }, {
+    "contextName" : "MYS",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54ltXdEeyV95QwGCVc2w",
+      "name" : "query_cbr"
+    }, {
+      "id" : "_xf54lNXdEeyV95QwGCVc2w",
+      "name" : "query_header"
+    }, {
+      "id" : "_xf54ldXdEeyV95QwGCVc2w",
+      "name" : "query_union_l2_l3"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd7EXjEeyybMb3qzeRQw",
+      "name" : "numberofpipelines"
+    }, {
+      "id" : "_E2Gd7UXjEeyybMb3qzeRQw",
+      "name" : "partitionerChildThreads"
+    }, {
+      "id" : "_E2Gd7kXjEeyybMb3qzeRQw",
+      "name" : "regexReplaceEmptyNodes"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iefNyqEey1UN03ofn6vg",
+      "name" : "ELC_AMC_Database"
+    }, {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_OiajEFqNEemOzcAjuE6bdQ",
+    "parameterList" : [ {
+      "id" : "_m38SMtyqEey1UN03ofn6vg",
+      "name" : "ConsumerGroupId"
+    }, {
+      "id" : "_m38SM9yqEey1UN03ofn6vg",
+      "name" : "kafkaBrokers"
+    }, {
+      "id" : "_m38SNNyqEey1UN03ofn6vg",
+      "name" : "kafkaPort"
+    }, {
+      "id" : "_m38SNdyqEey1UN03ofn6vg",
+      "name" : "maxMesgsToRead"
+    }, {
+      "id" : "_m38SNtyqEey1UN03ofn6vg",
+      "name" : "maxTime_ms_BetwnMsgs"
+    }, {
+      "id" : "_m38SN9yqEey1UN03ofn6vg",
+      "name" : "ObjectType"
+    }, {
+      "id" : "_m38SOtyqEey1UN03ofn6vg",
+      "name" : "touchpointTopic"
+    }, {
+      "id" : "_m38SONyqEey1UN03ofn6vg",
+      "name" : "UID"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_Pm0R0HifEeq6ad1VwDP1tg",
+    "parameterList" : [ {
+      "id" : "_egLRBvLaEeye_uHDEqEbuQ",
+      "name" : "address_pii_list"
+    }, {
+      "id" : "_egLRB_LaEeye_uHDEqEbuQ",
+      "name" : "cbr_pii_list"
+    }, {
+      "id" : "_egLRCPLaEeye_uHDEqEbuQ",
+      "name" : "emedia_pii_list"
+    }, {
+      "id" : "_egLRCfLaEeye_uHDEqEbuQ",
+      "name" : "phone_pii_list"
+    } ]
+  }, {
+    "contextName" : "NZL",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54ltXdEeyV95QwGCVc2w",
+      "name" : "query_cbr"
+    }, {
+      "id" : "_xf54lNXdEeyV95QwGCVc2w",
+      "name" : "query_header"
+    }, {
+      "id" : "_xf54ldXdEeyV95QwGCVc2w",
+      "name" : "query_union_l2_l3"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd7EXjEeyybMb3qzeRQw",
+      "name" : "numberofpipelines"
+    }, {
+      "id" : "_E2Gd7UXjEeyybMb3qzeRQw",
+      "name" : "partitionerChildThreads"
+    }, {
+      "id" : "_E2Gd7kXjEeyybMb3qzeRQw",
+      "name" : "regexReplaceEmptyNodes"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iefNyqEey1UN03ofn6vg",
+      "name" : "ELC_AMC_Database"
+    }, {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_OiajEFqNEemOzcAjuE6bdQ",
+    "parameterList" : [ {
+      "id" : "_m38SMtyqEey1UN03ofn6vg",
+      "name" : "ConsumerGroupId"
+    }, {
+      "id" : "_m38SM9yqEey1UN03ofn6vg",
+      "name" : "kafkaBrokers"
+    }, {
+      "id" : "_m38SNNyqEey1UN03ofn6vg",
+      "name" : "kafkaPort"
+    }, {
+      "id" : "_m38SNdyqEey1UN03ofn6vg",
+      "name" : "maxMesgsToRead"
+    }, {
+      "id" : "_m38SNtyqEey1UN03ofn6vg",
+      "name" : "maxTime_ms_BetwnMsgs"
+    }, {
+      "id" : "_m38SN9yqEey1UN03ofn6vg",
+      "name" : "ObjectType"
+    }, {
+      "id" : "_m38SOtyqEey1UN03ofn6vg",
+      "name" : "touchpointTopic"
+    }, {
+      "id" : "_m38SONyqEey1UN03ofn6vg",
+      "name" : "UID"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_Pm0R0HifEeq6ad1VwDP1tg",
+    "parameterList" : [ {
+      "id" : "_egLRBvLaEeye_uHDEqEbuQ",
+      "name" : "address_pii_list"
+    }, {
+      "id" : "_egLRB_LaEeye_uHDEqEbuQ",
+      "name" : "cbr_pii_list"
+    }, {
+      "id" : "_egLRCPLaEeye_uHDEqEbuQ",
+      "name" : "emedia_pii_list"
+    }, {
+      "id" : "_egLRCfLaEeye_uHDEqEbuQ",
+      "name" : "phone_pii_list"
+    } ]
+  }, {
+    "contextName" : "PHL",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54ltXdEeyV95QwGCVc2w",
+      "name" : "query_cbr"
+    }, {
+      "id" : "_xf54lNXdEeyV95QwGCVc2w",
+      "name" : "query_header"
+    }, {
+      "id" : "_xf54ldXdEeyV95QwGCVc2w",
+      "name" : "query_union_l2_l3"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd7EXjEeyybMb3qzeRQw",
+      "name" : "numberofpipelines"
+    }, {
+      "id" : "_E2Gd7UXjEeyybMb3qzeRQw",
+      "name" : "partitionerChildThreads"
+    }, {
+      "id" : "_E2Gd7kXjEeyybMb3qzeRQw",
+      "name" : "regexReplaceEmptyNodes"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iefNyqEey1UN03ofn6vg",
+      "name" : "ELC_AMC_Database"
+    }, {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_OiajEFqNEemOzcAjuE6bdQ",
+    "parameterList" : [ {
+      "id" : "_m38SMtyqEey1UN03ofn6vg",
+      "name" : "ConsumerGroupId"
+    }, {
+      "id" : "_m38SM9yqEey1UN03ofn6vg",
+      "name" : "kafkaBrokers"
+    }, {
+      "id" : "_m38SNNyqEey1UN03ofn6vg",
+      "name" : "kafkaPort"
+    }, {
+      "id" : "_m38SNdyqEey1UN03ofn6vg",
+      "name" : "maxMesgsToRead"
+    }, {
+      "id" : "_m38SNtyqEey1UN03ofn6vg",
+      "name" : "maxTime_ms_BetwnMsgs"
+    }, {
+      "id" : "_m38SN9yqEey1UN03ofn6vg",
+      "name" : "ObjectType"
+    }, {
+      "id" : "_m38SOtyqEey1UN03ofn6vg",
+      "name" : "touchpointTopic"
+    }, {
+      "id" : "_m38SONyqEey1UN03ofn6vg",
+      "name" : "UID"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_Pm0R0HifEeq6ad1VwDP1tg",
+    "parameterList" : [ {
+      "id" : "_egLRBvLaEeye_uHDEqEbuQ",
+      "name" : "address_pii_list"
+    }, {
+      "id" : "_egLRB_LaEeye_uHDEqEbuQ",
+      "name" : "cbr_pii_list"
+    }, {
+      "id" : "_egLRCPLaEeye_uHDEqEbuQ",
+      "name" : "emedia_pii_list"
+    }, {
+      "id" : "_egLRCfLaEeye_uHDEqEbuQ",
+      "name" : "phone_pii_list"
+    } ]
+  }, {
+    "contextName" : "SGP",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54ltXdEeyV95QwGCVc2w",
+      "name" : "query_cbr"
+    }, {
+      "id" : "_xf54lNXdEeyV95QwGCVc2w",
+      "name" : "query_header"
+    }, {
+      "id" : "_xf54ldXdEeyV95QwGCVc2w",
+      "name" : "query_union_l2_l3"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd7EXjEeyybMb3qzeRQw",
+      "name" : "numberofpipelines"
+    }, {
+      "id" : "_E2Gd7UXjEeyybMb3qzeRQw",
+      "name" : "partitionerChildThreads"
+    }, {
+      "id" : "_E2Gd7kXjEeyybMb3qzeRQw",
+      "name" : "regexReplaceEmptyNodes"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iefNyqEey1UN03ofn6vg",
+      "name" : "ELC_AMC_Database"
+    }, {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_OiajEFqNEemOzcAjuE6bdQ",
+    "parameterList" : [ {
+      "id" : "_m38SMtyqEey1UN03ofn6vg",
+      "name" : "ConsumerGroupId"
+    }, {
+      "id" : "_m38SM9yqEey1UN03ofn6vg",
+      "name" : "kafkaBrokers"
+    }, {
+      "id" : "_m38SNNyqEey1UN03ofn6vg",
+      "name" : "kafkaPort"
+    }, {
+      "id" : "_m38SNdyqEey1UN03ofn6vg",
+      "name" : "maxMesgsToRead"
+    }, {
+      "id" : "_m38SNtyqEey1UN03ofn6vg",
+      "name" : "maxTime_ms_BetwnMsgs"
+    }, {
+      "id" : "_m38SN9yqEey1UN03ofn6vg",
+      "name" : "ObjectType"
+    }, {
+      "id" : "_m38SOtyqEey1UN03ofn6vg",
+      "name" : "touchpointTopic"
+    }, {
+      "id" : "_m38SONyqEey1UN03ofn6vg",
+      "name" : "UID"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_Pm0R0HifEeq6ad1VwDP1tg",
+    "parameterList" : [ {
+      "id" : "_egLRBvLaEeye_uHDEqEbuQ",
+      "name" : "address_pii_list"
+    }, {
+      "id" : "_egLRB_LaEeye_uHDEqEbuQ",
+      "name" : "cbr_pii_list"
+    }, {
+      "id" : "_egLRCPLaEeye_uHDEqEbuQ",
+      "name" : "emedia_pii_list"
+    }, {
+      "id" : "_egLRCfLaEeye_uHDEqEbuQ",
+      "name" : "phone_pii_list"
+    } ]
+  }, {
+    "contextName" : "THA",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54ltXdEeyV95QwGCVc2w",
+      "name" : "query_cbr"
+    }, {
+      "id" : "_xf54lNXdEeyV95QwGCVc2w",
+      "name" : "query_header"
+    }, {
+      "id" : "_xf54ldXdEeyV95QwGCVc2w",
+      "name" : "query_union_l2_l3"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd7EXjEeyybMb3qzeRQw",
+      "name" : "numberofpipelines"
+    }, {
+      "id" : "_E2Gd7UXjEeyybMb3qzeRQw",
+      "name" : "partitionerChildThreads"
+    }, {
+      "id" : "_E2Gd7kXjEeyybMb3qzeRQw",
+      "name" : "regexReplaceEmptyNodes"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iefNyqEey1UN03ofn6vg",
+      "name" : "ELC_AMC_Database"
+    }, {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_OiajEFqNEemOzcAjuE6bdQ",
+    "parameterList" : [ {
+      "id" : "_m38SMtyqEey1UN03ofn6vg",
+      "name" : "ConsumerGroupId"
+    }, {
+      "id" : "_m38SM9yqEey1UN03ofn6vg",
+      "name" : "kafkaBrokers"
+    }, {
+      "id" : "_m38SNNyqEey1UN03ofn6vg",
+      "name" : "kafkaPort"
+    }, {
+      "id" : "_m38SNdyqEey1UN03ofn6vg",
+      "name" : "maxMesgsToRead"
+    }, {
+      "id" : "_m38SNtyqEey1UN03ofn6vg",
+      "name" : "maxTime_ms_BetwnMsgs"
+    }, {
+      "id" : "_m38SN9yqEey1UN03ofn6vg",
+      "name" : "ObjectType"
+    }, {
+      "id" : "_m38SOtyqEey1UN03ofn6vg",
+      "name" : "touchpointTopic"
+    }, {
+      "id" : "_m38SONyqEey1UN03ofn6vg",
+      "name" : "UID"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_Pm0R0HifEeq6ad1VwDP1tg",
+    "parameterList" : [ {
+      "id" : "_egLRBvLaEeye_uHDEqEbuQ",
+      "name" : "address_pii_list"
+    }, {
+      "id" : "_egLRB_LaEeye_uHDEqEbuQ",
+      "name" : "cbr_pii_list"
+    }, {
+      "id" : "_egLRCPLaEeye_uHDEqEbuQ",
+      "name" : "emedia_pii_list"
+    }, {
+      "id" : "_egLRCfLaEeye_uHDEqEbuQ",
+      "name" : "phone_pii_list"
+    } ]
+  }, {
+    "contextName" : "TWN",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54ltXdEeyV95QwGCVc2w",
+      "name" : "query_cbr"
+    }, {
+      "id" : "_xf54lNXdEeyV95QwGCVc2w",
+      "name" : "query_header"
+    }, {
+      "id" : "_xf54ldXdEeyV95QwGCVc2w",
+      "name" : "query_union_l2_l3"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd7EXjEeyybMb3qzeRQw",
+      "name" : "numberofpipelines"
+    }, {
+      "id" : "_E2Gd7UXjEeyybMb3qzeRQw",
+      "name" : "partitionerChildThreads"
+    }, {
+      "id" : "_E2Gd7kXjEeyybMb3qzeRQw",
+      "name" : "regexReplaceEmptyNodes"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iefNyqEey1UN03ofn6vg",
+      "name" : "ELC_AMC_Database"
+    }, {
+      "id" : "_m1ieetyqEey1UN03ofn6vg",
+      "name" : "ELC_CBR_MASTER_DB"
+    }, {
+      "id" : "_m1ied9yqEey1UN03ofn6vg",
+      "name" : "ELC_Intermediate_Database"
+    }, {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    }, {
+      "id" : "_m1iee9yqEey1UN03ofn6vg",
+      "name" : "ELC_MDM_Database"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_OiajEFqNEemOzcAjuE6bdQ",
+    "parameterList" : [ {
+      "id" : "_m38SMtyqEey1UN03ofn6vg",
+      "name" : "ConsumerGroupId"
+    }, {
+      "id" : "_m38SM9yqEey1UN03ofn6vg",
+      "name" : "kafkaBrokers"
+    }, {
+      "id" : "_m38SNNyqEey1UN03ofn6vg",
+      "name" : "kafkaPort"
+    }, {
+      "id" : "_m38SNdyqEey1UN03ofn6vg",
+      "name" : "maxMesgsToRead"
+    }, {
+      "id" : "_m38SNtyqEey1UN03ofn6vg",
+      "name" : "maxTime_ms_BetwnMsgs"
+    }, {
+      "id" : "_m38SN9yqEey1UN03ofn6vg",
+      "name" : "ObjectType"
+    }, {
+      "id" : "_m38SOtyqEey1UN03ofn6vg",
+      "name" : "touchpointTopic"
+    }, {
+      "id" : "_m38SONyqEey1UN03ofn6vg",
+      "name" : "UID"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_Pm0R0HifEeq6ad1VwDP1tg",
+    "parameterList" : [ {
+      "id" : "_egLRBvLaEeye_uHDEqEbuQ",
+      "name" : "address_pii_list"
+    }, {
+      "id" : "_egLRB_LaEeye_uHDEqEbuQ",
+      "name" : "cbr_pii_list"
+    }, {
+      "id" : "_egLRCPLaEeye_uHDEqEbuQ",
+      "name" : "emedia_pii_list"
+    }, {
+      "id" : "_egLRCfLaEeye_uHDEqEbuQ",
+      "name" : "phone_pii_list"
+    } ]
+  }, {
+    "contextName" : "VNM",
+    "repoId" : "_y9gvUABeEeqSzZ8OApEV1w",
+    "parameterList" : [ {
+      "id" : "_xf54ltXdEeyV95QwGCVc2w",
+      "name" : "query_cbr"
+    }, {
+      "id" : "_xf54lNXdEeyV95QwGCVc2w",
+      "name" : "query_header"
+    }, {
+      "id" : "_xf54ldXdEeyV95QwGCVc2w",
+      "name" : "query_union_l2_l3"
+    } ]
+  } ]
+}

@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="AUS" framework="" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="AUS">
+    <contextParameter comment="" internalId="_FSsncP64EeynOsGUnOGOHQ" name="file" prompt="file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_FSsncf64EeynOsGUnOGOHQ" name="ConnName" prompt="ConnName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_R6dVkwaBEe2l2twyHEexww" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" repositoryContextId="_YlThIKPHEemdEPVNJwlZ_w" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_R6dVlAaBEe2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_R6dVlQaBEe2l2twyHEexww" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_R6dVlgaBEe2l2twyHEexww" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_FSsncv64EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_R6dVlwaBEe2l2twyHEexww" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_FSsnc_64EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06"/>
+    <contextParameter comment="" internalId="_FSsndP64EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:5h3h6J2i14jcxMXlbcIg1xO8JUb3YXJ/TonBaifKVesem4BCUnz9D/dNBuiRFeyD"/>
+    <contextParameter comment="" internalId="_R6dVmAaBEe2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FSsndf64EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-dev-cepa-06.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_R6dVmQaBEe2l2twyHEexww" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_R6dVmgaBEe2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_FSsndv64EeynOsGUnOGOHQ" name="From" prompt="From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev-job-executions@estee.com"/>
+    <contextParameter comment="" internalId="_R6dVmwaBEe2l2twyHEexww" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="mailrelay.eu.elcompanies.net"/>
+    <contextParameter comment="" internalId="_R6dVnAaBEe2l2twyHEexww" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="25"/>
+    <contextParameter comment="" internalId="_R6dVnQaBEe2l2twyHEexww" name="TO" prompt="TO?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="schundur@estee.com"/>
+    <contextParameter comment="" internalId="_FSsnd_64EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="AUS"/>
+    <contextParameter comment="" internalId="_FStOgP64EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_R6dVngaBEe2l2twyHEexww" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_R6dVnwaBEe2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_R6dVoAaBEe2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="HKG">
+    <contextParameter comment="" internalId="_FStOgf64EeynOsGUnOGOHQ" name="file" prompt="file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_FStOgv64EeynOsGUnOGOHQ" name="ConnName" prompt="ConnName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_R6dVoQaBEe2l2twyHEexww" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" repositoryContextId="_YlThIKPHEemdEPVNJwlZ_w" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_R6dVogaBEe2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_R6dVowaBEe2l2twyHEexww" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_R6dVpAaBEe2l2twyHEexww" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_FStOg_64EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_R6dVpQaBEe2l2twyHEexww" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_FStOhP64EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06"/>
+    <contextParameter comment="" internalId="_FStOhf64EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:csvznUzSS7SrfCPzYwUy9gcovFCUkohfBaln32WmPOgGiWzRUBnNNu284907eOH/"/>
+    <contextParameter comment="" internalId="_R6d8oAaBEe2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FStOhv64EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-dev-cepa-06.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_R6d8oQaBEe2l2twyHEexww" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_R6d8ogaBEe2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_FStOh_64EeynOsGUnOGOHQ" name="From" prompt="From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev-job-executions@estee.com"/>
+    <contextParameter comment="" internalId="_R6d8owaBEe2l2twyHEexww" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="mailrelay.eu.elcompanies.net"/>
+    <contextParameter comment="" internalId="_R6d8pAaBEe2l2twyHEexww" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="25"/>
+    <contextParameter comment="" internalId="_R6d8pQaBEe2l2twyHEexww" name="TO" prompt="TO?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="schundur@estee.com"/>
+    <contextParameter comment="" internalId="_FStOiP64EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HKG"/>
+    <contextParameter comment="" internalId="_FStOif64EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_R6d8pgaBEe2l2twyHEexww" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_R6d8pwaBEe2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_R6d8qAaBEe2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="KOREA">
+    <contextParameter comment="" internalId="_FStOiv64EeynOsGUnOGOHQ" name="file" prompt="file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_FStOi_64EeynOsGUnOGOHQ" name="ConnName" prompt="ConnName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_R6d8qQaBEe2l2twyHEexww" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" repositoryContextId="_YlThIKPHEemdEPVNJwlZ_w" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_R6d8qgaBEe2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_R6d8qwaBEe2l2twyHEexww" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_R6d8rAaBEe2l2twyHEexww" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_FStOjP64EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8&amp;enabledTLSProtocols=TLSv1.2&amp;serverTimezone=Asia/Seoul"/>
+    <contextParameter comment="" internalId="_R6d8rQaBEe2l2twyHEexww" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_FStOjf64EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sa_talend@mysql-ap-koreacentral-uat-cdp-talendmdm-01"/>
+    <contextParameter comment="" internalId="_FStOjv64EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ZK+9xMntaFd0ljXLUA2crrsBUlaodVRo+dIjdauYAa6c4ytGD5mnsD5DMyA="/>
+    <contextParameter comment="" internalId="_R6d8rgaBEe2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FStOj_64EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-koreacentral-uat-cdp-talendmdm-01.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_R6d8rwaBEe2l2twyHEexww" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_R6d8sAaBEe2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_FStOkP64EeynOsGUnOGOHQ" name="From" prompt="From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="uat-job-executions@estee.com"/>
+    <contextParameter comment="" internalId="_R6d8sQaBEe2l2twyHEexww" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="mailrelay.eu.elcompanies.net"/>
+    <contextParameter comment="" internalId="_R6d8sgaBEe2l2twyHEexww" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="25"/>
+    <contextParameter comment="" internalId="_R6d8swaBEe2l2twyHEexww" name="TO" prompt="TO?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="schundur@estee.com"/>
+    <contextParameter comment="" internalId="_FStOkf64EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="KOREA"/>
+    <contextParameter comment="" internalId="_FStOkv64EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_R6d8tAaBEe2l2twyHEexww" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_R6d8tQaBEe2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_R6d8tgaBEe2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="MYS">
+    <contextParameter comment="" internalId="_FStOk_64EeynOsGUnOGOHQ" name="file" prompt="file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_FStOlP64EeynOsGUnOGOHQ" name="ConnName" prompt="ConnName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_R6d8twaBEe2l2twyHEexww" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" repositoryContextId="_YlThIKPHEemdEPVNJwlZ_w" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_R6d8uAaBEe2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_R6d8uQaBEe2l2twyHEexww" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_R6d8ugaBEe2l2twyHEexww" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_FStOlf64EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_R6d8uwaBEe2l2twyHEexww" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_FStOlv64EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06"/>
+    <contextParameter comment="" internalId="_FStOl_64EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:x1FNr+PNsTmCAraoMyMBpzdzbmFflR3bZ4jII/qemt+1vwtRF3AjizxbwNpH2Byc"/>
+    <contextParameter comment="" internalId="_R6d8vAaBEe2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FStOmP64EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-dev-cepa-06.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_R6d8vQaBEe2l2twyHEexww" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_R6d8vgaBEe2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_FStOmf64EeynOsGUnOGOHQ" name="From" prompt="From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev-job-executions@estee.com"/>
+    <contextParameter comment="" internalId="_R6d8vwaBEe2l2twyHEexww" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="mailrelay.eu.elcompanies.net"/>
+    <contextParameter comment="" internalId="_R6d8wAaBEe2l2twyHEexww" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="25"/>
+    <contextParameter comment="" internalId="_R6d8wQaBEe2l2twyHEexww" name="TO" prompt="TO?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="schundur@estee.com"/>
+    <contextParameter comment="" internalId="_FStOmv64EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MYS"/>
+    <contextParameter comment="" internalId="_FStOm_64EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_R6d8wgaBEe2l2twyHEexww" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_R6d8wwaBEe2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_R6d8xAaBEe2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="NZL">
+    <contextParameter comment="" internalId="_FStOnP64EeynOsGUnOGOHQ" name="file" prompt="file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_FStOnf64EeynOsGUnOGOHQ" name="ConnName" prompt="ConnName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_R6d8xQaBEe2l2twyHEexww" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" repositoryContextId="_YlThIKPHEemdEPVNJwlZ_w" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_R6d8xgaBEe2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_R6d8xwaBEe2l2twyHEexww" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_R6d8yAaBEe2l2twyHEexww" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_FStOnv64EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_R6d8yQaBEe2l2twyHEexww" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_FStOn_64EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06"/>
+    <contextParameter comment="" internalId="_FStOoP64EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:EVCqPIvJvG4kEC/zkhwdc74GeIHcztGRRNYDJ8roNznuJNCUFsSqwfzveWO2ySOj"/>
+    <contextParameter comment="" internalId="_R6d8ygaBEe2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FStOof64EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-dev-cepa-06.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_R6d8ywaBEe2l2twyHEexww" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_R6d8zAaBEe2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_FStOov64EeynOsGUnOGOHQ" name="From" prompt="From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev-job-executions@estee.com"/>
+    <contextParameter comment="" internalId="_R6d8zQaBEe2l2twyHEexww" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="mailrelay.eu.elcompanies.net"/>
+    <contextParameter comment="" internalId="_R6d8zgaBEe2l2twyHEexww" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="25"/>
+    <contextParameter comment="" internalId="_R6d8zwaBEe2l2twyHEexww" name="TO" prompt="TO?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="schundur@estee.com"/>
+    <contextParameter comment="" internalId="_FStOo_64EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="NZL"/>
+    <contextParameter comment="" internalId="_FStOpP64EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_R6d80AaBEe2l2twyHEexww" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_R6d80QaBEe2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_R6d80gaBEe2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="PHL">
+    <contextParameter comment="" internalId="_FStOpf64EeynOsGUnOGOHQ" name="file" prompt="file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_FStOpv64EeynOsGUnOGOHQ" name="ConnName" prompt="ConnName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_R6d80waBEe2l2twyHEexww" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" repositoryContextId="_YlThIKPHEemdEPVNJwlZ_w" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_R6d81AaBEe2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_R6d81QaBEe2l2twyHEexww" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_R6d81gaBEe2l2twyHEexww" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_FStOp_64EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_R6d81waBEe2l2twyHEexww" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_FStOqP64EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06"/>
+    <contextParameter comment="" internalId="_FStOqf64EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:6A+d9/ljsavgTmRhLomgcrSexyTFQFLhySILUWL556PTzcJG7bFlHxzNBTSa+HRb"/>
+    <contextParameter comment="" internalId="_R6d82AaBEe2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FStOqv64EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-dev-cepa-06.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_R6d82QaBEe2l2twyHEexww" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_R6d82gaBEe2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_FStOq_64EeynOsGUnOGOHQ" name="From" prompt="From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev-job-executions@estee.com"/>
+    <contextParameter comment="" internalId="_R6d82waBEe2l2twyHEexww" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="mailrelay.eu.elcompanies.net"/>
+    <contextParameter comment="" internalId="_R6d83AaBEe2l2twyHEexww" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="25"/>
+    <contextParameter comment="" internalId="_R6d83QaBEe2l2twyHEexww" name="TO" prompt="TO?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="schundur@estee.com"/>
+    <contextParameter comment="" internalId="_FStOrP64EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PHL"/>
+    <contextParameter comment="" internalId="_FStOrf64EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_R6d83gaBEe2l2twyHEexww" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_R6d83waBEe2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_R6d84AaBEe2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="SGP">
+    <contextParameter comment="" internalId="_FStOrv64EeynOsGUnOGOHQ" name="file" prompt="file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_FStOr_64EeynOsGUnOGOHQ" name="ConnName" prompt="ConnName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_R6d84QaBEe2l2twyHEexww" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" repositoryContextId="_YlThIKPHEemdEPVNJwlZ_w" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_R6d84gaBEe2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_R6d84waBEe2l2twyHEexww" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_R6d85AaBEe2l2twyHEexww" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_FStOsP64EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_R6d85QaBEe2l2twyHEexww" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_FStOsf64EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06"/>
+    <contextParameter comment="" internalId="_FStOsv64EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:hgbNUkWfBo3VQVLxC+K8pVqkfszKwy52Hl8ekNNu6rmilxyfF/W7kKXP6yScWA9S"/>
+    <contextParameter comment="" internalId="_R6d85gaBEe2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FStOs_64EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-dev-cepa-06.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_R6d85waBEe2l2twyHEexww" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_R6d86AaBEe2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_FStOtP64EeynOsGUnOGOHQ" name="From" prompt="From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev-job-executions@estee.com"/>
+    <contextParameter comment="" internalId="_R6d86QaBEe2l2twyHEexww" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="mailrelay.eu.elcompanies.net"/>
+    <contextParameter comment="" internalId="_R6d86gaBEe2l2twyHEexww" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="25"/>
+    <contextParameter comment="" internalId="_R6d86waBEe2l2twyHEexww" name="TO" prompt="TO?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="schundur@estee.com"/>
+    <contextParameter comment="" internalId="_FStOtf64EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SGP"/>
+    <contextParameter comment="" internalId="_FStOtv64EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_R6d87AaBEe2l2twyHEexww" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_R6d87QaBEe2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_R6d87gaBEe2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="THA">
+    <contextParameter comment="" internalId="_FStOt_64EeynOsGUnOGOHQ" name="file" prompt="file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_FStOuP64EeynOsGUnOGOHQ" name="ConnName" prompt="ConnName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_R6d87waBEe2l2twyHEexww" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" repositoryContextId="_YlThIKPHEemdEPVNJwlZ_w" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_R6d88AaBEe2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_R6d88QaBEe2l2twyHEexww" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_R6d88gaBEe2l2twyHEexww" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_FStOuf64EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_R6d88waBEe2l2twyHEexww" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_FStOuv64EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06"/>
+    <contextParameter comment="" internalId="_FStOu_64EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:WFRjKpvdOhi+/VXVeDgZFn0dRvwuc8rM4n18GEY+nZ/r2qGp4aU7Kf2NVZk7p2Qv"/>
+    <contextParameter comment="" internalId="_R6d89AaBEe2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FStOvP64EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-dev-cepa-06.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_R6d89QaBEe2l2twyHEexww" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_R6d89gaBEe2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_FStOvf64EeynOsGUnOGOHQ" name="From" prompt="From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev-job-executions@estee.com"/>
+    <contextParameter comment="" internalId="_R6d89waBEe2l2twyHEexww" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="mailrelay.eu.elcompanies.net"/>
+    <contextParameter comment="" internalId="_R6d8-AaBEe2l2twyHEexww" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="25"/>
+    <contextParameter comment="" internalId="_R6d8-QaBEe2l2twyHEexww" name="TO" prompt="TO?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="schundur@estee.com"/>
+    <contextParameter comment="" internalId="_FStOvv64EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="THA"/>
+    <contextParameter comment="" internalId="_FStOv_64EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_R6d8-gaBEe2l2twyHEexww" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_R6d8-waBEe2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_R6d8_AaBEe2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="TWN">
+    <contextParameter comment="" internalId="_FStOwP64EeynOsGUnOGOHQ" name="file" prompt="file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_FStOwf64EeynOsGUnOGOHQ" name="ConnName" prompt="ConnName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_R6d8_QaBEe2l2twyHEexww" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" repositoryContextId="_YlThIKPHEemdEPVNJwlZ_w" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_R6d8_gaBEe2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_R6d8_waBEe2l2twyHEexww" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_R6d9AAaBEe2l2twyHEexww" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_FStOwv64EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_R6d9AQaBEe2l2twyHEexww" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_FStOw_64EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06"/>
+    <contextParameter comment="" internalId="_FStOxP64EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:sl7cRi17QfHHrTJI8E+oT2rwvTkDmu0tc/Hbfu3CGVqr72+1c72pKrsQybzcaLvh"/>
+    <contextParameter comment="" internalId="_R6d9AgaBEe2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FStOxf64EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-dev-cepa-06.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_R6d9AwaBEe2l2twyHEexww" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_R6d9BAaBEe2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_FStOxv64EeynOsGUnOGOHQ" name="From" prompt="From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev-job-executions@estee.com"/>
+    <contextParameter comment="" internalId="_R6d9BQaBEe2l2twyHEexww" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="mailrelay.eu.elcompanies.net"/>
+    <contextParameter comment="" internalId="_R6d9BgaBEe2l2twyHEexww" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="25"/>
+    <contextParameter comment="" internalId="_R6d9BwaBEe2l2twyHEexww" name="TO" prompt="TO?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="schundur@estee.com"/>
+    <contextParameter comment="" internalId="_FStOx_64EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="TWN"/>
+    <contextParameter comment="" internalId="_FStOyP64EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_R6d9CAaBEe2l2twyHEexww" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_R6d9CQaBEe2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_R6d9CgaBEe2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="VER">
+    <contextParameter comment="" internalId="_FSsncP64EeynOsGUnOGOHQ" name="file" prompt="file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_FSsncf64EeynOsGUnOGOHQ" name="ConnName" prompt="ConnName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_R6dVkwaBEe2l2twyHEexww" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" repositoryContextId="_YlThIKPHEemdEPVNJwlZ_w" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_R6dVlAaBEe2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_R6dVlQaBEe2l2twyHEexww" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_R6dVlgaBEe2l2twyHEexww" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_FSsncv64EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_R6dVlwaBEe2l2twyHEexww" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_FSsnc_64EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06"/>
+    <contextParameter comment="" internalId="_FSsndP64EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:WgChM3uQy4LB9PBdxXbJ22D7krAV04DvZ+lQsJ8AJt1j2OdMfpwnzfnb12RDGe+A"/>
+    <contextParameter comment="" internalId="_R6dVmAaBEe2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FSsndf64EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-dev-cepa-06.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_R6dVmQaBEe2l2twyHEexww" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_R6dVmgaBEe2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_FSsndv64EeynOsGUnOGOHQ" name="From" prompt="From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev-job-executions@estee.com"/>
+    <contextParameter comment="" internalId="_R6dVmwaBEe2l2twyHEexww" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="mailrelay.eu.elcompanies.net"/>
+    <contextParameter comment="" internalId="_R6dVnAaBEe2l2twyHEexww" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="25"/>
+    <contextParameter comment="" internalId="_R6dVnQaBEe2l2twyHEexww" name="TO" prompt="TO?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="schundur@estee.com"/>
+    <contextParameter comment="" internalId="_FSsnd_64EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="VER"/>
+    <contextParameter comment="" internalId="_FStOgP64EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_R6dVngaBEe2l2twyHEexww" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_R6dVnwaBEe2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_R6dVoAaBEe2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="VNM">
+    <contextParameter comment="" internalId="_FStOyf64EeynOsGUnOGOHQ" name="file" prompt="file?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_FStOyv64EeynOsGUnOGOHQ" name="ConnName" prompt="ConnName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_R6d9CwaBEe2l2twyHEexww" name="PipelineNumber" prompt="PipelineNumber?" promptNeeded="true" repositoryContextId="_YlThIKPHEemdEPVNJwlZ_w" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_R6d9DAaBEe2l2twyHEexww" name="ELC_CBR_MASTER_DB" prompt="ELC_CBR_MASTER_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_cbr_china_v25_master"/>
+    <contextParameter comment="" internalId="_R6d9DQaBEe2l2twyHEexww" name="ELC_Intermediate_Database" prompt="ELC_Intermediate_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmintermediate"/>
+    <contextParameter comment="" internalId="_R6d9DgaBEe2l2twyHEexww" name="ELC_Intermediate_Stage_DB" prompt="ELC_Intermediate_Stage_DB?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="intermediate_stage"/>
+    <contextParameter comment="" internalId="_FStOy_64EeynOsGUnOGOHQ" name="ELC_Landing_AdditionalParams" prompt="ELC_Landing_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=true&amp;requireSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+    <contextParameter comment="" internalId="_R6d9DwaBEe2l2twyHEexww" name="ELC_Landing_Database" prompt="ELC_Landing_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="mdmlanding"/>
+    <contextParameter comment="" internalId="_FStOzP64EeynOsGUnOGOHQ" name="ELC_Landing_Login" prompt="ELC_Landing_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysqladmin@mysql-ap-southeastasia-dev-cepa-06"/>
+    <contextParameter comment="" internalId="_FStOzf64EeynOsGUnOGOHQ" name="ELC_Landing_Password" prompt="ELC_Landing_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:64bXQ6Gzax9o6WEnFmtkFgaVKa0ADuEuKGn6CwT1TcZDUNMgJ17TSpoPKQgU7bz6"/>
+    <contextParameter comment="" internalId="_R6d9EAaBEe2l2twyHEexww" name="ELC_Landing_Port" prompt="ELC_Landing_Port?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FStOzv64EeynOsGUnOGOHQ" name="ELC_Landing_Server" prompt="ELC_Landing_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql-ap-southeastasia-dev-cepa-06.mysql.database.azure.com"/>
+    <contextParameter comment="" internalId="_R6d9EQaBEe2l2twyHEexww" name="ELC_MDM_Database" prompt="ELC_MDM_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elcconsumermdm"/>
+    <contextParameter comment="" internalId="_R6d9EgaBEe2l2twyHEexww" name="ELC_Staging_Database" prompt="ELC_Staging_Database?" promptNeeded="false" repositoryContextId="_wAQ-gARMEemlA8aWEvThMw" type="id_String" value="elc_china_dw_v6"/>
+    <contextParameter comment="" internalId="_FStOz_64EeynOsGUnOGOHQ" name="From" prompt="From?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev-job-executions@estee.com"/>
+    <contextParameter comment="" internalId="_R6d9EwaBEe2l2twyHEexww" name="Mail_Host" prompt="Mail_Host?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="mailrelay.eu.elcompanies.net"/>
+    <contextParameter comment="" internalId="_R6d9FAaBEe2l2twyHEexww" name="Mail_Port" prompt="Mail_Port?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="25"/>
+    <contextParameter comment="" internalId="_R6d9FQaBEe2l2twyHEexww" name="TO" prompt="TO?" promptNeeded="false" repositoryContextId="_OC2bkEldEemRoeh_swVTuQ" type="id_String" value="schundur@estee.com"/>
+    <contextParameter comment="" internalId="_FStO0P64EeynOsGUnOGOHQ" name="region" prompt="region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="VNM"/>
+    <contextParameter comment="" internalId="_FStO0f64EeynOsGUnOGOHQ" name="filenameMetadata" prompt="filenameMetadata?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_metadata_v2.ini"/>
+    <contextParameter comment="" internalId="_R6d9FgaBEe2l2twyHEexww" name="filepathMetadata" prompt="filepathMetadata?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="/opt/TalendJobScripts/TalendMetadata/"/>
+    <contextParameter comment="" internalId="_R6d9FwaBEe2l2twyHEexww" name="talend_metadata_db" prompt="talend_metadata_db?" promptNeeded="false" repositoryContextId="_6acnYJZlEemHoaVPOpxoCg" type="id_String" value="talend_metadata"/>
+    <contextParameter comment="" internalId="_R6d9GAaBEe2l2twyHEexww" name="job_name" prompt="job_name?" promptNeeded="false" repositoryContextId="_0mBiwDVQEeuOZ5dIOvgXPQ" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx512M&quot;]}"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" show="false" value="true"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="96"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="352"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ltY8Atj711qGDeEJJk543PlvkhH4FnnQND77tVja"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/731WKSP/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:xitJQ4t4uXiryVgFQcEMbIAfJPCekMptnhMuZFOL"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_y8J4cJMFEempHYWoQ1vTzA" name="StringHandling"/>
+    <routinesParameter id="_yfFh8JMFEempHYWoQ1vTzA" name="DataQuality"/>
+    <routinesParameter id="_y-urUJMFEempHYWoQ1vTzA" name="TalendDataGenerator"/>
+    <routinesParameter id="_zHXp8JMFEempHYWoQ1vTzA" name="TalendStringUtil"/>
+    <routinesParameter id="_yiLSMJMFEempHYWoQ1vTzA" name="DataQualityDependencies"/>
+    <routinesParameter id="_y5p-EJMFEempHYWoQ1vTzA" name="Relational"/>
+    <routinesParameter id="_zKtR0JMFEempHYWoQ1vTzA" name="SQLike"/>
+    <routinesParameter id="_ymzTgJMFEempHYWoQ1vTzA" name="DqStringHandling"/>
+    <routinesParameter id="_yqwmcJMFEempHYWoQ1vTzA" name="DQTechnical"/>
+    <routinesParameter id="_y1-X8JMFEempHYWoQ1vTzA" name="Numeric"/>
+    <routinesParameter id="_yuIDgJMFEempHYWoQ1vTzA" name="DataOperation"/>
+    <routinesParameter id="_yDpjIJMFEempHYWoQ1vTzA" name="MDM"/>
+    <routinesParameter id="_zENoQJMFEempHYWoQ1vTzA" name="TalendString"/>
+    <routinesParameter id="_yyBsEJMFEempHYWoQ1vTzA" name="Mathematical"/>
+    <routinesParameter id="_ya6MkJMFEempHYWoQ1vTzA" name="DataMasking"/>
+    <routinesParameter id="_zBK7UJMFEempHYWoQ1vTzA" name="TalendDate"/>
+    <routinesParameter id="_CIjt0Lr6EeWUpqgbhKkslw" name="EncryptUtility"/>
+  </parameters>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-64" posY="-288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="-128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter field="TEXT" name="HOST" value="context.ELC_Landing_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.ELC_Landing_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.ELC_MDM_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.ELC_Landing_AdditionalParams"/>
+    <elementParameter field="TEXT" name="USER" value="context.ELC_Landing_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gxKGVuBpbcgOeHUu0y6HX2WjPcy0pdtrmfwaqGB7+Kfg8Z+cuCO/CI8wbyA4IV0pdcL5KLd6o+E="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value="context.ConnName"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="elc_mdm_db"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:zF28sgJ6Ohx8/C9LJNAviBt3/cGtTh0PytykUpT0"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;CALL `&quot;+context.ELC_MDM_Database+&quot;`.`sp_DeleteL2DerivedTables`();&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_1"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.gc();&#10;System.exit(0);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tMysqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="-128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLibraryLoad_1"/>
+    <elementParameter field="MODULE_LIST" name="LIBRARY" value="mvn:org.talend.libraries/mysql-connector-java-5.1.48/6.0.0-SNAPSHOT/jar"/>
+    <elementParameter field="TABLE" name="HOTLIBS"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="-288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLibraryLoad_2"/>
+    <elementParameter field="MODULE_LIST" name="LIBRARY" value="mvn:org.talend.libraries/hsqldb/6.0.0/jar"/>
+    <elementParameter field="TABLE" name="HOTLIBS"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="InitializeCommonContext_V2" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="-288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="InitializeCommonContext_V2_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="SUBJOB_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tLibraryLoad_2"/>
+    <elementParameter field="TEXT" name="LABEL" value="InitializeCommonContext_V2"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tLibraryLoad_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tDBClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_1" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_1" target="tDBConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_2" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_2" target="InitializeCommonContext_V2_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="TRIGGER_OUTPUT_1" label="OnSubjobOk (TRIGGER_OUTPUT_1)" lineStyle="1" metaname="InitializeCommonContext_V2_1" offsetLabelX="0" offsetLabelY="0" source="InitializeCommonContext_V2_1" target="tLibraryLoad_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLibraryLoad_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLibraryLoad_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="InitializeCommonContext_V2_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2af44a25-7597-4815-a923-b2897c66186b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uDAFouDzOOet+6OhtYszPWFCqx8yejgb0HDuu6RUw4wxRCu+LJzVHMciBxE1ztKxufsWeNbAcnJK&#13;
+70uzqqNuHw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_836bfeee-683a-49b4-9e09-24d446a71752"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gq3fUSQrDDrnzxa1yd49V2qlDVgtOgt25SjU19dvAwtfQQkDpsy50qUngaoXjGtelGurquH28DBH&#13;
+jONY0LOx9A==</DigestValue></Reference></SignedInfo><SignatureValue>NFvOk25KiuOtbActY1xeWSxJgCGBgTJPQfWUYj+FZadGKZ5BxCbRZCp5KvkHBcHPFKk23rffnpNF&#13;
+N4AsB0AHq2knI/E3FqM2GAnjBAK9iV43CmgO479KLuWQYDdXYoV4XcLBN2YFO/e1Id78sZ4I125V&#13;
+YBI+eitGFC5Ym3lKbmogX5jH42PD2pYrQ0BZi0Bk5JfBP8nUBmUkPJBl+xEjssl44StGO9VLkpxo&#13;
+3BTlQb5MjsSnK0E26pHiA1Y6LuUMPSaA9kbJ1PJosITrC0+qsGn1M653d3QJ/RFnDW5VBimCuaXT&#13;
+jZxRRcXzGiU9K8ybSyNQknwNSMFGVpWcJvQACw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_836bfeee-683a-49b4-9e09-24d446a71752" Target="#_2af44a25-7597-4815-a923-b2897c66186b"><Timestamp>2024-09-25 09:59:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

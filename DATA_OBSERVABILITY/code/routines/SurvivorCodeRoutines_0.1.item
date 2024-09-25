@@ -1,0 +1,342 @@
+package routines;
+
+import java.util.Date;
+
+import org.apache.commons.lang3.*;
+import org.dom4j.Document;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class SurvivorCodeRoutines {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+@SuppressWarnings("deprecation")
+public static String UnEscapedXML(String xml){
+	String xmlString2=org.apache.commons.lang3.StringEscapeUtils.unescapeCsv(xml);
+    return org.apache.commons.lang3.StringEscapeUtils.unescapeXml(xmlString2);
+}
+
+public static Integer returnPartition(int grpCount, String mdmkey){
+	int partition=0;
+	java.util.Random rand= new java.util.Random();
+	if(grpCount==1){
+		partition=rand.nextInt(4 - 1 + 1) + 1;
+		return partition;
+	}else
+	/* if grpCount is even */
+	if ((grpCount & 1)==0){
+		partition=2;
+	}else{
+	/* if grpCount > 1 and odd number */
+	if(grpCount>1 && (grpCount & 1)!=0)
+		partition=3;
+	}		
+	
+	return partition;
+	}
+	
+public static Integer returnPartition_test(Integer srcc_id, String mdmkey){
+	int partition=0;
+	java.util.Random rand= new java.util.Random();
+	if((srcc_id)%4==0){
+		partition=1;
+	}else if ((srcc_id)%4==1){
+		partition=2;
+	}	
+	else if ((srcc_id)%4==2){
+		partition=3;
+	}	
+	else {
+		partition=4;
+	}	
+	return partition;
+	}
+
+
+    public static String cleanseNameString(String name){
+    	if(name.equals(null) || name.trim().isEmpty()){
+    	return name.replaceAll(" ", "");
+    	}
+    	else{
+    	name.toLowerCase().trim().replaceAll(" ", "");
+    	return name;
+    	}
+    }
+    
+    public static String cleanseFullNameString(String firstname, String lastname, String fullname){
+    	/*if (fullname.equals(null) || fullname.trim().isEmpty()){*/
+    		if(!(firstname.equals(null) || firstname.trim().isEmpty()) || !(lastname.equals(null) || lastname.trim().isEmpty()) ){
+    		    return firstname.toLowerCase().trim().replaceAll(" ", "").concat(lastname.toLowerCase().trim().replaceAll(" ", ""));	
+    		}
+    		else{
+    			return fullname.toLowerCase().trim().replaceAll(" ", "");
+    		}
+    	}
+    	/*else{
+    		return fullname.toLowerCase().trim().replaceAll(" ", "");
+    	}	
+    }*/  
+    
+    public static String universalNameBlockingKey(String englishLastName, String localLastName, String englishFullName, String localFullName){
+	    if((englishLastName.equals(null)?"":englishLastName.trim())!=""){
+		return SurvivorCodeRoutines.cleanseNameString(englishLastName).toLowerCase().trim();
+		}
+	    else if((localLastName.equals(null)?"":localLastName.trim())!=""){
+		return localLastName;
+		}
+		else if ((localFullName.equals(null)?"":localFullName.trim())!=""){
+		return localFullName;
+		}
+		else if ((englishFullName.equals(null)?"":englishFullName.trim())!=""){
+		return englishFullName;
+		} 
+	    return "3";
+}
+    
+    public static String emailBlockingKey(String emailAddress){
+	    if((emailAddress==null) || emailAddress.isEmpty()){
+		return java.util.UUID.randomUUID().toString();
+		}else
+	    return emailAddress;
+}
+    public static String addressBlockingKey(String address){
+	    if(address==null || address.isEmpty()){
+		return java.util.UUID.randomUUID().toString();
+		}else
+	    return address;
+}
+    public static String phoneBlockingKey(String phone){
+	    if(phone==null || phone.isEmpty()){
+		return java.util.UUID.randomUUID().toString();
+		}else
+	    return phone;
+}
+
+    public static String fixXML(String xml){
+    	String replXML=xml.replace("&apos","'").replace("&quot","\"").replace("&amp","&").replace("&lt","<").replace("&gt",">");
+    	 return replXML.trim();
+    }
+    
+    public static Long retTimeSerial(java.util.Date timestamp,java.util.Date srctimestamp,String CommCode,String colmatchvalue){
+    	Long serialtime=null;
+    	Long default_serialtime=null;
+    	if(srctimestamp!=null){
+    	default_serialtime=srctimestamp.getTime();
+    	}
+    	if (timestamp!=null && CommCode!=null && CommCode.toLowerCase().equals(colmatchvalue.toLowerCase()) ) {
+        serialtime=timestamp.getTime();
+        return serialtime;
+    	}else
+    	return default_serialtime;
+    }
+ 
+    public static Long retOptinDim(Long optinDim,String CommCode,String colmatchvalue){
+    	Long optindimvalue=null;
+    	if(CommCode==null){
+        return  optindimvalue;
+    	}else
+    	if(CommCode.toLowerCase().equals(colmatchvalue.toLowerCase())){
+        	optindimvalue=optinDim;
+        	return optindimvalue;
+    	}else
+       return optindimvalue;
+    }
+    
+    public static String retOptinFlag(Boolean optinFlag, String CommCode, String DSN, String colmatchvalue){
+        String optin=null;
+        if(CommCode==null){
+        	return DSN + ":" + " ";
+        }else
+    	if(CommCode.toLowerCase().equals(colmatchvalue.toLowerCase())){
+    	optin=DSN + ":" + optinFlag.toString();
+    	    return optin;
+    	}else
+    	return DSN + ":" + " ";
+    }
+    
+    public static String retPhone(String Phone, String PhoneType, String DSN, String colmatchvalue){
+        String ph=null;
+        if(PhoneType==null || Phone==null){
+        	ph=null;
+        }else
+    	if(PhoneType.toLowerCase().equals(colmatchvalue.toLowerCase())){
+    	ph=DSN + ":" + Phone.toString();
+    	return ph;
+    	}
+    	return DSN + ":" + " ";
+    }
+    
+    public static Long retPhoneDim(Long PhoneDim, String PhoneType, String DSN, String colmatchvalue){
+       Long def_dim=null;
+        if(PhoneType==null || PhoneDim==null){
+        return def_dim;
+        }else
+    	if(PhoneType.toLowerCase().equals(colmatchvalue.toLowerCase())){
+    	return PhoneDim;
+    	}else
+    	return PhoneDim;
+    }
+    
+    public static Long retEmediaDim(Long EmediaDim, String EmediaType, String DSN, String colmatchvalue){
+        Long emdim=null;
+        if(EmediaType==null || EmediaDim==null){
+        return emdim;
+        }else
+    	if(EmediaType.toLowerCase().equals(colmatchvalue.toLowerCase())){
+    	return EmediaDim;
+    	}
+    	return emdim;
+    }
+    
+    public static String retEmedia(String Emedia, String EmediaType, String DSN, String colmatchvalue){
+        String em=null;
+        if(EmediaType==null || Emedia==null){
+        	return DSN + ":" + " ";
+        }else
+    	if(EmediaType.toLowerCase().equals(colmatchvalue.toLowerCase())){
+    	em=DSN + ":" + Emedia.toString();
+    	return em;
+    	}else
+    	return DSN + ":" + " ";
+    }
+    
+    public static String retBrandOptinFlag(Boolean optinFlag, String DSN){
+        String optin;
+        if(optinFlag!=null){
+    	optin=DSN + ":" + optinFlag.toString();
+    	return optin;
+    	} else
+    	return DSN + ":" + " ";
+    }
+
+
+    public static String fullNameMatchKey(String englishfirstname, String englishlastname, String englishfullname,String localfirstname, String locallastname, String localfullname){
+
+         String stndengfullname = cleanseFullNameString(englishfirstname, englishlastname, englishfullname);
+
+         String stndlclfullname = cleanseFullNameString(localfirstname, locallastname, localfullname);
+
+         
+
+         return stndlclfullname.equals(null) || stndlclfullname.trim().isEmpty() ? (stndengfullname.equals(null) || stndengfullname.trim().isEmpty() ? "undefined" : stndengfullname) : stndlclfullname;
+
+    }
+    
+    public static String fullNameMatchKeyReverse(String englishfirstname, String englishlastname, String englishfullname,String localfirstname, String locallastname, String localfullname){
+
+        String stndengfullname = cleanseFullNameString(englishlastname, englishfirstname, englishfullname);
+
+        String stndlclfullname = cleanseFullNameString(locallastname, localfirstname, localfullname);
+
+        
+
+        return stndlclfullname.equals(null) || stndlclfullname.trim().isEmpty() ? (stndengfullname.equals(null) || stndengfullname.trim().isEmpty() ? "undefined" : stndengfullname) : stndlclfullname;
+
+   }
+
+    
+
+    public static String addressMatchKey(String address1, String address2, String address3, String cityLocalDesc, String postalCode){
+
+         String addressMatchKey = "";
+
+         if(!(address1.equals(null) || address1.trim().isEmpty())){
+
+                     addressMatchKey = addressMatchKey.concat(address1.toLowerCase());
+
+         }
+
+         if(!(address2.equals(null) || address2.trim().isEmpty())){
+
+                     addressMatchKey = addressMatchKey.concat(address2.toLowerCase());
+
+         }
+
+         if(!(address3.equals(null) || address3.trim().isEmpty())){
+
+                     addressMatchKey = addressMatchKey.concat(address3.toLowerCase());
+
+         }
+
+         if(!(cityLocalDesc.equals(null) || cityLocalDesc.trim().isEmpty())){
+
+                     addressMatchKey = addressMatchKey.concat(cityLocalDesc.toLowerCase());
+
+         }
+
+         if(!(postalCode.equals(null) || postalCode.trim().isEmpty())){
+
+                     addressMatchKey = addressMatchKey.concat(postalCode);
+
+         }
+         
+         if(!(addressMatchKey.equals(null) || addressMatchKey.trim().isEmpty())){
+
+             addressMatchKey = addressMatchKey;
+         }
+     	 else
+     	 {
+     		addressMatchKey = java.util.UUID.randomUUID().toString();
+     	
+     	 }
+         
+         return addressMatchKey;
+         
+    }
+    
+    public static String phoneMatchKey(String phoneNumber)
+    {
+    	if(!(phoneNumber.equals(null) || phoneNumber.trim().isEmpty())){
+
+            return phoneNumber;
+    	}
+    	else
+    	{
+    		return java.util.UUID.randomUUID().toString();
+    	
+    	}
+    }
+    
+    public static String emailMatchKey(String email)
+    {
+    	if(!(email.equals(null) || email.trim().isEmpty())){
+
+            return email;
+    	}
+    	else
+    	{
+    		return java.util.UUID.randomUUID().toString();
+    	
+    	}
+    }
+
+
+    
+}

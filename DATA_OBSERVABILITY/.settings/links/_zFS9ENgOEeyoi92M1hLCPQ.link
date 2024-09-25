@@ -1,0 +1,130 @@
+{
+  "itemId" : "_zFS9ENgOEeyoi92M1hLCPQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_zTDzsNTWEeyFea256QnBYw",
+    "parameterList" : [ {
+      "id" : "_wRGeoMCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_ACCOUNT"
+    }, {
+      "id" : "_wRGeocCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_AUTHN_LOGIN"
+    }, {
+      "id" : "_wRGeosCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_AUTHN_API_KEY"
+    }, {
+      "id" : "_wRGeo8CKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_APPLIANCE_URL"
+    }, {
+      "id" : "_wRGepMCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_DER_CERTIFICATE_PATH"
+    }, {
+      "id" : "_wRGepcCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_USER_VARIABLE"
+    }, {
+      "id" : "_wRGepsCKEey8Jr5WS1F1ow",
+      "name" : "SQLMI_REPORTING_DB_CONJUR_PASSWORD_VARIABLE"
+    }, {
+      "id" : "_w9PCgNacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_AdditionalParams"
+    }, {
+      "id" : "_w9PCgdacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Database"
+    }, {
+      "id" : "_w9PCgtacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Password"
+    }, {
+      "id" : "_w9PCg9acEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Port"
+    }, {
+      "id" : "_w9PChNacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Schema"
+    }, {
+      "id" : "_w9PChdacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Host"
+    }, {
+      "id" : "_w9PChtacEeyyqcMaMglgNA",
+      "name" : "SQLMI_REPORTING_DB_Username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_DvPLML-WEeu9H9oZVbX4zg",
+    "parameterList" : [ {
+      "id" : "_JRe2gNqXEeujjfBicVi1Wg",
+      "name" : "To"
+    }, {
+      "id" : "_JRe2gdqXEeujjfBicVi1Wg",
+      "name" : "From"
+    }, {
+      "id" : "_JRe2gtqXEeujjfBicVi1Wg",
+      "name" : "Cc"
+    }, {
+      "id" : "_JRe2g9qXEeujjfBicVi1Wg",
+      "name" : "Bcc"
+    }, {
+      "id" : "_JRe2hdqXEeujjfBicVi1Wg",
+      "name" : "message"
+    }, {
+      "id" : "_JRe2htqXEeujjfBicVi1Wg",
+      "name" : "mail_filepath"
+    }, {
+      "id" : "_JRe2h9qXEeujjfBicVi1Wg",
+      "name" : "SMTP_host"
+    }, {
+      "id" : "_JRe2iNqXEeujjfBicVi1Wg",
+      "name" : "SMTP_port"
+    }, {
+      "id" : "_JRe2idqXEeujjfBicVi1Wg",
+      "name" : "SMTP_username"
+    }, {
+      "id" : "_JRe2itqXEeujjfBicVi1Wg",
+      "name" : "SMTP_password"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_C2pbcNaaEeyyqcMaMglgNA",
+    "parameterList" : [ {
+      "id" : "_wRGeoMCKEey8Jr5WS1F1ow",
+      "name" : "CLOUD_CONJUR_ACCOUNT"
+    }, {
+      "id" : "_wRGeocCKEey8Jr5WS1F1ow",
+      "name" : "CLOUD_CONJUR_AUTHN_LOGIN"
+    }, {
+      "id" : "_wRGeosCKEey8Jr5WS1F1ow",
+      "name" : "CLOUD_CONJUR_AUTHN_API_KEY"
+    }, {
+      "id" : "_wRGeo8CKEey8Jr5WS1F1ow",
+      "name" : "CLOUD_CONJUR_APPLIANCE_URL"
+    }, {
+      "id" : "_wRGepMCKEey8Jr5WS1F1ow",
+      "name" : "CLOUD_CONJUR_DER_CERTIFICATE_PATH"
+    }, {
+      "id" : "_wRGepcCKEey8Jr5WS1F1ow",
+      "name" : "CLOUD_CONJUR_USER_VARIABLE"
+    }, {
+      "id" : "_wRGepsCKEey8Jr5WS1F1ow",
+      "name" : "CLOUD_CONJUR_PASSWORD_VARIABLE"
+    }, {
+      "id" : "_up_C8NabEeyyqcMaMglgNA",
+      "name" : "CLOUD_AdditionalParams"
+    }, {
+      "id" : "_up_C8dabEeyyqcMaMglgNA",
+      "name" : "CLOUD_Database"
+    }, {
+      "id" : "_up_C8tabEeyyqcMaMglgNA",
+      "name" : "CLOUD_Host"
+    }, {
+      "id" : "_up_C89abEeyyqcMaMglgNA",
+      "name" : "CLOUD_Password"
+    }, {
+      "id" : "_up_C9NabEeyyqcMaMglgNA",
+      "name" : "CLOUD_Port"
+    }, {
+      "id" : "_up_C9dabEeyyqcMaMglgNA",
+      "name" : "CLOUD_Schema"
+    }, {
+      "id" : "_up_C9tabEeyyqcMaMglgNA",
+      "name" : "CLOUD_Username"
+    } ]
+  } ]
+}

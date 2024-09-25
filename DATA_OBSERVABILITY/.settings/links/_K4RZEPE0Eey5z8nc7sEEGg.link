@@ -1,0 +1,147 @@
+{
+  "itemId" : "_K4RZEPE0Eey5z8nc7sEEGg",
+  "contextList" : [ {
+    "contextName" : "PROD",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2GeGEXjEeyybMb3qzeRQw",
+      "name" : "filenameMetadata"
+    }, {
+      "id" : "_E2GeF0XjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2GeDUXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iekNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iekdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iek9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iektyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1ielNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iej9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2Gd-0XjEeyybMb3qzeRQw",
+      "name" : "filenameMetadata"
+    }, {
+      "id" : "_E2Gd-kXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2Gd8EXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    } ]
+  }, {
+    "contextName" : "UAT",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2GeUkXjEeyybMb3qzeRQw",
+      "name" : "filenameMetadata"
+    }, {
+      "id" : "_E2GeUUXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2GeR0XjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "UAT",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iegdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iegtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1iehNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1ieg9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iehdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iegNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_6acnYJZlEemHoaVPOpxoCg",
+    "parameterList" : [ {
+      "id" : "_E2GeLEXjEeyybMb3qzeRQw",
+      "name" : "region"
+    }, {
+      "id" : "_E2GeNUXjEeyybMb3qzeRQw",
+      "name" : "filenameMetadata"
+    }, {
+      "id" : "_E2GeNEXjEeyybMb3qzeRQw",
+      "name" : "filepathMetadata"
+    }, {
+      "id" : "_E2GeKkXjEeyybMb3qzeRQw",
+      "name" : "talend_metadata_db"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_wAQ-gARMEemlA8aWEvThMw",
+    "parameterList" : [ {
+      "id" : "_m1iectyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_AdditionalParams"
+    }, {
+      "id" : "_m1iec9yqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Database"
+    }, {
+      "id" : "_m1ieddyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Login"
+    }, {
+      "id" : "_m1iedNyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Password"
+    }, {
+      "id" : "_m1iedtyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Port"
+    }, {
+      "id" : "_m1iecdyqEey1UN03ofn6vg",
+      "name" : "ELC_Landing_Server"
+    } ]
+  } ]
+}

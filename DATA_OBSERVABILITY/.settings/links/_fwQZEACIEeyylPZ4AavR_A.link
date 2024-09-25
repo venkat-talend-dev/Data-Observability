@@ -1,0 +1,56 @@
+{
+  "itemId" : "_fwQZEACIEeyylPZ4AavR_A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_yCqIoAPZEeyjt9z2r-aLqg",
+    "parameterList" : [ {
+      "id" : "_FvNw0gtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_APIVERSION"
+    }, {
+      "id" : "_FvNw0wtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_CLIENT_ID"
+    }, {
+      "id" : "_FvNw1AtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_CLIENT_SECRET"
+    }, {
+      "id" : "_FvNw1QtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_ENDPOINT"
+    }, {
+      "id" : "_FvNw1gtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_GRANT_TYPE"
+    }, {
+      "id" : "_FvNw1wtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_PIPELINE_NAME"
+    }, {
+      "id" : "_FvNw0AtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_RESOURCE"
+    }, {
+      "id" : "_FvNw0QtDEeyKwYXfb8pYPw",
+      "name" : "SRC_AZURE_TENANT_ID"
+    }, {
+      "id" : "_FvNw2gtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_APIVERSION"
+    }, {
+      "id" : "_FvNw2wtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_CLIENT_ID"
+    }, {
+      "id" : "_FvNw3AtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_CLIENT_SECRET"
+    }, {
+      "id" : "_FvNw3QtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_ENDPOINT"
+    }, {
+      "id" : "_FvNw3gtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_GRANT_TYPE"
+    }, {
+      "id" : "_FvNw3wtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_PIPELINE_NAME"
+    }, {
+      "id" : "_FvNw2AtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_RESOURCE"
+    }, {
+      "id" : "_FvNw2QtDEeyKwYXfb8pYPw",
+      "name" : "TGT_AZURE_TENANT_ID"
+    } ]
+  } ]
+}

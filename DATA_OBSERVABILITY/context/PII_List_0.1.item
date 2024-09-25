@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_egLRAPLaEeye_uHDEqEbuQ">
+    <contextParameter comment="" name="address_pii_list" prompt="address_pii_list?" promptNeeded="false" type="id_String" value="Address1,Address2,Address3,Address4,Address5,FlatNo,Floor,Block,Phase,Building,StreetNo,StreetNoSuffix,Alley,StreetName,StreetName2,Estate,LaneNo,LaneName,Sector,POBox,PostalCode,SubCityCode:,SubCityCodeDescription_en,SubCityCodeDescription_local,AdminArea,CountryCode_ISO3,NUTSCode,Longitude,Latitude,GeocodeResolution,GeographicalSpokenLanguage,SubCityCode,CityCode,ProvinceCode,CityDescription_en,Province,ProvinceDescription_en" xmi:id="_egLRAfLaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="cbr_pii_list" prompt="cbr_pii_list?" promptNeeded="false" type="id_String" value="BirthDay,BirthMonth,BirthYear,EformRegFlag,CivilStatusCode,WrittenLanguageCode,EstimatedBirthYear,SpokenLanguageCode,NameGenderCode" xmi:id="_egLRAvLaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="emedia_pii_list" prompt="emedia_pii_list?" promptNeeded="false" type="id_String" value="Address" xmi:id="_egLRA_LaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="phone_pii_list" prompt="phone_pii_list?" promptNeeded="false" type="id_String" value="PhoneNumber,CountryCode_ISO3,PhoneCountryCode,RegionalCode,Extension,RegPhoneTypeCode,Registrar" xmi:id="_egLRBPLaEeye_uHDEqEbuQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_egLRBfLaEeye_uHDEqEbuQ">
+    <contextParameter comment="" name="address_pii_list" prompt="address_pii_list?" promptNeeded="false" type="id_String" value="Address1,Address2,Address3,Address4,Address5,FlatNo,Floor,Block,Phase,Building,StreetNo,StreetNoSuffix,Alley,StreetName,StreetName2,Estate,LaneNo,LaneName,Sector,POBox,PostalCode,SubCityCode:,SubCityCodeDescription_en,SubCityCodeDescription_local,AdminArea,CountryCode_ISO3,NUTSCode,Longitude,Latitude,GeocodeResolution,GeographicalSpokenLanguage,SubCityCode,CityCode,ProvinceCode,CityDescription_en,Province,ProvinceDescription_en" xmi:id="_egLRBvLaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="cbr_pii_list" prompt="cbr_pii_list?" promptNeeded="false" type="id_String" value="BirthDay,BirthMonth,BirthYear,EformRegFlag,CivilStatusCode,WrittenLanguageCode,EstimatedBirthYear,SpokenLanguageCode,NameGenderCode" xmi:id="_egLRB_LaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="emedia_pii_list" prompt="emedia_pii_list?" promptNeeded="false" type="id_String" value="Address" xmi:id="_egLRCPLaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="phone_pii_list" prompt="phone_pii_list?" promptNeeded="false" type="id_String" value="PhoneNumber,CountryCode_ISO3,PhoneCountryCode,RegionalCode,Extension,RegPhoneTypeCode,Registrar" xmi:id="_egLRCfLaEeye_uHDEqEbuQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="UAT" xmi:id="_egLRCvLaEeye_uHDEqEbuQ">
+    <contextParameter comment="" name="address_pii_list" prompt="address_pii_list?" promptNeeded="false" type="id_String" value="Address1,Address2,Address3,Address4,Address5,FlatNo,Floor,Block,Phase,Building,StreetNo,StreetNoSuffix,Alley,StreetName,StreetName2,Estate,LaneNo,LaneName,Sector,POBox,PostalCode,SubCityCode:,SubCityCodeDescription_en,SubCityCodeDescription_local,AdminArea,CountryCode_ISO3,NUTSCode,Longitude,Latitude,GeocodeResolution,GeographicalSpokenLanguage,SubCityCode,CityCode,ProvinceCode,CityDescription_en,Province,ProvinceDescription_en" xmi:id="_egLRC_LaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="cbr_pii_list" prompt="cbr_pii_list?" promptNeeded="false" type="id_String" value="BirthDay,BirthMonth,BirthYear,EformRegFlag,CivilStatusCode,WrittenLanguageCode,EstimatedBirthYear,SpokenLanguageCode,NameGenderCode" xmi:id="_egLRDPLaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="emedia_pii_list" prompt="emedia_pii_list?" promptNeeded="false" type="id_String" value="Address" xmi:id="_egLRDfLaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="phone_pii_list" prompt="phone_pii_list?" promptNeeded="false" type="id_String" value="PhoneNumber,CountryCode_ISO3,PhoneCountryCode,RegionalCode,Extension,RegPhoneTypeCode,Registrar" xmi:id="_egLRDvLaEeye_uHDEqEbuQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_egLRD_LaEeye_uHDEqEbuQ">
+    <contextParameter comment="" name="address_pii_list" prompt="address_pii_list?" promptNeeded="false" type="id_String" value="Address1,Address2,Address3,Address4,Address5,FlatNo,Floor,Block,Phase,Building,StreetNo,StreetNoSuffix,Alley,StreetName,StreetName2,Estate,LaneNo,LaneName,Sector,POBox,PostalCode,SubCityCode:,SubCityCodeDescription_en,SubCityCodeDescription_local,AdminArea,CountryCode_ISO3,NUTSCode,Longitude,Latitude,GeocodeResolution,GeographicalSpokenLanguage,SubCityCode,CityCode,ProvinceCode,CityDescription_en,Province,ProvinceDescription_en" xmi:id="_egLREPLaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="cbr_pii_list" prompt="cbr_pii_list?" promptNeeded="false" type="id_String" value="BirthDay,BirthMonth,BirthYear,EformRegFlag,CivilStatusCode,WrittenLanguageCode,EstimatedBirthYear,SpokenLanguageCode,NameGenderCode" xmi:id="_egLREfLaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="emedia_pii_list" prompt="emedia_pii_list?" promptNeeded="false" type="id_String" value="Address" xmi:id="_egLREvLaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="phone_pii_list" prompt="phone_pii_list?" promptNeeded="false" type="id_String" value="PhoneNumber,CountryCode_ISO3,PhoneCountryCode,RegionalCode,Extension,RegPhoneTypeCode,Registrar" xmi:id="_egLRE_LaEeye_uHDEqEbuQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="QA" xmi:id="_egLRFPLaEeye_uHDEqEbuQ">
+    <contextParameter comment="" name="address_pii_list" prompt="address_pii_list?" promptNeeded="false" type="id_String" value="Address1,Address2,Address3,Address4,Address5,FlatNo,Floor,Block,Phase,Building,StreetNo,StreetNoSuffix,Alley,StreetName,StreetName2,Estate,LaneNo,LaneName,Sector,POBox,PostalCode,SubCityCode:,SubCityCodeDescription_en,SubCityCodeDescription_local,AdminArea,CountryCode_ISO3,NUTSCode,Longitude,Latitude,GeocodeResolution,GeographicalSpokenLanguage,SubCityCode,CityCode,ProvinceCode,CityDescription_en,Province,ProvinceDescription_en" xmi:id="_egLRFfLaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="cbr_pii_list" prompt="cbr_pii_list?" promptNeeded="false" type="id_String" value="BirthDay,BirthMonth,BirthYear,EformRegFlag,CivilStatusCode,WrittenLanguageCode,EstimatedBirthYear,SpokenLanguageCode,NameGenderCode" xmi:id="_egLRFvLaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="emedia_pii_list" prompt="emedia_pii_list?" promptNeeded="false" type="id_String" value="Address" xmi:id="_egLRF_LaEeye_uHDEqEbuQ"/>
+    <contextParameter comment="" name="phone_pii_list" prompt="phone_pii_list?" promptNeeded="false" type="id_String" value="PhoneNumber,CountryCode_ISO3,PhoneCountryCode,RegionalCode,Extension,RegPhoneTypeCode,Registrar" xmi:id="_egLRGPLaEeye_uHDEqEbuQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2e6ecf1f-cf59-4795-8998-d3ffd7b07e69"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+GFRoZiYrTfbXxBJe9cVWPNh6LAVsPUMh5q4ChMA9YGJ/pa9r1BDZEAyISbFkexkLJXGCx1Kpb3/&#13;
+tY2hMIeA9g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3a491c68-72f8-4537-a9ee-a4d2107c48ce"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2jTxXE2Yu0yD2fxWiwiIAkaOXWOWwZzKtJ7mXk03j5HQFjVfrxUJ9zQm1DOxqx5alV7JSphtQtT0&#13;
+xjr0YlJbYw==</DigestValue></Reference></SignedInfo><SignatureValue>DLj/KAYzpGeYinyw4DelSGlsQtVwPfrx2ocrNmTOST00lL8sLTrtXs93DFW7a2STaniwUC6y3KOJ&#13;
+2fqIzmT1Osp+6/VNF79sZuFNg6EwcdiSua21b/F3Gzs9jDdzydteVjnX7yfJrlCMJzzCYh+ymanc&#13;
+mGnDG7CGclAp3A0T5Io7IGL3eFWn6kbl/JkoCUaOrGEGYKMcKynzgjCTi1O957iwDlcPhkAZWFH/&#13;
+gNmMiQBAbPgvLIns3IU+J3/HS71rT7MCzmYpP0gv3qdjETbTXjnwPNpl0Znhd7YlrlfS88M9/gGo&#13;
+h/ANARSM0K2Xdg6xnoMDa1yw/3xH07NcFmhxFQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3a491c68-72f8-4537-a9ee-a4d2107c48ce" Target="#_2e6ecf1f-cf59-4795-8998-d3ffd7b07e69"><Timestamp>2024-09-25 09:59:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
